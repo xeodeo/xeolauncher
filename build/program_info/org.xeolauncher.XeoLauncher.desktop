@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Xeo Launcher
+Comment=Discover, manage, and play Minecraft instances
+Type=Application
+Terminal=false
+Exec=xeolauncher %U
+StartupNotify=true
+Icon=org.xeolauncher.XeoLauncher
+Categories=Game;ActionGame;AdventureGame;Simulation;PackageManager;
+Keywords=game;minecraft;mc;
+StartupWMClass=XeoLauncher
+MimeType=application/zip;application/x-modrinth-modpack+zip;x-scheme-handler/curseforge;x-scheme-handler/prismlauncher;x-scheme-handler/xeolauncher;

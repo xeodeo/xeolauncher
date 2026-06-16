@@ -1,0 +1,4580 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Launcher_logic_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher",
+	"CMAKE_EXECUTABLE" : "C:/Users/xeodeo/Desktop/MultiMC/buildenv/Qt/Tools/CMake_64/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/CMakeLists.txt",
+		"C:/vp/x64-mingw-dynamic/share/ECM/modules/ECMQtDeclareLoggingCategory.cpp.in",
+		"C:/vp/x64-mingw-dynamic/share/ECM/modules/ECMQtDeclareLoggingCategory.h.in",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/resources/backgrounds/backgrounds.qrc",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/resources/multimc/multimc.qrc",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/resources/pe_dark/pe_dark.qrc",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/resources/pe_light/pe_light.qrc",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/resources/pe_colored/pe_colored.qrc",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/resources/pe_blue/pe_blue.qrc",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/resources/breeze_dark/breeze_dark.qrc",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/resources/breeze_light/breeze_light.qrc",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/resources/OSX/OSX.qrc",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/resources/iOS/iOS.qrc",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/resources/flat/flat.qrc",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/resources/flat_white/flat_white.qrc",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/resources/documents/documents.qrc",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/resources/shaders/shaders.qrc",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/program_info/xeolauncher.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Launcher_logic_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "Launcher_logic_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/Application.h",
+			"MU",
+			"EWIEGA46WW/moc_Application.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ApplicationMessage.h",
+			"MU",
+			"EWIEGA46WW/moc_ApplicationMessage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/AssertHelpers.h",
+			"MU",
+			"EWIEGA46WW/moc_AssertHelpers.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/BaseInstaller.h",
+			"MU",
+			"EWIEGA46WW/moc_BaseInstaller.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/BaseInstance.h",
+			"MU",
+			"EWIEGA46WW/moc_BaseInstance.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/BaseVersion.h",
+			"MU",
+			"EWIEGA46WW/moc_BaseVersion.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/BaseVersionList.h",
+			"MU",
+			"EWIEGA46WW/moc_BaseVersionList.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/Commandline.h",
+			"MU",
+			"EWIEGA46WW/moc_Commandline.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/DataMigrationTask.h",
+			"MU",
+			"EWIEGA46WW/moc_DataMigrationTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/DesktopServices.h",
+			"MU",
+			"EWIEGA46WW/moc_DesktopServices.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/Exception.h",
+			"MU",
+			"EWIEGA46WW/moc_Exception.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/FastFileIconProvider.h",
+			"MU",
+			"EWIEGA46WW/moc_FastFileIconProvider.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/FileIgnoreProxy.h",
+			"MU",
+			"EWIEGA46WW/moc_FileIgnoreProxy.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/FileSystem.h",
+			"MU",
+			"EWIEGA46WW/moc_FileSystem.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/Filter.h",
+			"MU",
+			"EWIEGA46WW/moc_Filter.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/GZip.h",
+			"MU",
+			"EWIEGA46WW/moc_GZip.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/HardwareInfo.h",
+			"MU",
+			"EWIEGA46WW/moc_HardwareInfo.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstanceCopyPrefs.h",
+			"MU",
+			"EWIEGA46WW/moc_InstanceCopyPrefs.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstanceCopyTask.h",
+			"MU",
+			"EWIEGA46WW/moc_InstanceCopyTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstanceCreationTask.h",
+			"MU",
+			"EWIEGA46WW/moc_InstanceCreationTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstanceDirUpdate.h",
+			"MU",
+			"EWIEGA46WW/moc_InstanceDirUpdate.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstanceImportTask.h",
+			"MU",
+			"EWIEGA46WW/moc_InstanceImportTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstanceList.h",
+			"MU",
+			"EWIEGA46WW/moc_InstanceList.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstancePageProvider.h",
+			"MU",
+			"EWIEGA46WW/moc_InstancePageProvider.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstanceTask.h",
+			"MU",
+			"EWIEGA46WW/moc_InstanceTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/JavaCommon.h",
+			"MU",
+			"EWIEGA46WW/moc_JavaCommon.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/Json.h",
+			"MU",
+			"EWIEGA46WW/moc_Json.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/KonamiCode.h",
+			"MU",
+			"EWIEGA46WW/moc_KonamiCode.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/LaunchController.h",
+			"MU",
+			"EWIEGA46WW/moc_LaunchController.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/LaunchMode.h",
+			"MU",
+			"EWIEGA46WW/moc_LaunchMode.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/LoggedProcess.h",
+			"MU",
+			"EWIEGA46WW/moc_LoggedProcess.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/MMCTime.h",
+			"MU",
+			"EWIEGA46WW/moc_MMCTime.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/MMCZip.h",
+			"MU",
+			"EWIEGA46WW/moc_MMCZip.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/MTPixmapCache.h",
+			"MU",
+			"EWIEGA46WW/moc_MTPixmapCache.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/Markdown.h",
+			"MU",
+			"EWIEGA46WW/moc_Markdown.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/MessageLevel.h",
+			"MU",
+			"EWIEGA46WW/moc_MessageLevel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/NullInstance.h",
+			"MU",
+			"EWIEGA46WW/moc_NullInstance.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/PSaveFile.h",
+			"MU",
+			"EWIEGA46WW/moc_PSaveFile.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/QObjectPtr.h",
+			"MU",
+			"EWIEGA46WW/moc_QObjectPtr.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/QVariantUtils.h",
+			"MU",
+			"EWIEGA46WW/moc_QVariantUtils.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/RWStorage.h",
+			"MU",
+			"EWIEGA46WW/moc_RWStorage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/RecursiveFileSystemWatcher.h",
+			"MU",
+			"EWIEGA46WW/moc_RecursiveFileSystemWatcher.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ResourceDownloadTask.h",
+			"MU",
+			"EWIEGA46WW/moc_ResourceDownloadTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/RuntimeContext.h",
+			"MU",
+			"EWIEGA46WW/moc_RuntimeContext.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/SeparatorPrefixTree.h",
+			"MU",
+			"EWIEGA46WW/moc_SeparatorPrefixTree.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/StringUtils.h",
+			"MU",
+			"EWIEGA46WW/moc_StringUtils.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/SysInfo.h",
+			"MU",
+			"EWIEGA46WW/moc_SysInfo.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/Usable.h",
+			"MU",
+			"EWIEGA46WW/moc_Usable.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/Version.h",
+			"MU",
+			"EWIEGA46WW/moc_Version.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/VersionProxyModel.h",
+			"MU",
+			"EWIEGA46WW/moc_VersionProxyModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/archive/ArchiveReader.h",
+			"MU",
+			"UNEWRZVQ57/moc_ArchiveReader.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/archive/ArchiveWriter.h",
+			"MU",
+			"UNEWRZVQ57/moc_ArchiveWriter.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/archive/ExportToZipTask.h",
+			"MU",
+			"UNEWRZVQ57/moc_ExportToZipTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/archive/ExtractZipTask.h",
+			"MU",
+			"UNEWRZVQ57/moc_ExtractZipTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/console/Console.h",
+			"MU",
+			"WAFOP5YRX7/moc_Console.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/console/WindowsConsole.h",
+			"MU",
+			"WAFOP5YRX7/moc_WindowsConsole.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/icons/IconList.h",
+			"MU",
+			"2SEMU33LXP/moc_IconList.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/icons/IconUtils.h",
+			"MU",
+			"2SEMU33LXP/moc_IconUtils.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/icons/MMCIcon.h",
+			"MU",
+			"2SEMU33LXP/moc_MMCIcon.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/JavaChecker.h",
+			"MU",
+			"4HPQGYKVIV/moc_JavaChecker.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/JavaInstall.h",
+			"MU",
+			"4HPQGYKVIV/moc_JavaInstall.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/JavaInstallList.h",
+			"MU",
+			"4HPQGYKVIV/moc_JavaInstallList.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/JavaMetadata.h",
+			"MU",
+			"4HPQGYKVIV/moc_JavaMetadata.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/JavaUtils.h",
+			"MU",
+			"4HPQGYKVIV/moc_JavaUtils.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/JavaVersion.h",
+			"MU",
+			"4HPQGYKVIV/moc_JavaVersion.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/download/ArchiveDownloadTask.h",
+			"MU",
+			"N6244M6HS5/moc_ArchiveDownloadTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/download/ManifestDownloadTask.h",
+			"MU",
+			"N6244M6HS5/moc_ManifestDownloadTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/download/SymlinkTask.h",
+			"MU",
+			"N6244M6HS5/moc_SymlinkTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/LaunchStep.h",
+			"MU",
+			"XNGMMFK5DP/moc_LaunchStep.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/LaunchTask.h",
+			"MU",
+			"XNGMMFK5DP/moc_LaunchTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/LogModel.h",
+			"MU",
+			"XNGMMFK5DP/moc_LogModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/TaskStepWrapper.h",
+			"MU",
+			"XNGMMFK5DP/moc_TaskStepWrapper.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/steps/CheckJava.h",
+			"MU",
+			"DRQK6K44XR/moc_CheckJava.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/steps/LookupServerAddress.h",
+			"MU",
+			"DRQK6K44XR/moc_LookupServerAddress.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/steps/PostLaunchCommand.h",
+			"MU",
+			"DRQK6K44XR/moc_PostLaunchCommand.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/steps/PreLaunchCommand.h",
+			"MU",
+			"DRQK6K44XR/moc_PreLaunchCommand.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/steps/PrintServers.h",
+			"MU",
+			"DRQK6K44XR/moc_PrintServers.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/steps/QuitAfterGameStop.h",
+			"MU",
+			"DRQK6K44XR/moc_QuitAfterGameStop.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/steps/TextPrint.h",
+			"MU",
+			"DRQK6K44XR/moc_TextPrint.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/logs/AnonymizeLog.h",
+			"MU",
+			"U4AK6CEF3I/moc_AnonymizeLog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/logs/LogParser.h",
+			"MU",
+			"U4AK6CEF3I/moc_LogParser.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/meta/BaseEntity.h",
+			"MU",
+			"F26Q4VW2FO/moc_BaseEntity.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/meta/Index.h",
+			"MU",
+			"F26Q4VW2FO/moc_Index.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/meta/JsonFormat.h",
+			"MU",
+			"F26Q4VW2FO/moc_JsonFormat.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/meta/Version.h",
+			"MU",
+			"F26Q4VW2FO/moc_Version.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/meta/VersionList.h",
+			"MU",
+			"F26Q4VW2FO/moc_VersionList.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/Agent.h",
+			"MU",
+			"S3K6MOW2UJ/moc_Agent.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/AssetsUtils.h",
+			"MU",
+			"S3K6MOW2UJ/moc_AssetsUtils.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/Component.h",
+			"MU",
+			"S3K6MOW2UJ/moc_Component.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/ComponentUpdateTask.h",
+			"MU",
+			"S3K6MOW2UJ/moc_ComponentUpdateTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/ComponentUpdateTask_p.h",
+			"MU",
+			"S3K6MOW2UJ/moc_ComponentUpdateTask_p.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/GradleSpecifier.h",
+			"MU",
+			"S3K6MOW2UJ/moc_GradleSpecifier.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/LaunchProfile.h",
+			"MU",
+			"S3K6MOW2UJ/moc_LaunchProfile.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/Library.h",
+			"MU",
+			"S3K6MOW2UJ/moc_Library.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/Logging.h",
+			"MU",
+			"S3K6MOW2UJ/moc_Logging.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/MinecraftInstance.h",
+			"MU",
+			"S3K6MOW2UJ/moc_MinecraftInstance.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/MinecraftLoadAndCheck.h",
+			"MU",
+			"S3K6MOW2UJ/moc_MinecraftLoadAndCheck.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/MojangDownloadInfo.h",
+			"MU",
+			"S3K6MOW2UJ/moc_MojangDownloadInfo.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/MojangVersionFormat.h",
+			"MU",
+			"S3K6MOW2UJ/moc_MojangVersionFormat.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/OneSixVersionFormat.h",
+			"MU",
+			"S3K6MOW2UJ/moc_OneSixVersionFormat.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/PackProfile.h",
+			"MU",
+			"S3K6MOW2UJ/moc_PackProfile.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/PackProfile_p.h",
+			"MU",
+			"S3K6MOW2UJ/moc_PackProfile_p.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/ParseUtils.h",
+			"MU",
+			"S3K6MOW2UJ/moc_ParseUtils.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/ProfileUtils.h",
+			"MU",
+			"S3K6MOW2UJ/moc_ProfileUtils.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/Rule.h",
+			"MU",
+			"S3K6MOW2UJ/moc_Rule.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/ShortcutUtils.h",
+			"MU",
+			"S3K6MOW2UJ/moc_ShortcutUtils.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/VanillaInstanceCreationTask.h",
+			"MU",
+			"S3K6MOW2UJ/moc_VanillaInstanceCreationTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/VersionFile.h",
+			"MU",
+			"S3K6MOW2UJ/moc_VersionFile.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/VersionFilterData.h",
+			"MU",
+			"S3K6MOW2UJ/moc_VersionFilterData.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/World.h",
+			"MU",
+			"S3K6MOW2UJ/moc_World.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/WorldList.h",
+			"MU",
+			"S3K6MOW2UJ/moc_WorldList.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/AccountData.h",
+			"MU",
+			"MNULLVESLR/moc_AccountData.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/AccountList.h",
+			"MU",
+			"MNULLVESLR/moc_AccountList.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/AuthFlow.h",
+			"MU",
+			"MNULLVESLR/moc_AuthFlow.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/AuthSession.h",
+			"MU",
+			"MNULLVESLR/moc_AuthSession.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/AuthStep.h",
+			"MU",
+			"MNULLVESLR/moc_AuthStep.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/MinecraftAccount.h",
+			"MU",
+			"MNULLVESLR/moc_MinecraftAccount.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/Parsers.h",
+			"MU",
+			"MNULLVESLR/moc_Parsers.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/EntitlementsStep.h",
+			"MU",
+			"KLOKNOK62E/moc_EntitlementsStep.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/GetSkinStep.h",
+			"MU",
+			"KLOKNOK62E/moc_GetSkinStep.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/LauncherLoginStep.h",
+			"MU",
+			"KLOKNOK62E/moc_LauncherLoginStep.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/MSADeviceCodeStep.h",
+			"MU",
+			"KLOKNOK62E/moc_MSADeviceCodeStep.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/MSAStep.h",
+			"MU",
+			"KLOKNOK62E/moc_MSAStep.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/MinecraftProfileStep.h",
+			"MU",
+			"KLOKNOK62E/moc_MinecraftProfileStep.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/XboxAuthorizationStep.h",
+			"MU",
+			"KLOKNOK62E/moc_XboxAuthorizationStep.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/XboxUserStep.h",
+			"MU",
+			"KLOKNOK62E/moc_XboxUserStep.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/AutoInstallJava.h",
+			"MU",
+			"E7DIUKBWJL/moc_AutoInstallJava.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/ClaimAccount.h",
+			"MU",
+			"E7DIUKBWJL/moc_ClaimAccount.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/CreateGameFolders.h",
+			"MU",
+			"E7DIUKBWJL/moc_CreateGameFolders.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/EnsureAvailableMemory.h",
+			"MU",
+			"E7DIUKBWJL/moc_EnsureAvailableMemory.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/EnsureOfflineLibraries.h",
+			"MU",
+			"E7DIUKBWJL/moc_EnsureOfflineLibraries.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/ExtractNatives.h",
+			"MU",
+			"E7DIUKBWJL/moc_ExtractNatives.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/LauncherPartLaunch.h",
+			"MU",
+			"E7DIUKBWJL/moc_LauncherPartLaunch.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/MinecraftTarget.h",
+			"MU",
+			"E7DIUKBWJL/moc_MinecraftTarget.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/ModMinecraftJar.h",
+			"MU",
+			"E7DIUKBWJL/moc_ModMinecraftJar.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/PrintInstanceInfo.h",
+			"MU",
+			"E7DIUKBWJL/moc_PrintInstanceInfo.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/ReconstructAssets.h",
+			"MU",
+			"E7DIUKBWJL/moc_ReconstructAssets.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/ScanModFolders.h",
+			"MU",
+			"E7DIUKBWJL/moc_ScanModFolders.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/VerifyJavaInstall.h",
+			"MU",
+			"E7DIUKBWJL/moc_VerifyJavaInstall.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/DataPack.h",
+			"MU",
+			"IIIEBEMTWC/moc_DataPack.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/DataPackFolderModel.h",
+			"MU",
+			"IIIEBEMTWC/moc_DataPackFolderModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/MetadataHandler.h",
+			"MU",
+			"IIIEBEMTWC/moc_MetadataHandler.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/Mod.h",
+			"MU",
+			"IIIEBEMTWC/moc_Mod.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/ModDetails.h",
+			"MU",
+			"IIIEBEMTWC/moc_ModDetails.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/ModFolderModel.h",
+			"MU",
+			"IIIEBEMTWC/moc_ModFolderModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/Resource.h",
+			"MU",
+			"IIIEBEMTWC/moc_Resource.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/ResourceFolderModel.h",
+			"MU",
+			"IIIEBEMTWC/moc_ResourceFolderModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/ResourcePack.h",
+			"MU",
+			"IIIEBEMTWC/moc_ResourcePack.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/ResourcePackFolderModel.h",
+			"MU",
+			"IIIEBEMTWC/moc_ResourcePackFolderModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/ShaderPack.h",
+			"MU",
+			"IIIEBEMTWC/moc_ShaderPack.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/ShaderPackFolderModel.h",
+			"MU",
+			"IIIEBEMTWC/moc_ShaderPackFolderModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/TexturePack.h",
+			"MU",
+			"IIIEBEMTWC/moc_TexturePack.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/TexturePackFolderModel.h",
+			"MU",
+			"IIIEBEMTWC/moc_TexturePackFolderModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/WorldSave.h",
+			"MU",
+			"IIIEBEMTWC/moc_WorldSave.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/GetModDependenciesTask.h",
+			"MU",
+			"FLQLNJB6T4/moc_GetModDependenciesTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/LocalDataPackParseTask.h",
+			"MU",
+			"FLQLNJB6T4/moc_LocalDataPackParseTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/LocalModParseTask.h",
+			"MU",
+			"FLQLNJB6T4/moc_LocalModParseTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/LocalResourceParse.h",
+			"MU",
+			"FLQLNJB6T4/moc_LocalResourceParse.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/LocalResourceUpdateTask.h",
+			"MU",
+			"FLQLNJB6T4/moc_LocalResourceUpdateTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/LocalShaderPackParseTask.h",
+			"MU",
+			"FLQLNJB6T4/moc_LocalShaderPackParseTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/LocalTexturePackParseTask.h",
+			"MU",
+			"FLQLNJB6T4/moc_LocalTexturePackParseTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/LocalWorldSaveParseTask.h",
+			"MU",
+			"FLQLNJB6T4/moc_LocalWorldSaveParseTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/ResourceFolderLoadTask.h",
+			"MU",
+			"FLQLNJB6T4/moc_ResourceFolderLoadTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/skins/CapeChange.h",
+			"MU",
+			"JTDLT7LS7W/moc_CapeChange.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/skins/SkinDelete.h",
+			"MU",
+			"JTDLT7LS7W/moc_SkinDelete.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/skins/SkinList.h",
+			"MU",
+			"JTDLT7LS7W/moc_SkinList.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/skins/SkinModel.h",
+			"MU",
+			"JTDLT7LS7W/moc_SkinModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/skins/SkinUpload.h",
+			"MU",
+			"JTDLT7LS7W/moc_SkinUpload.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/update/AssetUpdateTask.h",
+			"MU",
+			"NZFZMRXYYQ/moc_AssetUpdateTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/update/FoldersTask.h",
+			"MU",
+			"NZFZMRXYYQ/moc_FoldersTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/update/LegacyFMLLibrariesTask.h",
+			"MU",
+			"NZFZMRXYYQ/moc_LegacyFMLLibrariesTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/update/LibrariesTask.h",
+			"MU",
+			"NZFZMRXYYQ/moc_LibrariesTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/CheckUpdateTask.h",
+			"MU",
+			"OE5STP5REV/moc_CheckUpdateTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/EnsureMetadataTask.h",
+			"MU",
+			"OE5STP5REV/moc_EnsureMetadataTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/ModIndex.h",
+			"MU",
+			"OE5STP5REV/moc_ModIndex.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/ResourceAPI.h",
+			"MU",
+			"OE5STP5REV/moc_ResourceAPI.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/ResourceType.h",
+			"MU",
+			"OE5STP5REV/moc_ResourceType.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/atlauncher/ATLPackIndex.h",
+			"MU",
+			"WWCK2645CJ/moc_ATLPackIndex.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/atlauncher/ATLPackInstallTask.h",
+			"MU",
+			"WWCK2645CJ/moc_ATLPackInstallTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/atlauncher/ATLPackManifest.h",
+			"MU",
+			"WWCK2645CJ/moc_ATLPackManifest.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/atlauncher/ATLShareCode.h",
+			"MU",
+			"WWCK2645CJ/moc_ATLShareCode.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/flame/FileResolvingTask.h",
+			"MU",
+			"PXR2WFE33Q/moc_FileResolvingTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/flame/FlameAPI.h",
+			"MU",
+			"PXR2WFE33Q/moc_FlameAPI.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/flame/FlameCheckUpdate.h",
+			"MU",
+			"PXR2WFE33Q/moc_FlameCheckUpdate.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/flame/FlameInstanceCreationTask.h",
+			"MU",
+			"PXR2WFE33Q/moc_FlameInstanceCreationTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/flame/FlameModIndex.h",
+			"MU",
+			"PXR2WFE33Q/moc_FlameModIndex.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/flame/FlamePackExportTask.h",
+			"MU",
+			"PXR2WFE33Q/moc_FlamePackExportTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/flame/PackManifest.h",
+			"MU",
+			"PXR2WFE33Q/moc_PackManifest.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/ftb/FTBPackInstallTask.h",
+			"MU",
+			"55EBTHBNX2/moc_FTBPackInstallTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/ftb/FTBPackManifest.h",
+			"MU",
+			"55EBTHBNX2/moc_FTBPackManifest.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/helpers/ExportToModList.h",
+			"MU",
+			"ZZ57XZFIFJ/moc_ExportToModList.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/helpers/HashUtils.h",
+			"MU",
+			"ZZ57XZFIFJ/moc_HashUtils.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/helpers/OverrideUtils.h",
+			"MU",
+			"ZZ57XZFIFJ/moc_OverrideUtils.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/import_ftb/PackHelpers.h",
+			"MU",
+			"OQJK5PLJSN/moc_PackHelpers.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/import_ftb/PackInstallTask.h",
+			"MU",
+			"OQJK5PLJSN/moc_PackInstallTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/legacy_ftb/PackFetchTask.h",
+			"MU",
+			"PHL6IE6U2I/moc_PackFetchTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/legacy_ftb/PackHelpers.h",
+			"MU",
+			"PHL6IE6U2I/moc_PackHelpers.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/legacy_ftb/PackInstallTask.h",
+			"MU",
+			"PHL6IE6U2I/moc_PackInstallTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/legacy_ftb/PrivatePackManager.h",
+			"MU",
+			"PHL6IE6U2I/moc_PrivatePackManager.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/modrinth/ModrinthAPI.h",
+			"MU",
+			"IGSQQGOEYK/moc_ModrinthAPI.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/modrinth/ModrinthCheckUpdate.h",
+			"MU",
+			"IGSQQGOEYK/moc_ModrinthCheckUpdate.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/modrinth/ModrinthInstanceCreationTask.h",
+			"MU",
+			"IGSQQGOEYK/moc_ModrinthInstanceCreationTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/modrinth/ModrinthPackExportTask.h",
+			"MU",
+			"IGSQQGOEYK/moc_ModrinthPackExportTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/modrinth/ModrinthPackIndex.h",
+			"MU",
+			"IGSQQGOEYK/moc_ModrinthPackIndex.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/packwiz/Packwiz.h",
+			"MU",
+			"EDEAZ3NLZV/moc_Packwiz.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/technic/SingleZipPackInstallTask.h",
+			"MU",
+			"PSOZUDKO4P/moc_SingleZipPackInstallTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/technic/SolderPackInstallTask.h",
+			"MU",
+			"PSOZUDKO4P/moc_SolderPackInstallTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/technic/SolderPackManifest.h",
+			"MU",
+			"PSOZUDKO4P/moc_SolderPackManifest.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/technic/TechnicPackProcessor.h",
+			"MU",
+			"PSOZUDKO4P/moc_TechnicPackProcessor.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/ApiDownload.h",
+			"MU",
+			"Q6KNN7S663/moc_ApiDownload.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/ApiHeaderProxy.h",
+			"MU",
+			"Q6KNN7S663/moc_ApiHeaderProxy.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/ApiUpload.h",
+			"MU",
+			"Q6KNN7S663/moc_ApiUpload.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/ByteArraySink.h",
+			"MU",
+			"Q6KNN7S663/moc_ByteArraySink.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/ChecksumValidator.h",
+			"MU",
+			"Q6KNN7S663/moc_ChecksumValidator.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/Download.h",
+			"MU",
+			"Q6KNN7S663/moc_Download.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/DummySink.h",
+			"MU",
+			"Q6KNN7S663/moc_DummySink.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/FileSink.h",
+			"MU",
+			"Q6KNN7S663/moc_FileSink.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/HeaderProxy.h",
+			"MU",
+			"Q6KNN7S663/moc_HeaderProxy.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/HttpMetaCache.h",
+			"MU",
+			"Q6KNN7S663/moc_HttpMetaCache.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/Logging.h",
+			"MU",
+			"Q6KNN7S663/moc_Logging.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/MetaCacheSink.h",
+			"MU",
+			"Q6KNN7S663/moc_MetaCacheSink.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/NetJob.h",
+			"MU",
+			"Q6KNN7S663/moc_NetJob.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/NetRequest.h",
+			"MU",
+			"Q6KNN7S663/moc_NetRequest.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/NetUtils.h",
+			"MU",
+			"Q6KNN7S663/moc_NetUtils.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/PasteUpload.h",
+			"MU",
+			"Q6KNN7S663/moc_PasteUpload.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/RawHeaderProxy.h",
+			"MU",
+			"Q6KNN7S663/moc_RawHeaderProxy.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/Sink.h",
+			"MU",
+			"Q6KNN7S663/moc_Sink.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/Upload.h",
+			"MU",
+			"Q6KNN7S663/moc_Upload.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/Validator.h",
+			"MU",
+			"Q6KNN7S663/moc_Validator.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/news/NewsChecker.h",
+			"MU",
+			"4HW4XNOB35/moc_NewsChecker.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/news/NewsEntry.h",
+			"MU",
+			"4HW4XNOB35/moc_NewsEntry.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/screenshots/ImgurAlbumCreation.h",
+			"MU",
+			"RDDH7YK7YD/moc_ImgurAlbumCreation.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/screenshots/ImgurUpload.h",
+			"MU",
+			"RDDH7YK7YD/moc_ImgurUpload.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/screenshots/Screenshot.h",
+			"MU",
+			"RDDH7YK7YD/moc_Screenshot.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/settings/INIFile.h",
+			"MU",
+			"YPB6MEUM2W/moc_INIFile.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/settings/INISettingsObject.h",
+			"MU",
+			"YPB6MEUM2W/moc_INISettingsObject.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/settings/OverrideSetting.h",
+			"MU",
+			"YPB6MEUM2W/moc_OverrideSetting.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/settings/PassthroughSetting.h",
+			"MU",
+			"YPB6MEUM2W/moc_PassthroughSetting.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/settings/Setting.h",
+			"MU",
+			"YPB6MEUM2W/moc_Setting.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/settings/SettingsObject.h",
+			"MU",
+			"YPB6MEUM2W/moc_SettingsObject.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tasks/ConcurrentTask.h",
+			"MU",
+			"4YFCYKDWW7/moc_ConcurrentTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tasks/MultipleOptionsTask.h",
+			"MU",
+			"4YFCYKDWW7/moc_MultipleOptionsTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tasks/SequentialTask.h",
+			"MU",
+			"4YFCYKDWW7/moc_SequentialTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tasks/Task.h",
+			"MU",
+			"4YFCYKDWW7/moc_Task.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tools/BaseExternalTool.h",
+			"MU",
+			"CB6E7VNMGS/moc_BaseExternalTool.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tools/BaseProfiler.h",
+			"MU",
+			"CB6E7VNMGS/moc_BaseProfiler.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tools/GenericProfiler.h",
+			"MU",
+			"CB6E7VNMGS/moc_GenericProfiler.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tools/JProfiler.h",
+			"MU",
+			"CB6E7VNMGS/moc_JProfiler.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tools/JVisualVM.h",
+			"MU",
+			"CB6E7VNMGS/moc_JVisualVM.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tools/MCEditTool.h",
+			"MU",
+			"CB6E7VNMGS/moc_MCEditTool.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/translations/POTranslator.h",
+			"MU",
+			"YTRUC5LEIS/moc_POTranslator.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/translations/TranslationsModel.h",
+			"MU",
+			"YTRUC5LEIS/moc_TranslationsModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/GuiUtil.h",
+			"MU",
+			"UYX5XTB5RZ/moc_GuiUtil.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/InstanceWindow.h",
+			"MU",
+			"UYX5XTB5RZ/moc_InstanceWindow.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/MainWindow.h",
+			"MU",
+			"UYX5XTB5RZ/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/ToolTipFilter.h",
+			"MU",
+			"UYX5XTB5RZ/moc_ToolTipFilter.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/ViewLogWindow.h",
+			"MU",
+			"UYX5XTB5RZ/moc_ViewLogWindow.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/AboutDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_AboutDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/BlockedModsDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_BlockedModsDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ChooseOfflineNameDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_ChooseOfflineNameDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ChooseProviderDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_ChooseProviderDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/CopyInstanceDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_CopyInstanceDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/CreateShortcutDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_CreateShortcutDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/CustomMessageBox.h",
+			"MU",
+			"ZB24L4LU7T/moc_CustomMessageBox.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ExportInstanceDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_ExportInstanceDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ExportPackDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_ExportPackDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ExportToModListDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_ExportToModListDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/IconPickerDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_IconPickerDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ImportResourceDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_ImportResourceDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/InstallLoaderDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_InstallLoaderDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/MSALoginDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_MSALoginDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/NetworkJobFailedDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_NetworkJobFailedDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/NewComponentDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_NewComponentDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/NewInstanceDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_NewInstanceDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/NewsDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_NewsDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ProfileSelectDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_ProfileSelectDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ProfileSetupDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_ProfileSetupDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ProgressDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_ProgressDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ResourceDownloadDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_ResourceDownloadDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ResourceUpdateDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_ResourceUpdateDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ReviewMessageBox.h",
+			"MU",
+			"ZB24L4LU7T/moc_ReviewMessageBox.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ScrollMessageBox.h",
+			"MU",
+			"ZB24L4LU7T/moc_ScrollMessageBox.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/UpdateAvailableDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_UpdateAvailableDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/VersionSelectDialog.h",
+			"MU",
+			"ZB24L4LU7T/moc_VersionSelectDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/skins/SkinManageDialog.h",
+			"MU",
+			"JBEEBZRTLO/moc_SkinManageDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/skins/draw/BoxGeometry.h",
+			"MU",
+			"2RCF74YTMK/moc_BoxGeometry.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/skins/draw/Scene.h",
+			"MU",
+			"2RCF74YTMK/moc_Scene.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/skins/draw/SkinOpenGLWindow.h",
+			"MU",
+			"2RCF74YTMK/moc_SkinOpenGLWindow.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/instanceview/AccessibleInstanceView.h",
+			"MU",
+			"YBBWED7264/moc_AccessibleInstanceView.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/instanceview/AccessibleInstanceView_p.h",
+			"MU",
+			"YBBWED7264/moc_AccessibleInstanceView_p.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/instanceview/InstanceDelegate.h",
+			"MU",
+			"YBBWED7264/moc_InstanceDelegate.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/instanceview/InstanceProxyModel.h",
+			"MU",
+			"YBBWED7264/moc_InstanceProxyModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/instanceview/InstanceView.h",
+			"MU",
+			"YBBWED7264/moc_InstanceView.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/instanceview/VisualGroup.h",
+			"MU",
+			"YBBWED7264/moc_VisualGroup.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/java/InstallJavaDialog.h",
+			"MU",
+			"GIIYWVT7HE/moc_InstallJavaDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/java/VersionList.h",
+			"MU",
+			"GIIYWVT7HE/moc_VersionList.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pagedialog/PageDialog.h",
+			"MU",
+			"V2L52NIIIO/moc_PageDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/BasePage.h",
+			"MU",
+			"PELACIV4JL/moc_BasePage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/BasePageContainer.h",
+			"MU",
+			"PELACIV4JL/moc_BasePageContainer.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/BasePageProvider.h",
+			"MU",
+			"PELACIV4JL/moc_BasePageProvider.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/APIPage.h",
+			"MU",
+			"3JSNHC5HGF/moc_APIPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/AccountListPage.h",
+			"MU",
+			"3JSNHC5HGF/moc_AccountListPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/AppearancePage.h",
+			"MU",
+			"3JSNHC5HGF/moc_AppearancePage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/ExternalToolsPage.h",
+			"MU",
+			"3JSNHC5HGF/moc_ExternalToolsPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/JavaPage.h",
+			"MU",
+			"3JSNHC5HGF/moc_JavaPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/LanguagePage.h",
+			"MU",
+			"3JSNHC5HGF/moc_LanguagePage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/LauncherPage.h",
+			"MU",
+			"3JSNHC5HGF/moc_LauncherPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/MinecraftPage.h",
+			"MU",
+			"3JSNHC5HGF/moc_MinecraftPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/ProxyPage.h",
+			"MU",
+			"3JSNHC5HGF/moc_ProxyPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/DataPackPage.h",
+			"MU",
+			"QK65CX3ROI/moc_DataPackPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ExternalResourcesPage.h",
+			"MU",
+			"QK65CX3ROI/moc_ExternalResourcesPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/InstanceSettingsPage.h",
+			"MU",
+			"QK65CX3ROI/moc_InstanceSettingsPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/LogPage.h",
+			"MU",
+			"QK65CX3ROI/moc_LogPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ManagedPackPage.h",
+			"MU",
+			"QK65CX3ROI/moc_ManagedPackPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/McClient.h",
+			"MU",
+			"QK65CX3ROI/moc_McClient.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/McResolver.h",
+			"MU",
+			"QK65CX3ROI/moc_McResolver.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ModFolderPage.h",
+			"MU",
+			"QK65CX3ROI/moc_ModFolderPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/NotesPage.h",
+			"MU",
+			"QK65CX3ROI/moc_NotesPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/OtherLogsPage.h",
+			"MU",
+			"QK65CX3ROI/moc_OtherLogsPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ResourcePackPage.h",
+			"MU",
+			"QK65CX3ROI/moc_ResourcePackPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ScreenshotsPage.h",
+			"MU",
+			"QK65CX3ROI/moc_ScreenshotsPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ServerPingTask.h",
+			"MU",
+			"QK65CX3ROI/moc_ServerPingTask.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ServersPage.h",
+			"MU",
+			"QK65CX3ROI/moc_ServersPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ShaderPackPage.h",
+			"MU",
+			"QK65CX3ROI/moc_ShaderPackPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/TexturePackPage.h",
+			"MU",
+			"QK65CX3ROI/moc_TexturePackPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/VersionPage.h",
+			"MU",
+			"QK65CX3ROI/moc_VersionPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/WorldListPage.h",
+			"MU",
+			"QK65CX3ROI/moc_WorldListPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/CustomPage.h",
+			"MU",
+			"XDFPSDR4P7/moc_CustomPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/DataPackModel.h",
+			"MU",
+			"XDFPSDR4P7/moc_DataPackModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/DataPackPage.h",
+			"MU",
+			"XDFPSDR4P7/moc_DataPackPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ImportPage.h",
+			"MU",
+			"XDFPSDR4P7/moc_ImportPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ModModel.h",
+			"MU",
+			"XDFPSDR4P7/moc_ModModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ModPage.h",
+			"MU",
+			"XDFPSDR4P7/moc_ModPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ModpackProviderBasePage.h",
+			"MU",
+			"XDFPSDR4P7/moc_ModpackProviderBasePage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/OptionalModDialog.h",
+			"MU",
+			"XDFPSDR4P7/moc_OptionalModDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ResourceModel.h",
+			"MU",
+			"XDFPSDR4P7/moc_ResourceModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ResourcePackModel.h",
+			"MU",
+			"XDFPSDR4P7/moc_ResourcePackModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ResourcePackPage.h",
+			"MU",
+			"XDFPSDR4P7/moc_ResourcePackPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ResourcePage.h",
+			"MU",
+			"XDFPSDR4P7/moc_ResourcePage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ShaderPackModel.h",
+			"MU",
+			"XDFPSDR4P7/moc_ShaderPackModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ShaderPackPage.h",
+			"MU",
+			"XDFPSDR4P7/moc_ShaderPackPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/TexturePackModel.h",
+			"MU",
+			"XDFPSDR4P7/moc_TexturePackModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/TexturePackPage.h",
+			"MU",
+			"XDFPSDR4P7/moc_TexturePackPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/atlauncher/AtlFilterModel.h",
+			"MU",
+			"MCHOXM2XBV/moc_AtlFilterModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/atlauncher/AtlListModel.h",
+			"MU",
+			"MCHOXM2XBV/moc_AtlListModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.h",
+			"MU",
+			"MCHOXM2XBV/moc_AtlOptionalModDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/atlauncher/AtlPage.h",
+			"MU",
+			"MCHOXM2XBV/moc_AtlPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/atlauncher/AtlUserInteractionSupportImpl.h",
+			"MU",
+			"MCHOXM2XBV/moc_AtlUserInteractionSupportImpl.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/flame/FlameModel.h",
+			"MU",
+			"NDMC54GTBW/moc_FlameModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/flame/FlamePage.h",
+			"MU",
+			"NDMC54GTBW/moc_FlamePage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/flame/FlameResourceModels.h",
+			"MU",
+			"NDMC54GTBW/moc_FlameResourceModels.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/flame/FlameResourcePages.h",
+			"MU",
+			"NDMC54GTBW/moc_FlameResourcePages.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ftb/FtbFilterModel.h",
+			"MU",
+			"EQHMB5LSD5/moc_FtbFilterModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ftb/FtbListModel.h",
+			"MU",
+			"EQHMB5LSD5/moc_FtbListModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ftb/FtbPage.h",
+			"MU",
+			"EQHMB5LSD5/moc_FtbPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/import_ftb/ImportFTBPage.h",
+			"MU",
+			"N5APHMYVJQ/moc_ImportFTBPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/import_ftb/ListModel.h",
+			"MU",
+			"N5APHMYVJQ/moc_ListModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/legacy_ftb/ListModel.h",
+			"MU",
+			"5THZG5VHSQ/moc_ListModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/legacy_ftb/Page.h",
+			"MU",
+			"5THZG5VHSQ/moc_Page.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/modrinth/ModrinthModel.h",
+			"MU",
+			"JRPXY2RQ6D/moc_ModrinthModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h",
+			"MU",
+			"JRPXY2RQ6D/moc_ModrinthPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/modrinth/ModrinthResourcePages.h",
+			"MU",
+			"JRPXY2RQ6D/moc_ModrinthResourcePages.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/technic/TechnicModel.h",
+			"MU",
+			"IR7BLKWIJN/moc_TechnicModel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/technic/TechnicPage.h",
+			"MU",
+			"IR7BLKWIJN/moc_TechnicPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/setupwizard/AutoJavaWizardPage.h",
+			"MU",
+			"PSIDPEIZBL/moc_AutoJavaWizardPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/setupwizard/BaseWizardPage.h",
+			"MU",
+			"PSIDPEIZBL/moc_BaseWizardPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/setupwizard/JavaWizardPage.h",
+			"MU",
+			"PSIDPEIZBL/moc_JavaWizardPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/setupwizard/LanguageWizardPage.h",
+			"MU",
+			"PSIDPEIZBL/moc_LanguageWizardPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/setupwizard/LoginWizardPage.h",
+			"MU",
+			"PSIDPEIZBL/moc_LoginWizardPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/setupwizard/PasteWizardPage.h",
+			"MU",
+			"PSIDPEIZBL/moc_PasteWizardPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/setupwizard/SetupWizard.h",
+			"MU",
+			"PSIDPEIZBL/moc_SetupWizard.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/setupwizard/ThemeWizardPage.h",
+			"MU",
+			"PSIDPEIZBL/moc_ThemeWizardPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/BrightTheme.h",
+			"MU",
+			"JGXY4PTBXM/moc_BrightTheme.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/CatPack.h",
+			"MU",
+			"JGXY4PTBXM/moc_CatPack.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/CatPainter.h",
+			"MU",
+			"JGXY4PTBXM/moc_CatPainter.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/CustomTheme.h",
+			"MU",
+			"JGXY4PTBXM/moc_CustomTheme.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/DarkTheme.h",
+			"MU",
+			"JGXY4PTBXM/moc_DarkTheme.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/FusionTheme.h",
+			"MU",
+			"JGXY4PTBXM/moc_FusionTheme.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/HintOverrideProxyStyle.h",
+			"MU",
+			"JGXY4PTBXM/moc_HintOverrideProxyStyle.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/ITheme.h",
+			"MU",
+			"JGXY4PTBXM/moc_ITheme.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/IconTheme.h",
+			"MU",
+			"JGXY4PTBXM/moc_IconTheme.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/SystemTheme.h",
+			"MU",
+			"JGXY4PTBXM/moc_SystemTheme.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/ThemeManager.h",
+			"MU",
+			"JGXY4PTBXM/moc_ThemeManager.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/AppearanceWidget.h",
+			"MU",
+			"NJHUVPU35C/moc_AppearanceWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/CheckComboBox.h",
+			"MU",
+			"NJHUVPU35C/moc_CheckComboBox.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/Common.h",
+			"MU",
+			"NJHUVPU35C/moc_Common.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/CustomCommands.h",
+			"MU",
+			"NJHUVPU35C/moc_CustomCommands.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/EnvironmentVariables.h",
+			"MU",
+			"NJHUVPU35C/moc_EnvironmentVariables.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/IconLabel.h",
+			"MU",
+			"NJHUVPU35C/moc_IconLabel.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/InfoFrame.h",
+			"MU",
+			"NJHUVPU35C/moc_InfoFrame.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/JavaSettingsWidget.h",
+			"MU",
+			"NJHUVPU35C/moc_JavaSettingsWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/JavaWizardWidget.h",
+			"MU",
+			"NJHUVPU35C/moc_JavaWizardWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/LabeledToolButton.h",
+			"MU",
+			"NJHUVPU35C/moc_LabeledToolButton.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/LanguageSelectionWidget.h",
+			"MU",
+			"NJHUVPU35C/moc_LanguageSelectionWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/LogView.h",
+			"MU",
+			"NJHUVPU35C/moc_LogView.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/MinecraftSettingsWidget.h",
+			"MU",
+			"NJHUVPU35C/moc_MinecraftSettingsWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/ModFilterWidget.h",
+			"MU",
+			"NJHUVPU35C/moc_ModFilterWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/ModListView.h",
+			"MU",
+			"NJHUVPU35C/moc_ModListView.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/PageContainer.h",
+			"MU",
+			"NJHUVPU35C/moc_PageContainer.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/PageContainer_p.h",
+			"MU",
+			"NJHUVPU35C/moc_PageContainer_p.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/ProgressWidget.h",
+			"MU",
+			"NJHUVPU35C/moc_ProgressWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/ProjectDescriptionPage.h",
+			"MU",
+			"NJHUVPU35C/moc_ProjectDescriptionPage.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/ProjectItem.h",
+			"MU",
+			"NJHUVPU35C/moc_ProjectItem.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/SubTaskProgressBar.h",
+			"MU",
+			"NJHUVPU35C/moc_SubTaskProgressBar.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/VariableSizedImageObject.h",
+			"MU",
+			"NJHUVPU35C/moc_VariableSizedImageObject.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/VersionListView.h",
+			"MU",
+			"NJHUVPU35C/moc_VersionListView.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/VersionSelectWidget.h",
+			"MU",
+			"NJHUVPU35C/moc_VersionSelectWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/WideBar.h",
+			"MU",
+			"NJHUVPU35C/moc_WideBar.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/updater/ExternalUpdater.h",
+			"MU",
+			"KVXHJ3PMW4/moc_ExternalUpdater.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/updater/PrismExternalUpdater.h",
+			"MU",
+			"KVXHJ3PMW4/moc_PrismExternalUpdater.cpp",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Logging.h",
+			"MU",
+			"EJRQKI7XPS/moc_Logging.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Launcher_logic_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Launcher_logic_autogen/include_Debug",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Launcher_logic_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Launcher_logic_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Launcher_logic_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Launcher_logic_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Launcher_logic_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Launcher_logic_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"LAUNCHER_APPLICATION",
+		"MINGW_HAS_SECURE_API=1",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_DISABLE_DEPRECATED_UP_TO=0x060400",
+		"QT_GUI_LIB",
+		"QT_NETWORKAUTH_LIB",
+		"QT_NETWORK_LIB",
+		"QT_OPENGL_LIB",
+		"QT_WARN_DEPRECATED_UP_TO=0x060400",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"WITH_QTDBUS",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEFINITIONS_RelWithDebInfo" : 
+	[
+		"LAUNCHER_APPLICATION",
+		"MINGW_HAS_SECURE_API=1",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_DISABLE_DEPRECATED_UP_TO=0x060400",
+		"QT_GUI_LIB",
+		"QT_NETWORKAUTH_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGL_LIB",
+		"QT_WARN_DEPRECATED_UP_TO=0x060400",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"WITH_QTDBUS",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"LAUNCHER_APPLICATION",
+		"MINGW_HAS_SECURE_API=1",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_DISABLE_DEPRECATED_UP_TO=0x060400",
+		"QT_GUI_LIB",
+		"QT_NETWORKAUTH_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGL_LIB",
+		"QT_WARN_DEPRECATED_UP_TO=0x060400",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"WITH_QTDBUS",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : [],
+	"MOC_INCLUDES_Debug" : 
+	[
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/murmur2",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/murmur2/src",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/libnbtplusplus/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/libraries/libnbtplusplus",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/qdcss/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/buildconfig",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/LocalPeer/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/rainbow/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/mkspecs/win32-g++",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui",
+		"C:/vp/x64-mingw-dynamic/include",
+		"C:/vp/x64-mingw-dynamic/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtXml",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtConcurrent",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetworkAuth",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtOpenGL",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtDBus",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include"
+	],
+	"MOC_INCLUDES_RelWithDebInfo" : 
+	[
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/murmur2",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/murmur2/src",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/libnbtplusplus/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/libraries/libnbtplusplus",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/qdcss/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/buildconfig",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/LocalPeer/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/rainbow/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/mkspecs/win32-g++",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui",
+		"C:/vp/x64-mingw-dynamic/include",
+		"C:/vp/x64-mingw-dynamic/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtXml",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtConcurrent",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetworkAuth",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtOpenGL",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtDBus",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include"
+	],
+	"MOC_INCLUDES_Release" : 
+	[
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/murmur2",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/murmur2/src",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/libnbtplusplus/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/libraries/libnbtplusplus",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/qdcss/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/buildconfig",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/LocalPeer/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/rainbow/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/mkspecs/win32-g++",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui",
+		"C:/vp/x64-mingw-dynamic/include",
+		"C:/vp/x64-mingw-dynamic/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtXml",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtConcurrent",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetworkAuth",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtOpenGL",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtDBus",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/g++.exe",
+		"-std=gnu++20",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Users/xeodeo/Desktop/MultiMC/buildenv/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Launcher_logic_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE_Debug" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Launcher_logic_autogen/moc_predefs_Debug.h",
+	"MOC_PREDEFS_FILE_RelWithDebInfo" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Launcher_logic_autogen/moc_predefs_RelWithDebInfo.h",
+	"MOC_PREDEFS_FILE_Release" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Launcher_logic_autogen/moc_predefs_Release.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_OSX.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_backgrounds.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_breeze_dark.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_breeze_light.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_documents.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_flat.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_flat_white.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_iOS.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_multimc.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_pe_blue.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_pe_colored.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_pe_dark.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_pe_light.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_shaders.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_xeolauncher.cpp"
+	],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/CMakeFiles/Launcher_logic_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/CMakeFiles/Launcher_logic_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/CMakeFiles/Launcher_logic_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/CMakeFiles/Launcher_logic_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 7,
+	"SETTINGS_FILE" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/CMakeFiles/Launcher_logic_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/CMakeFiles/Launcher_logic_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/CMakeFiles/Launcher_logic_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/CMakeFiles/Launcher_logic_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/Application.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ApplicationMessage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/BaseInstaller.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/BaseInstance.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/BaseVersionList.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/Commandline.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/DataMigrationTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/DesktopServices.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/FastFileIconProvider.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/FileIgnoreProxy.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/FileSystem.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/GZip.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/HardwareInfo.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstanceCopyPrefs.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstanceCopyTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstanceCreationTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstanceDirUpdate.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstanceImportTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstanceList.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/InstanceTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/JavaCommon.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/Json.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/KonamiCode.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/LaunchController.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/LoggedProcess.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/MMCTime.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/MMCZip.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/Markdown.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/MessageLevel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/RecursiveFileSystemWatcher.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ResourceDownloadTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/StringUtils.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/SysInfo.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/Version.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/VersionProxyModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/archive/ArchiveReader.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/archive/ArchiveWriter.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/archive/ExportToZipTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/archive/ExtractZipTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/console/WindowsConsole.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/icons/IconList.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/icons/IconUtils.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/icons/MMCIcon.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/JavaChecker.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/JavaInstall.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/JavaInstallList.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/JavaMetadata.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/JavaUtils.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/JavaVersion.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/download/ArchiveDownloadTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/download/ManifestDownloadTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/java/download/SymlinkTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/LaunchStep.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/LaunchTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/LogModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/TaskStepWrapper.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/steps/CheckJava.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/steps/LookupServerAddress.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/steps/PostLaunchCommand.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/steps/PreLaunchCommand.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/steps/PrintServers.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/steps/QuitAfterGameStop.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/launch/steps/TextPrint.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/logs/AnonymizeLog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/logs/LogParser.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/meta/BaseEntity.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/meta/Index.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/meta/JsonFormat.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/meta/Version.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/meta/VersionList.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/AssetsUtils.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/Component.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/ComponentUpdateTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/LaunchProfile.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/Library.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/Logging.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/MinecraftInstance.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/MinecraftLoadAndCheck.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/MojangVersionFormat.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/OneSixVersionFormat.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/PackProfile.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/ParseUtils.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/ProfileUtils.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/Rule.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/ShortcutUtils.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/VanillaInstanceCreationTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/VersionFile.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/VersionFilterData.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/World.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/WorldList.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/AccountData.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/AccountList.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/AuthFlow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/AuthSession.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/MinecraftAccount.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/Parsers.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/EntitlementsStep.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/GetSkinStep.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/LauncherLoginStep.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/MSADeviceCodeStep.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/MSAStep.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/auth/steps/XboxUserStep.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/AutoInstallJava.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/ClaimAccount.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/CreateGameFolders.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/EnsureAvailableMemory.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/EnsureOfflineLibraries.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/ExtractNatives.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/LauncherPartLaunch.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/MinecraftTarget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/ModMinecraftJar.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/PrintInstanceInfo.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/ReconstructAssets.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/ScanModFolders.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/launch/VerifyJavaInstall.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/DataPack.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/DataPackFolderModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/Mod.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/ModFolderModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/Resource.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/ResourceFolderModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/ResourcePack.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/ResourcePackFolderModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/ShaderPack.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/ShaderPackFolderModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/TexturePack.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/TexturePackFolderModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/WorldSave.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/GetModDependenciesTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/LocalDataPackParseTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/LocalModParseTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/LocalResourceParse.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/LocalResourceUpdateTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/LocalShaderPackParseTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/LocalTexturePackParseTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/LocalWorldSaveParseTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/mod/tasks/ResourceFolderLoadTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/skins/CapeChange.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/skins/SkinDelete.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/skins/SkinList.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/skins/SkinModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/skins/SkinUpload.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/update/AssetUpdateTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/update/FoldersTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/update/LegacyFMLLibrariesTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/minecraft/update/LibrariesTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/EnsureMetadataTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/ModIndex.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/ResourceAPI.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/ResourceType.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/atlauncher/ATLPackIndex.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/atlauncher/ATLPackManifest.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/atlauncher/ATLShareCode.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/flame/FileResolvingTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/flame/FlameAPI.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/flame/FlameCheckUpdate.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/flame/FlameInstanceCreationTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/flame/FlameModIndex.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/flame/FlamePackExportTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/flame/PackManifest.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/ftb/FTBPackInstallTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/ftb/FTBPackManifest.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/helpers/ExportToModList.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/helpers/HashUtils.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/helpers/OverrideUtils.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/import_ftb/PackHelpers.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/import_ftb/PackInstallTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/legacy_ftb/PackFetchTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/legacy_ftb/PackInstallTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/legacy_ftb/PrivatePackManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/modrinth/ModrinthAPI.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/modrinth/ModrinthCheckUpdate.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/modrinth/ModrinthInstanceCreationTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/modrinth/ModrinthPackExportTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/modrinth/ModrinthPackIndex.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/packwiz/Packwiz.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/technic/SingleZipPackInstallTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/technic/SolderPackInstallTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/technic/SolderPackManifest.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/modplatform/technic/TechnicPackProcessor.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/ApiDownload.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/ApiUpload.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/Download.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/FileSink.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/HttpMetaCache.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/Logging.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/MetaCacheSink.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/NetJob.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/NetRequest.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/PasteUpload.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/net/Upload.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/news/NewsChecker.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/news/NewsEntry.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/screenshots/ImgurAlbumCreation.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/screenshots/ImgurUpload.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/settings/INIFile.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/settings/INISettingsObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/settings/OverrideSetting.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/settings/PassthroughSetting.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/settings/Setting.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/settings/SettingsObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tasks/ConcurrentTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tasks/MultipleOptionsTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tasks/SequentialTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tasks/Task.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tools/BaseExternalTool.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tools/BaseProfiler.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tools/GenericProfiler.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tools/JProfiler.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tools/JVisualVM.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/tools/MCEditTool.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/translations/POTranslator.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/translations/TranslationsModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/GuiUtil.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/InstanceWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/ToolTipFilter.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/ViewLogWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/AboutDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/BlockedModsDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ChooseOfflineNameDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ChooseProviderDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/CopyInstanceDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/CreateShortcutDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/CustomMessageBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ExportInstanceDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ExportPackDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ExportToModListDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/IconPickerDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ImportResourceDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/InstallLoaderDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/MSALoginDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/NetworkJobFailedDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/NewComponentDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/NewInstanceDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/NewsDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ProfileSelectDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ProfileSetupDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ProgressDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ResourceDownloadDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ResourceUpdateDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ReviewMessageBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/ScrollMessageBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/UpdateAvailableDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/VersionSelectDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/skins/SkinManageDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/skins/draw/BoxGeometry.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/skins/draw/Scene.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/dialogs/skins/draw/SkinOpenGLWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/instanceview/AccessibleInstanceView.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/instanceview/InstanceDelegate.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/instanceview/InstanceProxyModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/instanceview/InstanceView.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/instanceview/VisualGroup.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/java/InstallJavaDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/java/VersionList.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pagedialog/PageDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/APIPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/AccountListPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/ExternalToolsPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/JavaPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/LanguagePage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/LauncherPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/global/ProxyPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/DataPackPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ExternalResourcesPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/LogPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ManagedPackPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/McClient.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/McResolver.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ModFolderPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/NotesPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/OtherLogsPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ResourcePackPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ScreenshotsPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ServerPingTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ServersPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/ShaderPackPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/TexturePackPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/VersionPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/instance/WorldListPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/CustomPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/DataPackModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/DataPackPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ImportPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ModModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ModPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/OptionalModDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ResourceModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ResourcePackModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ResourcePackPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ResourcePage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ShaderPackModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ShaderPackPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/TexturePackModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/atlauncher/AtlFilterModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/atlauncher/AtlListModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/atlauncher/AtlUserInteractionSupportImpl.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/flame/FlameModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/flame/FlamePage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/flame/FlameResourceModels.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/flame/FlameResourcePages.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ftb/FtbFilterModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ftb/FtbListModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ftb/FtbPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/import_ftb/ImportFTBPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/import_ftb/ListModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/modrinth/ModrinthModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/modrinth/ModrinthResourcePages.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/technic/TechnicModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/technic/TechnicPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/setupwizard/AutoJavaWizardPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/setupwizard/JavaWizardPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/setupwizard/LanguageWizardPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/setupwizard/LoginWizardPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/setupwizard/PasteWizardPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/setupwizard/SetupWizard.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/BrightTheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/CatPack.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/CatPainter.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/CustomTheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/DarkTheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/FusionTheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/HintOverrideProxyStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/ITheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/IconTheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/SystemTheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/themes/ThemeManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/AppearanceWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/CheckComboBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/Common.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/CustomCommands.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/EnvironmentVariables.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/IconLabel.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/InfoFrame.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/JavaSettingsWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/JavaWizardWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/LabeledToolButton.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/LanguageSelectionWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/LogView.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/MinecraftSettingsWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/ModFilterWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/ModListView.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/PageContainer.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/ProgressWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/ProjectDescriptionPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/ProjectItem.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/SubTaskProgressBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/VariableSizedImageObject.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/VersionListView.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/VersionSelectWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/ui/widgets/WideBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/updater/PrismExternalUpdater.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/Logging.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_OSX.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_backgrounds.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_breeze_dark.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_breeze_light.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_documents.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_flat.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_flat_white.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_iOS.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_multimc.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_pe_blue.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_pe_colored.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_pe_dark.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_pe_light.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_shaders.cpp",
+		"C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/qrc_xeolauncher.cpp"
+	],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

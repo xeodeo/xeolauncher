@@ -1,0 +1,25 @@
+[1/26] Automatic MOC and UIC for target Launcher_logic
+[2/25] Building CXX object launcher/CMakeFiles/Launcher_logic.dir/Release/minecraft/auth/MinecraftAccount.cpp.obj
+[3/25] Linking CXX static library launcher\Release\libLauncher_logic.a
+[4/25] Linking CXX executable Release\ParseUtils.exe
+[5/25] Linking CXX executable Release\GradleSpecifier.exe
+[6/25] Linking CXX executable Release\JavaVersion.exe
+[7/25] Linking CXX executable Release\Version.exe
+[8/25] Linking CXX executable Release\GZip.exe
+[9/25] Linking CXX executable Release\WorldSaveParse.exe
+[10/25] Linking CXX executable Release\ShaderPackParse.exe
+[11/25] Linking CXX executable Release\TexturePackParse.exe
+[12/25] Linking CXX executable Release\Packwiz.exe
+[13/25] Linking CXX executable Release\xeolauncher.exe
+[14/25] Linking CXX executable Release\ResourceFolderModel.exe
+[15/25] Linking CXX executable Release\MetaComponentParse.exe
+[16/25] Linking CXX executable Release\XmlLogs.exe
+[17/25] Linking CXX executable Release\INIFile.exe
+[18/25] Linking CXX executable Release\MojangVersionFormat.exe
+[19/25] Linking CXX executable Release\Index.exe
+[20/25] Linking CXX executable Release\Task.exe
+[21/25] Linking CXX executable Release\ResourcePackParse.exe
+[22/25] Linking CXX executable Release\Library.exe
+[23/25] Linking CXX executable Release\CatPack.exe
+[24/25] Linking CXX executable Release\DataPackParse.exe
+[25/25] Linking CXX executable Release\FileSystem.exe

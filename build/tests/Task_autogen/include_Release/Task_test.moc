@@ -1,0 +1,441 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'Task_test.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.7.3)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qmetatype.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'Task_test.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 68
+#error "This file was generated using the moc from 6.7.3. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSBasicTaskENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSBasicTaskENDCLASS = QtMocHelpers::stringData(
+    "BasicTask"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSBasicTaskENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject BasicTask::staticMetaObject = { {
+    QMetaObject::SuperData::link<Task::staticMetaObject>(),
+    qt_meta_stringdata_CLASSBasicTaskENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSBasicTaskENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSBasicTaskENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<BasicTask, std::true_type>
+    >,
+    nullptr
+} };
+
+void BasicTask::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+const QMetaObject *BasicTask::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *BasicTask::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSBasicTaskENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return Task::qt_metacast(_clname);
+}
+
+int BasicTask::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = Task::qt_metacall(_c, _id, _a);
+    return _id;
+}
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSBasicTask_MultiStepENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSBasicTask_MultiStepENDCLASS = QtMocHelpers::stringData(
+    "BasicTask_MultiStep"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSBasicTask_MultiStepENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject BasicTask_MultiStep::staticMetaObject = { {
+    QMetaObject::SuperData::link<Task::staticMetaObject>(),
+    qt_meta_stringdata_CLASSBasicTask_MultiStepENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSBasicTask_MultiStepENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSBasicTask_MultiStepENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<BasicTask_MultiStep, std::true_type>
+    >,
+    nullptr
+} };
+
+void BasicTask_MultiStep::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+const QMetaObject *BasicTask_MultiStep::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *BasicTask_MultiStep::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSBasicTask_MultiStepENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return Task::qt_metacast(_clname);
+}
+
+int BasicTask_MultiStep::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = Task::qt_metacall(_c, _id, _a);
+    return _id;
+}
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSBigConcurrentTaskENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSBigConcurrentTaskENDCLASS = QtMocHelpers::stringData(
+    "BigConcurrentTask"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSBigConcurrentTaskENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject BigConcurrentTask::staticMetaObject = { {
+    QMetaObject::SuperData::link<ConcurrentTask::staticMetaObject>(),
+    qt_meta_stringdata_CLASSBigConcurrentTaskENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSBigConcurrentTaskENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSBigConcurrentTaskENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<BigConcurrentTask, std::true_type>
+    >,
+    nullptr
+} };
+
+void BigConcurrentTask::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+const QMetaObject *BigConcurrentTask::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *BigConcurrentTask::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSBigConcurrentTaskENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return ConcurrentTask::qt_metacast(_clname);
+}
+
+int BigConcurrentTask::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = ConcurrentTask::qt_metacall(_c, _id, _a);
+    return _id;
+}
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSBigConcurrentTaskThreadENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSBigConcurrentTaskThreadENDCLASS = QtMocHelpers::stringData(
+    "BigConcurrentTaskThread"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSBigConcurrentTaskThreadENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject BigConcurrentTaskThread::staticMetaObject = { {
+    QMetaObject::SuperData::link<QThread::staticMetaObject>(),
+    qt_meta_stringdata_CLASSBigConcurrentTaskThreadENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSBigConcurrentTaskThreadENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSBigConcurrentTaskThreadENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<BigConcurrentTaskThread, std::true_type>
+    >,
+    nullptr
+} };
+
+void BigConcurrentTaskThread::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+const QMetaObject *BigConcurrentTaskThread::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *BigConcurrentTaskThread::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSBigConcurrentTaskThreadENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return QThread::qt_metacast(_clname);
+}
+
+int BigConcurrentTaskThread::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QThread::qt_metacall(_c, _id, _a);
+    return _id;
+}
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSTaskTestENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSTaskTestENDCLASS = QtMocHelpers::stringData(
+    "TaskTest",
+    "test_SetStatus_NoMultiStep",
+    "",
+    "test_SetStatus_MultiStep",
+    "test_SetProgress",
+    "test_basicRun",
+    "test_basicConcurrentRun",
+    "test_moreConcurrentRun",
+    "test_basicSequentialRun",
+    "test_basicMultipleOptionsRun",
+    "test_stackOverflowInConcurrentTask"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSTaskTestENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       9,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    0,   68,    2, 0x08,    1 /* Private */,
+       3,    0,   69,    2, 0x08,    2 /* Private */,
+       4,    0,   70,    2, 0x08,    3 /* Private */,
+       5,    0,   71,    2, 0x08,    4 /* Private */,
+       6,    0,   72,    2, 0x08,    5 /* Private */,
+       7,    0,   73,    2, 0x08,    6 /* Private */,
+       8,    0,   74,    2, 0x08,    7 /* Private */,
+       9,    0,   75,    2, 0x08,    8 /* Private */,
+      10,    0,   76,    2, 0x08,    9 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject TaskTest::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_CLASSTaskTestENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSTaskTestENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSTaskTestENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<TaskTest, std::true_type>,
+        // method 'test_SetStatus_NoMultiStep'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'test_SetStatus_MultiStep'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'test_SetProgress'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'test_basicRun'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'test_basicConcurrentRun'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'test_moreConcurrentRun'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'test_basicSequentialRun'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'test_basicMultipleOptionsRun'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'test_stackOverflowInConcurrentTask'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
+    >,
+    nullptr
+} };
+
+void TaskTest::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<TaskTest *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->test_SetStatus_NoMultiStep(); break;
+        case 1: _t->test_SetStatus_MultiStep(); break;
+        case 2: _t->test_SetProgress(); break;
+        case 3: _t->test_basicRun(); break;
+        case 4: _t->test_basicConcurrentRun(); break;
+        case 5: _t->test_moreConcurrentRun(); break;
+        case 6: _t->test_basicSequentialRun(); break;
+        case 7: _t->test_basicMultipleOptionsRun(); break;
+        case 8: _t->test_stackOverflowInConcurrentTask(); break;
+        default: ;
+        }
+    }
+    (void)_a;
+}
+
+const QMetaObject *TaskTest::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *TaskTest::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSTaskTestENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int TaskTest::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 9)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 9;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 9)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 9;
+    }
+    return _id;
+}
+QT_WARNING_POP

@@ -1,0 +1,19 @@
+nbt++_autogen/timestamp: \
+	C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/libraries/libnbtplusplus/CMakeLists.txt \
+	C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/libraries/libnbtplusplus/src/endian_str.cpp \
+	C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/libraries/libnbtplusplus/src/io/stream_reader.cpp \
+	C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/libraries/libnbtplusplus/src/io/stream_writer.cpp \
+	C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/libraries/libnbtplusplus/src/tag.cpp \
+	C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/libraries/libnbtplusplus/src/tag_compound.cpp \
+	C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/libraries/libnbtplusplus/src/tag_list.cpp \
+	C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/libraries/libnbtplusplus/src/tag_string.cpp \
+	C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/libraries/libnbtplusplus/src/text/json_formatter.cpp \
+	C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/libraries/libnbtplusplus/src/value.cpp \
+	C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/libraries/libnbtplusplus/src/value_initializer.cpp \
+	C:/Users/xeodeo/Desktop/MultiMC/buildenv/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake \
+	C:/Users/xeodeo/Desktop/MultiMC/buildenv/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake \
+	C:/Users/xeodeo/Desktop/MultiMC/buildenv/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCompilerFlag.cmake \
+	C:/Users/xeodeo/Desktop/MultiMC/buildenv/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckSourceCompiles.cmake \
+	C:/Users/xeodeo/Desktop/MultiMC/buildenv/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GenerateExportHeader.cmake \
+	C:/Users/xeodeo/Desktop/MultiMC/buildenv/Qt/Tools/CMake_64/share/cmake-3.30/Modules/exportheader.cmake.in \
+	C:/Users/xeodeo/Desktop/MultiMC/buildenv/Qt/Tools/CMake_64/bin/cmake.exe
