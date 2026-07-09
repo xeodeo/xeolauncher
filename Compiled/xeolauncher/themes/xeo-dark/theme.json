@@ -1,0 +1,37 @@
+{
+  "name": "Xeo Dark",
+  "widgets": "Fusion",
+  "qssFilePath": "themeStyle.css",
+  "colors": {
+    "Window": "#12111a",
+    "WindowText": "#e2e8f0",
+    "Base": "#1a1826",
+    "AlternateBase": "#1e1c2e",
+    "ToolTipBase": "#2d2b42",
+    "ToolTipText": "#e2e8f0",
+    "Text": "#e2e8f0",
+    "Button": "#2d2b42",
+    "ButtonText": "#e2e8f0",
+    "BrightText": "#f472b6",
+    "Link": "#a855f7",
+    "Highlight": "#7c3aed",
+    "HighlightedText": "#ffffff",
+    "PlaceholderText": "#6b7280",
+    "fadeColor": "#12111a",
+    "fadeAmount": 0.5
+  },
+  "logColors": {
+    "MessageHighlight": "#1e1c2e",
+    "LauncherHighlight": "#2d2b42",
+    "DebugHighlight": "#1a1826",
+    "WarningHighlight": "#2d1f00",
+    "ErrorHighlight": "#2d0f0f",
+    "FatalHighlight": "#1a0000",
+    "Message": "#e2e8f0",
+    "Launcher": "#a855f7",
+    "Debug": "#6ee7b7",
+    "Warning": "#fbbf24",
+    "Error": "#f87171",
+    "Fatal": "#ff0000"
+  }
+}

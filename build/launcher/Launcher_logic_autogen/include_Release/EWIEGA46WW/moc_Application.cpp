@@ -41,8 +41,6 @@ constexpr auto qt_meta_stringdata_CLASSApplicationENDCLASS = QtMocHelpers::strin
     "status",
     "globalSettingsAboutToOpen",
     "globalSettingsApplied",
-    "currentCatChanged",
-    "index",
     "oauthReplyRecieved",
     "launch",
     "BaseInstance*",
@@ -73,50 +71,48 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSApplicationENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-      16,   14, // methods
+      15,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       5,       // signalCount
+       4,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,  110,    2, 0x06,    1 /* Public */,
-       4,    0,  113,    2, 0x06,    3 /* Public */,
-       5,    0,  114,    2, 0x06,    4 /* Public */,
-       6,    1,  115,    2, 0x06,    5 /* Public */,
-       8,    1,  118,    2, 0x06,    7 /* Public */,
+       1,    1,  104,    2, 0x06,    1 /* Public */,
+       4,    0,  107,    2, 0x06,    3 /* Public */,
+       5,    0,  108,    2, 0x06,    4 /* Public */,
+       6,    1,  109,    2, 0x06,    5 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       9,    5,  121,    2, 0x0a,    9 /* Public */,
-       9,    4,  132,    2, 0x2a,   15 /* Public | MethodCloned */,
-       9,    3,  141,    2, 0x2a,   20 /* Public | MethodCloned */,
-       9,    2,  148,    2, 0x2a,   24 /* Public | MethodCloned */,
-       9,    1,  153,    2, 0x2a,   27 /* Public | MethodCloned */,
-      19,    1,  156,    2, 0x0a,   29 /* Public */,
-      20,    0,  159,    2, 0x0a,   31 /* Public */,
-      21,    0,  160,    2, 0x08,   32 /* Private */,
-      22,    1,  161,    2, 0x08,   33 /* Private */,
-      24,    0,  164,    2, 0x08,   35 /* Private */,
-      25,    1,  165,    2, 0x08,   36 /* Private */,
+       7,    5,  112,    2, 0x0a,    7 /* Public */,
+       7,    4,  123,    2, 0x2a,   13 /* Public | MethodCloned */,
+       7,    3,  132,    2, 0x2a,   18 /* Public | MethodCloned */,
+       7,    2,  139,    2, 0x2a,   22 /* Public | MethodCloned */,
+       7,    1,  144,    2, 0x2a,   25 /* Public | MethodCloned */,
+      17,    1,  147,    2, 0x0a,   27 /* Public */,
+      18,    0,  150,    2, 0x0a,   29 /* Public */,
+      19,    0,  151,    2, 0x08,   30 /* Private */,
+      20,    1,  152,    2, 0x08,   31 /* Private */,
+      22,    0,  155,    2, 0x08,   33 /* Private */,
+      23,    1,  156,    2, 0x08,   34 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Bool,    3,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Int, QMetaType::Int,    7,
     QMetaType::Void, QMetaType::QVariantMap,    2,
 
  // slots: parameters
-    QMetaType::Bool, 0x80000000 | 10, 0x80000000 | 12, 0x80000000 | 14, 0x80000000 | 16, QMetaType::QString,   11,   13,   15,   17,   18,
-    QMetaType::Bool, 0x80000000 | 10, 0x80000000 | 12, 0x80000000 | 14, 0x80000000 | 16,   11,   13,   15,   17,
-    QMetaType::Bool, 0x80000000 | 10, 0x80000000 | 12, 0x80000000 | 14,   11,   13,   15,
-    QMetaType::Bool, 0x80000000 | 10, 0x80000000 | 12,   11,   13,
-    QMetaType::Bool, 0x80000000 | 10,   11,
-    QMetaType::Bool, 0x80000000 | 10,   11,
+    QMetaType::Bool, 0x80000000 | 8, 0x80000000 | 10, 0x80000000 | 12, 0x80000000 | 14, QMetaType::QString,    9,   11,   13,   15,   16,
+    QMetaType::Bool, 0x80000000 | 8, 0x80000000 | 10, 0x80000000 | 12, 0x80000000 | 14,    9,   11,   13,   15,
+    QMetaType::Bool, 0x80000000 | 8, 0x80000000 | 10, 0x80000000 | 12,    9,   11,   13,
+    QMetaType::Bool, 0x80000000 | 8, 0x80000000 | 10,    9,   11,
+    QMetaType::Bool, 0x80000000 | 8,    9,
+    QMetaType::Bool, 0x80000000 | 8,    9,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QByteArray,   23,
+    QMetaType::Void, QMetaType::QByteArray,   21,
     QMetaType::Void,
     QMetaType::Void, QMetaType::Int,    3,
 
@@ -139,9 +135,6 @@ Q_CONSTINIT const QMetaObject Application::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'globalSettingsApplied'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'currentCatChanged'
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
         // method 'oauthReplyRecieved'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<QVariantMap, std::false_type>,
@@ -198,26 +191,24 @@ void Application::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 0: _t->updateAllowedChanged((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
         case 1: _t->globalSettingsAboutToOpen(); break;
         case 2: _t->globalSettingsApplied(); break;
-        case 3: { int _r = _t->currentCatChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])));
-            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = std::move(_r); }  break;
-        case 4: _t->oauthReplyRecieved((*reinterpret_cast< std::add_pointer_t<QVariantMap>>(_a[1]))); break;
-        case 5: { bool _r = _t->launch((*reinterpret_cast< std::add_pointer_t<BaseInstance*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<LaunchMode>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<std::shared_ptr<MinecraftTarget>>>(_a[3])),(*reinterpret_cast< std::add_pointer_t<shared_qobject_ptr<MinecraftAccount>>>(_a[4])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[5])));
+        case 3: _t->oauthReplyRecieved((*reinterpret_cast< std::add_pointer_t<QVariantMap>>(_a[1]))); break;
+        case 4: { bool _r = _t->launch((*reinterpret_cast< std::add_pointer_t<BaseInstance*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<LaunchMode>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<std::shared_ptr<MinecraftTarget>>>(_a[3])),(*reinterpret_cast< std::add_pointer_t<shared_qobject_ptr<MinecraftAccount>>>(_a[4])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[5])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
-        case 6: { bool _r = _t->launch((*reinterpret_cast< std::add_pointer_t<BaseInstance*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<LaunchMode>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<std::shared_ptr<MinecraftTarget>>>(_a[3])),(*reinterpret_cast< std::add_pointer_t<shared_qobject_ptr<MinecraftAccount>>>(_a[4])));
+        case 5: { bool _r = _t->launch((*reinterpret_cast< std::add_pointer_t<BaseInstance*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<LaunchMode>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<std::shared_ptr<MinecraftTarget>>>(_a[3])),(*reinterpret_cast< std::add_pointer_t<shared_qobject_ptr<MinecraftAccount>>>(_a[4])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
-        case 7: { bool _r = _t->launch((*reinterpret_cast< std::add_pointer_t<BaseInstance*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<LaunchMode>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<std::shared_ptr<MinecraftTarget>>>(_a[3])));
+        case 6: { bool _r = _t->launch((*reinterpret_cast< std::add_pointer_t<BaseInstance*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<LaunchMode>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<std::shared_ptr<MinecraftTarget>>>(_a[3])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
-        case 8: { bool _r = _t->launch((*reinterpret_cast< std::add_pointer_t<BaseInstance*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<LaunchMode>>(_a[2])));
+        case 7: { bool _r = _t->launch((*reinterpret_cast< std::add_pointer_t<BaseInstance*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<LaunchMode>>(_a[2])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
-        case 9: { bool _r = _t->launch((*reinterpret_cast< std::add_pointer_t<BaseInstance*>>(_a[1])));
+        case 8: { bool _r = _t->launch((*reinterpret_cast< std::add_pointer_t<BaseInstance*>>(_a[1])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
-        case 10: { bool _r = _t->kill((*reinterpret_cast< std::add_pointer_t<BaseInstance*>>(_a[1])));
+        case 9: { bool _r = _t->kill((*reinterpret_cast< std::add_pointer_t<BaseInstance*>>(_a[1])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
-        case 11: _t->closeCurrentWindow(); break;
-        case 12: _t->on_windowClose(); break;
-        case 13: _t->messageReceived((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
-        case 14: _t->controllerFinished(); break;
-        case 15: _t->setupWizardFinished((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 10: _t->closeCurrentWindow(); break;
+        case 11: _t->on_windowClose(); break;
+        case 12: _t->messageReceived((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
+        case 13: _t->controllerFinished(); break;
+        case 14: _t->setupWizardFinished((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -244,16 +235,9 @@ void Application::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
             }
         }
         {
-            using _t = int (Application::*)(int );
-            if (_t _q_method = &Application::currentCatChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 3;
-                return;
-            }
-        }
-        {
             using _t = void (Application::*)(QVariantMap );
             if (_t _q_method = &Application::oauthReplyRecieved; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 4;
+                *result = 3;
                 return;
             }
         }
@@ -279,13 +263,13 @@ int Application::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 16)
+        if (_id < 15)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 16;
+        _id -= 15;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 16)
+        if (_id < 15)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 16;
+        _id -= 15;
     }
     return _id;
 }
@@ -310,18 +294,9 @@ void Application::globalSettingsApplied()
 }
 
 // SIGNAL 3
-int Application::currentCatChanged(int _t1)
-{
-    int _t0{};
-    void *_a[] = { const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t0))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
-    QMetaObject::activate(this, &staticMetaObject, 3, _a);
-    return _t0;
-}
-
-// SIGNAL 4
 void Application::oauthReplyRecieved(QVariantMap _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
-    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
 }
 QT_WARNING_POP

@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QCheckBox>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QFrame>
@@ -33,6 +34,7 @@ public:
     QLineEdit *instNameTextBox;
     QLabel *nameLabel;
     QToolButton *iconButton;
+    QCheckBox *skipAuthCheckBox;
     QFrame *line;
 
     void setupUi(QDialog *NewInstanceDialog)
@@ -75,7 +77,12 @@ public:
         iconButton->setObjectName("iconButton");
         iconButton->setIconSize(QSize(80, 80));
 
-        gridLayout_2->addWidget(iconButton, 0, 0, 2, 1);
+        gridLayout_2->addWidget(iconButton, 0, 0, 3, 1);
+
+        skipAuthCheckBox = new QCheckBox(NewInstanceDialog);
+        skipAuthCheckBox->setObjectName("skipAuthCheckBox");
+
+        gridLayout_2->addWidget(skipAuthCheckBox, 2, 1, 1, 2);
 
 
         verticalLayout->addLayout(gridLayout_2);
@@ -104,6 +111,12 @@ public:
         NewInstanceDialog->setWindowTitle(QCoreApplication::translate("NewInstanceDialog", "New Instance", nullptr));
         groupLabel->setText(QCoreApplication::translate("NewInstanceDialog", "&Group:", nullptr));
         nameLabel->setText(QCoreApplication::translate("NewInstanceDialog", "&Name:", nullptr));
+        skipAuthCheckBox->setText(QCoreApplication::translate("NewInstanceDialog", "Offline / Preservation Mode (skip Mojang auth \342\200\224 for online-mode=false servers)", nullptr));
+#if QT_CONFIG(tooltip)
+        skipAuthCheckBox->setToolTip(QCoreApplication::translate("NewInstanceDialog", "When enabled, this instance launches without contacting Mojang servers.\n"
+"Works with online-mode=false servers and LAN play.\n"
+"Does NOT work on servers that require authentication (online-mode=true).", nullptr));
+#endif // QT_CONFIG(tooltip)
     } // retranslateUi
 
 };

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop
+# Install script for directory: D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Compiled/xeolauncher")
+  set(CMAKE_INSTALL_PREFIX "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Compiled/xeolauncher")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,66 +34,61 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/program_info/cmake_install.cmake")
+  include("D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/program_info/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "portable")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/program_info/portable.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/program_info/portable.txt")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/libraries/libnbtplusplus/cmake_install.cmake")
+  include("D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/libraries/libnbtplusplus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/libraries/launcher/cmake_install.cmake")
+  include("D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/libraries/launcher/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/libraries/javacheck/cmake_install.cmake")
+  include("D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/libraries/javacheck/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/libraries/rainbow/cmake_install.cmake")
+  include("D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/libraries/rainbow/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/libraries/LocalPeer/cmake_install.cmake")
+  include("D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/libraries/LocalPeer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/libraries/murmur2/cmake_install.cmake")
+  include("D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/libraries/murmur2/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/libraries/qdcss/cmake_install.cmake")
+  include("D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/libraries/qdcss/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/buildconfig/cmake_install.cmake")
+  include("D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/buildconfig/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/tests/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/launcher/cmake_install.cmake")
+  include("D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/launcher/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -111,6 +106,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

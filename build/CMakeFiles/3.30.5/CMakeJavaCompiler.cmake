@@ -1,7 +1,7 @@
-set(CMAKE_Java_COMPILER "C:/Program Files/Eclipse Adoptium/jdk-21.0.11.10-hotspot/bin/javac.exe")
+set(CMAKE_Java_COMPILER "D:/Program Files/Eclipse Adoptium/jdk-21.0.11.10-hotspot/bin/javac.exe")
 set(CMAKE_Java_COMPILER_ARG1 "")
-set(CMAKE_Java_RUNTIME  "C:/Program Files/Eclipse Adoptium/jdk-21.0.11.10-hotspot/bin/java.exe")
-set(CMAKE_Java_ARCHIVE  "C:/Program Files/Eclipse Adoptium/jdk-21.0.11.10-hotspot/bin/jar.exe")
+set(CMAKE_Java_RUNTIME  "D:/Program Files/Eclipse Adoptium/jdk-21.0.11.10-hotspot/bin/java.exe")
+set(CMAKE_Java_ARCHIVE  "D:/Program Files/Eclipse Adoptium/jdk-21.0.11.10-hotspot/bin/jar.exe")
 set(CMAKE_Java_COMPILER_LOADED 1)
 
 set(CMAKE_Java_SOURCE_FILE_EXTENSIONS java)

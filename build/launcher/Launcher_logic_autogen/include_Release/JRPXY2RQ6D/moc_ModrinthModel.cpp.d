@@ -1,860 +1,860 @@
-C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/build/launcher/Launcher_logic_autogen/include_Release/JRPXY2RQ6D/moc_ModrinthModel.cpp: C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/modrinth/ModrinthModel.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/build/launcher/Launcher_logic_autogen/moc_predefs_Release.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/buildconfig/BuildConfig.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/BaseInstance.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/BaseVersion.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/BaseVersionList.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/Exception.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/Filter.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/InstanceTask.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/LaunchMode.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/MessageLevel.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ProblemProvider.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/QObjectPtr.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/RuntimeContext.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/SysInfo.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/Usable.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/Version.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/VersionProxyModel.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/java/JavaMetadata.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/java/JavaVersion.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/meta/BaseEntity.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/meta/JsonFormat.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/meta/Version.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/meta/VersionList.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/Agent.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/GradleSpecifier.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/Library.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/MinecraftInstance.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/MojangDownloadInfo.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/Rule.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/VersionFile.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/auth/AccountData.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/auth/AuthFlow.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/auth/AuthSession.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/auth/AuthStep.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/auth/MinecraftAccount.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/launch/MinecraftTarget.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/mod/DataPack.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/mod/DataPackFolderModel.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/mod/MetadataHandler.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/mod/Mod.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/mod/ModDetails.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/mod/Resource.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/mod/ResourceFolderModel.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/modplatform/ModIndex.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/modplatform/ResourceAPI.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/modplatform/ResourceType.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/modplatform/modrinth/ModrinthAPI.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/modplatform/modrinth/ModrinthPackIndex.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/modplatform/packwiz/Packwiz.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/Download.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/HeaderProxy.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/HttpMetaCache.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/Logging.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/Mode.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/NetJob.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/NetRequest.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/Sink.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/Validator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/settings/INIFile.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/settings/SettingsObject.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/tasks/ConcurrentTask.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/tasks/Task.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/dialogs/NewInstanceDialog.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/pages/BasePage.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/pages/BasePageContainer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/pages/BasePageProvider.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ModpackProviderBasePage.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/widgets/ModFilterWidget.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/widgets/ProgressWidget.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QAbstractListModel \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QAbstractProxyModel \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QByteArray \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QCryptographicHash \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QDataStream \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QDateTime \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QDeadlineTimer \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QDebug \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QDir \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QFileInfo \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QFileSystemWatcher \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QFlags \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QHash \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QIODevice \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QJsonArray \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QJsonDocument \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QJsonObject \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QList \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QLoggingCategory \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QMap \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QMetaType \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QMutex \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QObject \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QPair \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QPointer \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QProcess \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QQueue \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QRegularExpression \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QRunnable \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QSet \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QSharedDataPointer \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QSharedPointer \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QSortFilterProxyModel \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QString \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QStringList \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QStringView \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QTimer \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QUrl \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QUuid \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QVariant \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QVariantMap \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QtCore \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QtCoreDepends \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20algorithm.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20chrono.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20functional.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20iterator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20map.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20memory.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20type_traits.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20vector.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q23functional.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q23utility.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qabstractanimation.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qabstracteventdispatcher.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qabstractitemmodel.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qabstractnativeeventfilter.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qabstractproxymodel.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qalgorithms.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qanimationgroup.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qanystringview.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qapplicationstatic.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qarraydata.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qarraydataops.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qarraydatapointer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qassert.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qassociativeiterable.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qatomic.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qatomic_cxx11.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qatomicscopedvaluerollback.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbasicatomic.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbasictimer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbindingstorage.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbitarray.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbuffer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbytearray.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbytearrayalgorithms.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbytearraylist.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbytearraymatcher.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbytearrayview.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcache.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcalendar.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcborarray.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcborcommon.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcbormap.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcborstream.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcborstreamreader.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcborstreamwriter.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcborvalue.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qchar.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcollator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcommandlineoption.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcommandlineparser.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcompare.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcompare_impl.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcomparehelpers.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcompilerdetection.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qconcatenatetablesproxymodel.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qconfig.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qconstructormacros.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcontainerfwd.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcontainerinfo.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcontainertools_impl.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcontiguouscache.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcoreapplication.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcoreevent.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcryptographichash.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qdarwinhelpers.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qdatastream.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qdatetime.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qdeadlinetimer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qdebug.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qdir.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qdiriterator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qeasingcurve.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qelapsedtimer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qendian.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qeventloop.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qexception.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qexceptionhandling.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfactoryinterface.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfile.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfiledevice.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfileinfo.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfileselector.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfilesystemwatcher.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qflags.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfloat16.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qforeach.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfunctionaltools_impl.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfunctionpointer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfuture.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfuture_impl.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfutureinterface.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfuturesynchronizer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfuturewatcher.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qgenericatomic.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qglobal.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qglobalstatic.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qhash.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qhashfunctions.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qidentityproxymodel.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qiodevice.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qiodevicebase.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qitemselectionmodel.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qiterable.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qiterator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qjsonarray.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qjsondocument.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qjsonobject.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qjsonvalue.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlatin1stringmatcher.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlatin1stringview.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlibrary.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlibraryinfo.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qline.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlist.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlocale.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlockfile.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlogging.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qloggingcategory.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmalloc.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmap.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmargins.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmath.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmessageauthenticationcode.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmetacontainer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmetaobject.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmetatype.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmimedata.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmimedatabase.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmimetype.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qminmax.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmutex.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qnamespace.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qnativeinterface.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qnumeric.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qobject.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qobject_impl.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qobjectcleanuphandler.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qobjectdefs.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qobjectdefs_impl.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qoperatingsystemversion.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qoverload.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpair.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qparallelanimationgroup.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpauseanimation.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpermissions.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qplugin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpluginloader.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpoint.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpointer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qprocess.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qprocessordetection.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpromise.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qproperty.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpropertyanimation.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpropertyprivate.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qqueue.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qrandom.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qreadwritelock.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qrect.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qrefcount.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qregularexpression.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qresource.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qresultstore.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qrunnable.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsavefile.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qscopedpointer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qscopedvaluerollback.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qscopeguard.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsemaphore.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsequentialanimationgroup.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsequentialiterable.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qset.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsettings.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qshareddata.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qshareddata_impl.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsharedmemory.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsharedpointer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsignalmapper.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsimd.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsize.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsocketnotifier.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsortfilterproxymodel.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qspan.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstack.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstandardpaths.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstaticlatin1stringmatcher.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstorageinfo.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstring.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringalgorithms.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringbuilder.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringconverter.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringconverter_base.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringfwd.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringlist.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringlistmodel.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringliteral.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringmatcher.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringtokenizer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringview.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qswap.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsysinfo.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsystemdetection.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsystemsemaphore.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtaggedpointer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtclasshelpermacros.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtconfiginclude.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtconfigmacros.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtcore-config.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtcoreexports.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtcoreversion.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtdeprecationmarkers.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtemporarydir.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtemporaryfile.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtextboundaryfinder.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtextstream.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qthread.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qthreadpool.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qthreadstorage.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtimeline.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtimer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtimezone.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtipccommon.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtmetamacros.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtnoop.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtpreprocessorsupport.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtranslator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtransposeproxymodel.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtresource.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtsan_impl.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtsymbolmacros.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qttranslation.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qttypetraits.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtversion.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtversionchecks.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtypeinfo.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtyperevision.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtypes.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qurl.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qurlquery.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qutf8stringview.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/quuid.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qvariant.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qvariantanimation.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qvarianthash.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qvariantlist.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qvariantmap.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qvarlengtharray.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qvector.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qversionnumber.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qversiontagging.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qwaitcondition.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qwineventnotifier.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qxmlstream.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qxpfunctional.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qxptype_traits.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qyieldcpu.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/QAction \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/QIcon \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/QImage \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/QPixmap \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/QPixmapCache \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qaction.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qbitmap.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qbrush.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qcolor.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qcursor.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qfont.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qfontinfo.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qfontmetrics.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qicon.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qimage.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qkeysequence.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qpaintdevice.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qpalette.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qpixelformat.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qpixmap.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qpixmapcache.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qpolygon.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qregion.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qrgb.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qrgba64.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qtgui-config.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qtguiexports.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qtguiglobal.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qtransform.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qvalidator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qwindowdefs.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qwindowdefs_win.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QNetworkAccessManager \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QNetworkReply \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QNetworkRequest \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QSslConfiguration \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QSslError \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QSslSocket \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QTcpServer \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QtNetwork \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QtNetworkDepends \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qabstractnetworkcache.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qabstractsocket.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qauthenticator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qdnslookup.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qdtls.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qhostaddress.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qhostinfo.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qhstspolicy.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qhttp1configuration.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qhttp2configuration.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qhttpheaders.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qhttpmultipart.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qlocalserver.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qlocalsocket.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkcookie.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkcookiejar.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkdatagram.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkdiskcache.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkinformation.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkinterface.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkproxy.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkreply.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkrequest.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkrequestfactory.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qocspresponse.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qpassworddigestor.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qrestaccessmanager.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qrestreply.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qssl.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslcertificate.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslcertificateextension.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslcipher.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslconfiguration.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qssldiffiehellmanparameters.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslellipticcurve.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslerror.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslkey.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslserver.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslsocket.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qtcpserver.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qtcpsocket.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qtnetwork-config.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qtnetworkexports.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qtnetworkglobal.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qtnetworkversion.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qudpsocket.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QButtonGroup \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QDialog \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QHeaderView \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QListWidgetItem \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QMenu \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QTabWidget \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QTreeView \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QWidget \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qabstractitemview.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qabstractslider.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qbuttongroup.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qdialog.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qframe.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qheaderview.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qlistview.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qlistwidget.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qmenu.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qrubberband.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qsizepolicy.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qslider.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qstyle.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qstyleoption.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qtabbar.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qtabwidget.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qtreeview.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qwidget.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/adxintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxbf16intrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxcomplexintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxfp16intrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxint8intrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxtileintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx2intrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx5124fmapsintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx5124vnniwintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bf16intrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bitalgintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bwintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512cdintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512dqintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512erintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fp16intrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512ifmaintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512pfintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmiintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vlbwintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vldqintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vlintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vnniintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxifmaintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxneconvertintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxvnniint8intrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxvnniintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmi2intrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmiintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/align.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_timed_wait.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_wait.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono_io.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functional_hash.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algo.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algobase.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_uninitialized.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/semaphore_base.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_atomic.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_list.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multimap.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multiset.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_relops.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_set.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stream_iterator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf_iterator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/this_thread_sleep.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/charconv \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/format \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/random \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/semaphore \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/set \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/span \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stop_token \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/streambuf \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string_view \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/system_error \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/bessel_function.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/beta_function.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/ell_integral.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/exp_integral.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/gamma.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/hypergeometric.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/modified_bessel_func.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_hermite.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/riemann_zeta.tcc \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/special_function_util.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/unordered_map \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/utility \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/variant \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cetintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cldemoteintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clflushoptintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clwbintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clzerointrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cmpccxaddintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/enqcmdintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/f16cintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fmaintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fxsrintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/gfniintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/hresetintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/ia32intrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/immintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/keylockerintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/lwpintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/lzcntintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/movdirintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitxintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pconfigintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pkuintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pmmintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/popcntintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/prfchiintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/prfchwintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/raointintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/rdseedintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/rtmintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/serializeintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/sgxintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/shaintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/smmintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tbmintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tmmintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tsxldtrkintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/uintrintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/vaesintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/waitpkgintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/wbnoinvdintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/wmmintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/x86gprintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsavecintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsaveintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsaveoptintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsavesintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xtestintrin.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_timeval.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/assert.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/locale.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_compat.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_signal.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_time.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_unistd.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/semaphore.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/signal.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/timeb.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/xeodeo/Desktop/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h
+D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/build/launcher/Launcher_logic_autogen/include_Release/JRPXY2RQ6D/moc_ModrinthModel.cpp: D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/modrinth/ModrinthModel.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/build/launcher/Launcher_logic_autogen/moc_predefs_Release.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/buildconfig/BuildConfig.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/BaseInstance.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/BaseVersion.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/BaseVersionList.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/Exception.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/Filter.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/InstanceTask.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/LaunchMode.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/MessageLevel.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ProblemProvider.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/QObjectPtr.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/RuntimeContext.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/SysInfo.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/Usable.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/Version.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/VersionProxyModel.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/java/JavaMetadata.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/java/JavaVersion.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/meta/BaseEntity.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/meta/JsonFormat.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/meta/Version.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/meta/VersionList.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/Agent.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/GradleSpecifier.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/Library.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/MinecraftInstance.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/MojangDownloadInfo.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/Rule.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/VersionFile.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/auth/AccountData.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/auth/AuthFlow.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/auth/AuthSession.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/auth/AuthStep.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/auth/MinecraftAccount.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/launch/MinecraftTarget.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/mod/DataPack.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/mod/DataPackFolderModel.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/mod/MetadataHandler.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/mod/Mod.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/mod/ModDetails.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/mod/Resource.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/minecraft/mod/ResourceFolderModel.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/modplatform/ModIndex.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/modplatform/ResourceAPI.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/modplatform/ResourceType.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/modplatform/modrinth/ModrinthAPI.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/modplatform/modrinth/ModrinthPackIndex.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/modplatform/packwiz/Packwiz.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/Download.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/HeaderProxy.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/HttpMetaCache.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/Logging.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/Mode.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/NetJob.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/NetRequest.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/Sink.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/net/Validator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/settings/INIFile.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/settings/SettingsObject.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/tasks/ConcurrentTask.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/tasks/Task.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/dialogs/NewInstanceDialog.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/pages/BasePage.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/pages/BasePageContainer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/pages/BasePageProvider.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/ModpackProviderBasePage.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/widgets/ModFilterWidget.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/Codigo\ fuente/PrismLauncher-develop/launcher/ui/widgets/ProgressWidget.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QAbstractListModel \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QAbstractProxyModel \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QByteArray \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QCryptographicHash \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QDataStream \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QDateTime \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QDeadlineTimer \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QDebug \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QDir \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QFileInfo \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QFileSystemWatcher \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QFlags \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QHash \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QIODevice \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QJsonArray \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QJsonDocument \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QJsonObject \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QList \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QLoggingCategory \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QMap \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QMetaType \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QMutex \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QObject \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QPair \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QPointer \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QProcess \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QQueue \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QRegularExpression \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QRunnable \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QSet \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QSharedDataPointer \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QSharedPointer \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QSortFilterProxyModel \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QString \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QStringList \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QStringView \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QTimer \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QUrl \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QUuid \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QVariant \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QVariantMap \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QtCore \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/QtCoreDepends \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20algorithm.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20chrono.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20functional.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20iterator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20map.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20memory.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20type_traits.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q20vector.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q23functional.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/q23utility.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qabstractanimation.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qabstractitemmodel.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qabstractnativeeventfilter.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qabstractproxymodel.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qalgorithms.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qanimationgroup.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qanystringview.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qapplicationstatic.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qarraydata.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qarraydataops.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qarraydatapointer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qassert.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qassociativeiterable.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qatomic.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qatomic_cxx11.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qatomicscopedvaluerollback.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbasicatomic.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbasictimer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbindingstorage.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbitarray.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbuffer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbytearray.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbytearrayalgorithms.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbytearraylist.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbytearraymatcher.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qbytearrayview.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcache.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcalendar.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcborarray.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcborcommon.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcbormap.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcborstream.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcborstreamreader.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcborstreamwriter.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcborvalue.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qchar.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcollator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcommandlineoption.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcommandlineparser.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcompare.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcompare_impl.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcomparehelpers.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcompilerdetection.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qconcatenatetablesproxymodel.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qconfig.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qconstructormacros.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcontainerfwd.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcontainerinfo.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcontainertools_impl.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcontiguouscache.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcoreapplication.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcoreevent.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qcryptographichash.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qdarwinhelpers.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qdatastream.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qdatetime.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qdeadlinetimer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qdebug.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qdir.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qdiriterator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qeasingcurve.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qelapsedtimer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qendian.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qeventloop.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qexception.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qexceptionhandling.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfactoryinterface.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfile.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfiledevice.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfileinfo.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfileselector.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfilesystemwatcher.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qflags.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfloat16.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qforeach.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfunctionaltools_impl.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfunctionpointer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfuture.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfuture_impl.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfutureinterface.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfuturesynchronizer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qfuturewatcher.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qgenericatomic.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qglobal.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qglobalstatic.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qhash.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qhashfunctions.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qidentityproxymodel.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qiodevice.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qiodevicebase.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qitemselectionmodel.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qiterable.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qiterator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qjsonarray.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qjsondocument.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qjsonobject.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qjsonvalue.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlatin1stringmatcher.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlatin1stringview.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlibrary.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlibraryinfo.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qline.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlist.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlocale.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlockfile.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qlogging.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qloggingcategory.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmalloc.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmap.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmargins.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmath.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmessageauthenticationcode.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmetacontainer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmetaobject.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmetatype.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmimedata.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmimedatabase.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmimetype.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qminmax.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qmutex.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qnamespace.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qnativeinterface.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qnumeric.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qobject.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qobject_impl.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qobjectcleanuphandler.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qobjectdefs.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qobjectdefs_impl.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qoperatingsystemversion.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qoverload.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpair.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qparallelanimationgroup.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpauseanimation.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpermissions.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qplugin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpluginloader.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpoint.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpointer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qprocess.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qprocessordetection.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpromise.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qproperty.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpropertyanimation.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qpropertyprivate.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qqueue.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qrandom.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qreadwritelock.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qrect.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qrefcount.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qregularexpression.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qresource.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qresultstore.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qrunnable.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsavefile.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qscopedpointer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qscopedvaluerollback.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qscopeguard.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsemaphore.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsequentialanimationgroup.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsequentialiterable.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qset.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsettings.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qshareddata.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qshareddata_impl.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsharedmemory.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsharedpointer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsignalmapper.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsimd.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsize.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsocketnotifier.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsortfilterproxymodel.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qspan.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstack.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstandardpaths.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstaticlatin1stringmatcher.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstorageinfo.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstring.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringalgorithms.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringbuilder.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringconverter.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringconverter_base.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringfwd.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringlist.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringlistmodel.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringliteral.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringmatcher.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringtokenizer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qstringview.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qswap.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsysinfo.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsystemdetection.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qsystemsemaphore.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtaggedpointer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtclasshelpermacros.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtconfiginclude.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtconfigmacros.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtcore-config.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtcoreexports.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtcoreversion.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtdeprecationmarkers.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtemporarydir.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtemporaryfile.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtextboundaryfinder.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtextstream.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qthread.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qthreadpool.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qthreadstorage.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtimeline.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtimer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtimezone.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtipccommon.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtmetamacros.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtnoop.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtpreprocessorsupport.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtranslator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtransposeproxymodel.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtresource.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtsan_impl.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtsymbolmacros.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qttranslation.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qttypetraits.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtversion.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtversionchecks.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtypeinfo.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtyperevision.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qtypes.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qurl.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qurlquery.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qutf8stringview.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/quuid.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qvariant.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qvariantanimation.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qvarianthash.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qvariantlist.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qvariantmap.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qvarlengtharray.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qvector.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qversionnumber.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qversiontagging.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qwaitcondition.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qwineventnotifier.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qxmlstream.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qxpfunctional.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qxptype_traits.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtCore/qyieldcpu.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/QAction \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/QIcon \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/QImage \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/QPixmap \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/QPixmapCache \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qaction.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qbitmap.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qbrush.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qcolor.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qcursor.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qfont.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qfontinfo.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qfontmetrics.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qicon.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qimage.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qkeysequence.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qpaintdevice.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qpalette.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qpixelformat.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qpixmap.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qpixmapcache.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qpolygon.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qregion.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qrgb.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qrgba64.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qtgui-config.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qtguiexports.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qtguiglobal.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qtransform.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qvalidator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qwindowdefs.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QNetworkAccessManager \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QNetworkReply \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QNetworkRequest \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QSslConfiguration \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QSslError \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QSslSocket \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QTcpServer \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QtNetwork \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/QtNetworkDepends \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qabstractnetworkcache.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qabstractsocket.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qauthenticator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qdnslookup.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qdtls.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qhostaddress.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qhostinfo.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qhstspolicy.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qhttp1configuration.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qhttp2configuration.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qhttpheaders.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qhttpmultipart.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qlocalserver.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qlocalsocket.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkcookie.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkcookiejar.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkdatagram.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkdiskcache.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkinformation.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkinterface.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkproxy.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkreply.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkrequest.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qnetworkrequestfactory.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qocspresponse.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qpassworddigestor.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qrestaccessmanager.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qrestreply.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qssl.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslcertificate.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslcertificateextension.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslcipher.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslconfiguration.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qssldiffiehellmanparameters.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslellipticcurve.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslerror.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslkey.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslserver.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qsslsocket.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qtcpserver.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qtcpsocket.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qtnetwork-config.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qtnetworkexports.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qtnetworkversion.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtNetwork/qudpsocket.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QButtonGroup \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QDialog \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QHeaderView \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QListWidgetItem \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QMenu \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QTabWidget \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QTreeView \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/QWidget \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qabstractitemview.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qabstractslider.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qbuttongroup.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qdialog.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qframe.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qheaderview.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qlistview.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qlistwidget.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qmenu.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qrubberband.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qsizepolicy.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qslider.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qstyle.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qstyleoption.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qtabbar.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qtabwidget.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qtreeview.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/6.7.3/mingw_64/include/QtWidgets/qwidget.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/adxintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxbf16intrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxcomplexintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxfp16intrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxint8intrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxtileintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx2intrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx5124fmapsintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx5124vnniwintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bf16intrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bf16vlintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bitalgintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bwintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512cdintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512dqintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512erintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fp16intrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fp16vlintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512ifmaintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512ifmavlintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512pfintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmi2intrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmi2vlintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmiintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmivlintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vlbwintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vldqintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vlintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vnniintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vnnivlintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2intersectvlintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vpopcntdqintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vpopcntdqvlintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxifmaintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxneconvertintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxvnniint8intrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxvnniintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmi2intrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmiintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/align.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_timed_wait.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_wait.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono_io.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functional_hash.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algo.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algobase.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_uninitialized.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/semaphore_base.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_atomic.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_list.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multimap.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multiset.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_relops.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_set.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stream_iterator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf_iterator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/this_thread_sleep.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/charconv \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/format \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/random \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/semaphore \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/set \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/span \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stop_token \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/streambuf \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string_view \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/system_error \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/bessel_function.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/beta_function.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/ell_integral.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/exp_integral.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/gamma.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/hypergeometric.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/modified_bessel_func.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_hermite.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/riemann_zeta.tcc \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/special_function_util.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/unordered_map \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/utility \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/variant \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cetintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cldemoteintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clflushoptintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clwbintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clzerointrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cmpccxaddintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/enqcmdintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/f16cintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fmaintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fxsrintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/gfniintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/hresetintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/ia32intrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/immintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/keylockerintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/lwpintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/lzcntintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/movdirintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitxintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pconfigintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pkuintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pmmintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/popcntintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/prfchiintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/prfchwintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/raointintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/rdseedintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/rtmintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/serializeintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/sgxintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/shaintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/smmintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tbmintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tmmintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/tsxldtrkintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/uintrintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/vaesintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/vpclmulqdqintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/waitpkgintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/wbnoinvdintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/wmmintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/x86gprintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsavecintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsaveintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsaveoptintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsavesintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xtestintrin.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_timeval.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/assert.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/corecrt.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/crtdefs.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ctype.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/errno.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/locale.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/process.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_compat.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_signal.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_time.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_unistd.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/semaphore.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/signal.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/stdio.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/string.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/swprintf.inl \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/timeb.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+  D:/Descargas/Desktop/de\ kevin/MultiMC/Nuevo\ proyecto/buildenv/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h

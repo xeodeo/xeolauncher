@@ -74,6 +74,7 @@ class NewInstanceDialog : public QDialog, public BasePageProvider {
     QString instName() const;
     QString instGroup() const;
     QString iconKey() const;
+    bool skipAuth() const;
 
    public slots:
     void accept() override;

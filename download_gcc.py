@@ -3,15 +3,31 @@ import zipfile
 import os
 import shutil
 import json
+import sys
 
 buildenv = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'buildenv')
 dest = os.path.join(buildenv, 'gcc.zip')
-final = r'C:\gcc'
+final = os.path.join(buildenv, 'gcc')
+
+def show_progress(block_num, block_size, total_size):
+    downloaded = block_num * block_size
+    if total_size > 0:
+        pct = min(downloaded / total_size * 100, 100)
+        filled = int(pct / 2)
+        bar = '█' * filled + '░' * (50 - filled)
+        mb_done = downloaded / 1_048_576
+        mb_total = total_size / 1_048_576
+        print(f'\r  [{bar}] {pct:5.1f}%  {mb_done:.1f}/{mb_total:.1f} MB', end='', flush=True)
+    else:
+        mb_done = downloaded / 1_048_576
+        print(f'\r  Descargado: {mb_done:.1f} MB', end='', flush=True)
 
 def extract_strip_top(zf, target_dir):
     """Extract zip directly into target_dir, stripping the top-level folder."""
-    top = zf.namelist()[0].split('/')[0]
-    for member in zf.infolist():
+    members = zf.infolist()
+    top = members[0].filename.split('/')[0]
+    total = len(members)
+    for i, member in enumerate(members):
         rel = member.filename
         if rel.startswith(top + '/'):
             rel = rel[len(top) + 1:]
@@ -24,15 +40,19 @@ def extract_strip_top(zf, target_dir):
             os.makedirs(os.path.dirname(target), exist_ok=True)
             with zf.open(member) as src, open(target, 'wb') as dst:
                 shutil.copyfileobj(src, dst)
+        pct = (i + 1) / total * 100
+        filled = int(pct / 2)
+        bar = '█' * filled + '░' * (50 - filled)
+        print(f'\r  [{bar}] {pct:5.1f}%  ({i+1}/{total} archivos)', end='', flush=True)
+    print()
 
 # Check if already done
 if os.path.exists(os.path.join(final, 'bin', 'gcc.exe')):
     print('GCC already installed at', final)
-    exit(0)
+    sys.exit(0)
 
 # Check if zip was already downloaded
 if not os.path.exists(dest):
-    # Find GCC 13.x UCRT x86_64 SEH via GitHub Releases API
     print('Buscando GCC 13.x en GitHub...')
     headers = {'User-Agent': 'Mozilla/5.0', 'Accept': 'application/vnd.github.v3+json'}
 
@@ -49,12 +69,11 @@ if not os.path.exists(dest):
         for release in releases:
             for asset in release.get('assets', []):
                 name = asset['name'].lower()
-                # Qt 6.7.3 uses mingw-w64 11.x (GCC 13.1 or 13.2) — 13.3 uses mingw-w64 12 (incompatible)
                 if ('x86_64' in name and 'ucrt' in name and 'seh' in name
                         and 'posix' in name and name.endswith('.zip')
                         and ('gcc-13.1' in name or 'gcc-13.2' in name)):
                     url = asset['browser_download_url']
-                    print(f'Encontrado: {asset["name"]}')
+                    print(f'  Encontrado: {asset["name"]}')
                     break
             if url:
                 break
@@ -63,10 +82,12 @@ if not os.path.exists(dest):
 
     if not url:
         print('ERROR: No se encontro GCC 13.x')
-        exit(1)
+        sys.exit(1)
 
-    print('Descargando (~120MB)...')
-    urllib.request.urlretrieve(url, dest)
+    os.makedirs(buildenv, exist_ok=True)
+    print('Descargando GCC (~120 MB)...')
+    urllib.request.urlretrieve(url, dest, reporthook=show_progress)
+    print()
 
 # Clear existing broken install
 if os.path.exists(final):
@@ -74,9 +95,9 @@ if os.path.exists(final):
     shutil.rmtree(final)
 os.makedirs(final, exist_ok=True)
 
-print('Extrayendo directamente a C:\\gcc ...')
+print('Extrayendo GCC...')
 with zipfile.ZipFile(dest) as z:
     extract_strip_top(z, final)
 
 os.remove(dest)
-print('Done — GCC at C:\\gcc\\bin\\gcc.exe')
+print(f'Listo — GCC en {final}\\bin\\gcc.exe')

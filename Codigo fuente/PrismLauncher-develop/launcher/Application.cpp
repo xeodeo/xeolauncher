@@ -392,27 +392,66 @@ Application::Application(int& argc, char** argv) : QApplication(argc, argv)
         adjustedBy = "System environment";
         dataPath = dataDirEnv;
     } else {
+#if defined(Q_OS_MACOS)
+        // macOS: always use standard AppData location
         QDir foo;
         if (DesktopServices::isSnap()) {
             foo = QDir(qEnvironmentVariable("SNAP_USER_COMMON"));
         } else {
             foo = QDir(FS::PathCombine(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation), ".."));
         }
-
         dataPath = foo.absolutePath();
         adjustedBy = "Persistent data path";
+#else
+        // Windows/Linux: check portable/custom modes, default to portable on Windows
 
-#ifndef Q_OS_MACOS
-        if (auto portableUserData = FS::PathCombine(m_rootPath, "UserData"); QDir(portableUserData).exists()) {
-            dataPath = portableUserData;
-            adjustedBy = "Portable user data path";
-            m_portable = true;
-        } else if (QFile::exists(FS::PathCombine(m_rootPath, "portable.txt"))) {
-            dataPath = m_rootPath;
-            adjustedBy = "Portable data path";
-            m_portable = true;
+        // 1. User-configured data path written by the settings UI (data_path.txt next to exe)
+        {
+            QString customDataPathFile = FS::PathCombine(m_rootPath, "data_path.txt");
+            if (QFile::exists(customDataPathFile)) {
+                QFile dpFile(customDataPathFile);
+                if (dpFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+                    QString customPath = QString::fromUtf8(dpFile.readAll()).trimmed();
+                    if (!customPath.isEmpty()) {
+                        dataPath = customPath;
+                        adjustedBy = "User-configured data path";
+                    }
+                }
+            }
         }
+
+        if (dataPath.isEmpty()) {
+            if (auto portableUserData = FS::PathCombine(m_rootPath, "UserData"); QDir(portableUserData).exists()) {
+                // 2. Legacy: UserData folder next to exe
+                dataPath = portableUserData;
+                adjustedBy = "Portable user data path";
+                m_portable = true;
+            } else if (QFile::exists(FS::PathCombine(m_rootPath, "portable.txt"))) {
+                // 3. Legacy: portable.txt marker next to exe
+                dataPath = m_rootPath;
+                adjustedBy = "Portable data path";
+                m_portable = true;
+#ifdef Q_OS_WIN32
+            } else {
+                // 4. Windows default: 'data' folder next to the executable
+                dataPath = FS::PathCombine(m_rootPath, "data");
+                adjustedBy = "Default data path";
+                m_portable = true;
+#else
+            } else {
+                // 4. Linux/BSD default: standard user data location
+                QDir foo;
+                if (DesktopServices::isSnap()) {
+                    foo = QDir(qEnvironmentVariable("SNAP_USER_COMMON"));
+                } else {
+                    foo = QDir(FS::PathCombine(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation), ".."));
+                }
+                dataPath = foo.absolutePath();
+                adjustedBy = "Persistent data path";
 #endif
+            }
+        }
+#endif  // !Q_OS_MACOS
     }
 
     if (!FS::ensureFolderPathExists(dataPath)) {
@@ -640,8 +679,8 @@ Application::Application(int& argc, char** argv) : QApplication(argc, argv)
 
         // Theming
         m_settings->registerSetting("IconTheme", QString());
-        m_settings->registerSetting("ApplicationTheme", QString());
-        m_settings->registerSetting("BackgroundCat", QString("kitteh"));
+        m_settings->registerSetting("ApplicationTheme", QString("xeo-dark"));
+        m_settings->registerSetting("IgnoredUpdateVersion", QString());
 
         // Remembered state
         m_settings->registerSetting("LastUsedGroupForNewInstance", QString());
@@ -788,11 +827,6 @@ Application::Application(int& argc, char** argv) : QApplication(argc, argv)
         // Custom Commands
         m_settings->registerSetting({ "PreLaunchCommand", "PreLaunchCmd" }, "");
         m_settings->registerSetting({ "PostExitCommand", "PostExitCmd" }, "");
-
-        // The cat
-        m_settings->registerSetting("TheCat", false);
-        m_settings->registerSetting("CatOpacity", 100);
-        m_settings->registerSetting("CatFit", "fit");
 
         m_settings->registerSetting("StatusBarVisible", true);
 
@@ -1234,12 +1268,7 @@ bool Application::createSetupWizard()
         if (!validIcons)
             settings()->set("IconTheme", QString("pe_colored"));
         if (!validWidgets) {
-#if defined(Q_OS_WIN32) && QT_VERSION >= QT_VERSION_CHECK(6, 5, 0)
-            const QString style =
-                QGuiApplication::styleHints()->colorScheme() == Qt::ColorScheme::Dark ? QStringLiteral("dark") : QStringLiteral("bright");
-#else
-            const QString style = QStringLiteral("system");
-#endif
+            const QString style = QStringLiteral("xeo-dark");
 
             settings()->set("ApplicationTheme", style);
         }

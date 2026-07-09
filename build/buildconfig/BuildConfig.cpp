@@ -61,14 +61,15 @@ Config::Config()
 
     BUILD_PLATFORM = "unknown";
     BUILD_ARTIFACT = "";
-    BUILD_DATE = "2026-06-16";
+    BUILD_DATE = "2026-07-09";
     UPDATER_GITHUB_REPO = "https://github.com/PrismLauncher/PrismLauncher";
+    GITHUB_REPO = "xeodeo/xeolauncher";
 
     COMPILER_NAME = "GNU";
     COMPILER_VERSION = "13.1.0";
 
     COMPILER_TARGET_SYSTEM = "Windows";
-    COMPILER_TARGET_SYSTEM_VERSION = "10.0.19044";
+    COMPILER_TARGET_SYSTEM_VERSION = "10.0.19045";
     COMPILER_TARGET_SYSTEM_PROCESSOR = "AMD64";
 
     MAC_SPARKLE_PUB_KEY = "";
@@ -104,8 +105,8 @@ Config::Config()
         VERSION_CHANNEL = "unknown";
     }
 
-    NEWS_RSS_URL = "https://prismlauncher.org/feed/feed.xml";
-    NEWS_OPEN_URL = "https://prismlauncher.org/news";
+    NEWS_RSS_URL = "https://github.com/xeodeo/xeolauncher/releases.atom";
+    NEWS_OPEN_URL = "https://github.com/xeodeo/xeolauncher/releases";
     WIKI_URL = "https://prismlauncher.org/wiki/";
     HELP_URL = "https://prismlauncher.org/wiki/help-pages/%1";
     LOGIN_CALLBACK_URL = "https://prismlauncher.org/successful-login";

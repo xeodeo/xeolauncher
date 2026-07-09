@@ -40,6 +40,7 @@
 #include "ui_LauncherPage.h"
 
 #include <QDir>
+#include <QFile>
 #include <QFileDialog>
 #include <QMenuBar>
 #include <QMessageBox>
@@ -86,6 +87,17 @@ bool LauncherPage::apply()
 {
     applySettings();
     return true;
+}
+
+void LauncherPage::on_dataDirBrowseBtn_clicked()
+{
+    QString rawDir = QFileDialog::getExistingDirectory(this, tr("Data Folder"), ui->dataDirTextBox->text());
+
+    if (!rawDir.isEmpty() && QDir(rawDir).exists()) {
+        QString cookedDir = FS::NormalizePath(rawDir);
+        ui->dataDirTextBox->setText(cookedDir);
+        ui->dataDirRestartLabel->setVisible(cookedDir != APPLICATION->dataRoot());
+    }
 }
 
 void LauncherPage::on_instDirBrowseBtn_clicked()
@@ -210,6 +222,24 @@ void LauncherPage::applySettings()
     s->set("ConsoleMaxLines", ui->lineLimitSpinBox->value());
     s->set("ConsoleOverflowStop", ui->checkStopLogging->checkState() != Qt::Unchecked);
 
+    // Data folder (root path override — written to data_path.txt next to exe)
+    {
+        QString newDataDir = FS::NormalizePath(ui->dataDirTextBox->text());
+        QString currentDataDir = APPLICATION->dataRoot();
+        if (newDataDir != currentDataDir) {
+            QString dataPathFile = FS::PathCombine(APPLICATION->root(), "data_path.txt");
+            QFile dpFile(dataPathFile);
+            if (dpFile.open(QIODevice::WriteOnly | QIODevice::Text | QIODevice::Truncate)) {
+                dpFile.write(newDataDir.toUtf8());
+                dpFile.close();
+                QMessageBox::information(
+                    this, tr("Restart Required"),
+                    tr("The data folder has been changed to:\n%1\n\nThe launcher must be restarted for this change to take effect.\n\nNote: existing data will NOT be moved automatically.")
+                        .arg(newDataDir));
+            }
+        }
+    }
+
     // Folders
     // TODO: Offer to move instances to new instance folder.
     s->set("InstanceDir", ui->instDirTextBox->text());
@@ -267,6 +297,10 @@ void LauncherPage::loadSettings()
     // Console settings
     ui->lineLimitSpinBox->setValue(s->get("ConsoleMaxLines").toInt());
     ui->checkStopLogging->setChecked(s->get("ConsoleOverflowStop").toBool());
+
+    // Data folder (root)
+    ui->dataDirTextBox->setText(APPLICATION->dataRoot());
+    ui->dataDirRestartLabel->setVisible(false);
 
     // Folders
     ui->instDirTextBox->setText(s->get("InstanceDir").toString());

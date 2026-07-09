@@ -99,6 +99,9 @@ class Config {
     /// URL for the updater's channel
     QString UPDATER_GITHUB_REPO;
 
+    /// GitHub repository slug (owner/repo) for the simple update checker
+    QString GITHUB_REPO;
+
     /// The public key used to sign releases for the Sparkle updater appcast
     QString MAC_SPARKLE_PUB_KEY;
 

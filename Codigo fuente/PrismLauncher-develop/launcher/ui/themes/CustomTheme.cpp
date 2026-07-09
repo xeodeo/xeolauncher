@@ -48,16 +48,12 @@ CustomTheme::CustomTheme(ITheme* baseTheme, QFileInfo& fileInfo, bool isManifest
     if (isManifest) {
         m_id = fileInfo.dir().dirName();
 
-        QString path = FS::PathCombine("themes", m_id);
-        QString pathResources = FS::PathCombine("themes", m_id, "resources");
-
-        if (!FS::ensureFolderPathExists(path)) {
-            themeWarningLog() << "Theme directory for" << m_id << "could not be created. This theme might be invalid";
-            return;
-        }
+        // Use the actual directory where theme.json was found (may be in exe dir or data dir)
+        QString path = fileInfo.dir().absolutePath();
+        QString pathResources = FS::PathCombine(path, "resources");
 
         if (!FS::ensureFolderPathExists(pathResources)) {
-            themeWarningLog() << "Resources directory for" << m_id << "could not be created";
+            themeDebugLog() << "Resources directory for" << m_id << "could not be created";
         }
 
         auto themeFilePath = FS::PathCombine(path, themeFile);

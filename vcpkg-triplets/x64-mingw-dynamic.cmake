@@ -7,4 +7,4 @@ set(VCPKG_CMAKE_SYSTEM_NAME MinGW)
 set(VCPKG_POLICY_DLLS_WITHOUT_LIBS enabled)
 
 # Use LLVM-MinGW (clang) instead of GCC
-set(VCPKG_CHAINLOAD_TOOLCHAIN_FILE "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/vcpkg-llvm-toolchain.cmake")
+set(VCPKG_CHAINLOAD_TOOLCHAIN_FILE "${CMAKE_CURRENT_LIST_DIR}/../vcpkg-llvm-toolchain.cmake")

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher
+# Install script for directory: D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Compiled/xeolauncher")
+  set(CMAKE_INSTALL_PREFIX "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Compiled/xeolauncher")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,32 +34,32 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/Debug/xeolauncher.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/Debug/xeolauncher.exe")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher.exe" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher.exe")
       if(CMAKE_INSTALL_DO_STRIP)
-        execute_process(COMMAND "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher.exe")
+        execute_process(COMMAND "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher.exe")
       endif()
     endif()
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/Release/xeolauncher.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/Release/xeolauncher.exe")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher.exe" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher.exe")
       if(CMAKE_INSTALL_DO_STRIP)
-        execute_process(COMMAND "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher.exe")
+        execute_process(COMMAND "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher.exe")
       endif()
     endif()
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/RelWithDebInfo/xeolauncher.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/RelWithDebInfo/xeolauncher.exe")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher.exe" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher.exe")
       if(CMAKE_INSTALL_DO_STRIP)
-        execute_process(COMMAND "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher.exe")
+        execute_process(COMMAND "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher.exe")
       endif()
     endif()
   endif()
@@ -67,27 +67,27 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/Debug/xeolauncher_filelink.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/Debug/xeolauncher_filelink.exe")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher_filelink.exe" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher_filelink.exe")
       if(CMAKE_INSTALL_DO_STRIP)
-        execute_process(COMMAND "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher_filelink.exe")
+        execute_process(COMMAND "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher_filelink.exe")
       endif()
     endif()
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/Release/xeolauncher_filelink.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/Release/xeolauncher_filelink.exe")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher_filelink.exe" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher_filelink.exe")
       if(CMAKE_INSTALL_DO_STRIP)
-        execute_process(COMMAND "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher_filelink.exe")
+        execute_process(COMMAND "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher_filelink.exe")
       endif()
     endif()
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/RelWithDebInfo/xeolauncher_filelink.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/RelWithDebInfo/xeolauncher_filelink.exe")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher_filelink.exe" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher_filelink.exe")
       if(CMAKE_INSTALL_DO_STRIP)
-        execute_process(COMMAND "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher_filelink.exe")
+        execute_process(COMMAND "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./xeolauncher_filelink.exe")
       endif()
     endif()
   endif()
@@ -98,13 +98,13 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "bundle" OR NOT CMAKE_INSTALL_COMPONENT)
     file(GET_RUNTIME_DEPENDENCIES
       RESOLVED_DEPENDENCIES_VAR _CMAKE_DEPS
       EXECUTABLES
-        "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/Debug/xeolauncher.exe"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/Debug/xeolauncher.exe"
       DIRECTORIES
-        "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Compiled/xeolauncher/bin"
-        "C:/Users/xeodeo/Desktop/MultiMC/buildenv/Qt/Tools/CMake_64/bin"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Compiled/xeolauncher/bin"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/CMake_64/bin"
         "/bin"
-        "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/lib"
-        "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/bin"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/lib"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/bin"
       PRE_EXCLUDE_REGEXES
         "^(api-ms-win|ext-ms)-.*\\.dll\$"
         "^azure.*\\.dll\$"
@@ -116,13 +116,13 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "bundle" OR NOT CMAKE_INSTALL_COMPONENT)
     file(GET_RUNTIME_DEPENDENCIES
       RESOLVED_DEPENDENCIES_VAR _CMAKE_DEPS
       EXECUTABLES
-        "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/Release/xeolauncher.exe"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/Release/xeolauncher.exe"
       DIRECTORIES
-        "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Compiled/xeolauncher/bin"
-        "C:/Users/xeodeo/Desktop/MultiMC/buildenv/Qt/Tools/CMake_64/bin"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Compiled/xeolauncher/bin"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/CMake_64/bin"
         "/bin"
-        "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/lib"
-        "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/bin"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/lib"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/bin"
       PRE_EXCLUDE_REGEXES
         "^(api-ms-win|ext-ms)-.*\\.dll\$"
         "^azure.*\\.dll\$"
@@ -134,13 +134,13 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "bundle" OR NOT CMAKE_INSTALL_COMPONENT)
     file(GET_RUNTIME_DEPENDENCIES
       RESOLVED_DEPENDENCIES_VAR _CMAKE_DEPS
       EXECUTABLES
-        "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/RelWithDebInfo/xeolauncher.exe"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/RelWithDebInfo/xeolauncher.exe"
       DIRECTORIES
-        "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Compiled/xeolauncher/bin"
-        "C:/Users/xeodeo/Desktop/MultiMC/buildenv/Qt/Tools/CMake_64/bin"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Compiled/xeolauncher/bin"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/CMake_64/bin"
         "/bin"
-        "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/lib"
-        "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/bin"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/lib"
+        "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/bin"
       PRE_EXCLUDE_REGEXES
         "^(api-ms-win|ext-ms)-.*\\.dll\$"
         "^azure.*\\.dll\$"
@@ -172,21 +172,21 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "bundle" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    include("C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/.qt/deploy_XeoLauncher_ebe098e0a2-Debug.cmake")
+    include("D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/.qt/deploy_XeoLauncher_ebe098e0a2-Debug.cmake")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    include("C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/.qt/deploy_XeoLauncher_ebe098e0a2-Release.cmake")
+    include("D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/.qt/deploy_XeoLauncher_ebe098e0a2-Release.cmake")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    include("C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/.qt/deploy_XeoLauncher_ebe098e0a2-RelWithDebInfo.cmake")
+    include("D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/.qt/deploy_XeoLauncher_ebe098e0a2-RelWithDebInfo.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "bundle" OR NOT CMAKE_INSTALL_COMPONENT)
   
-            set(QT_PLUGINS_DIR "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/plugins")
-            set(QT_LIBS_DIR "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/lib")
-            set(QT_LIBEXECS_DIR "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/bin")
-            set(CMAKE_SYSTEM_LIBRARY_PATH "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Compiled/xeolauncher/bin;C:/Users/xeodeo/Desktop/MultiMC/buildenv/Qt/Tools/CMake_64/bin;/bin")
-            set(CMAKE_INSTALL_PREFIX "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Compiled/xeolauncher")
+            set(QT_PLUGINS_DIR "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/plugins")
+            set(QT_LIBS_DIR "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/lib")
+            set(QT_LIBEXECS_DIR "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/6.7.3/mingw_64/bin")
+            set(CMAKE_SYSTEM_LIBRARY_PATH "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Compiled/xeolauncher/bin;D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/CMake_64/bin;/bin")
+            set(CMAKE_INSTALL_PREFIX "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Compiled/xeolauncher")
             
 endif()
 
@@ -226,13 +226,13 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "bundle" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Compiled/xeolauncher/./qtlogging.ini")
+   "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Compiled/xeolauncher/./qtlogging.ini")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Compiled/xeolauncher/." TYPE FILE FILES "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/qtlogging.ini")
+  file(INSTALL DESTINATION "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Compiled/xeolauncher/." TYPE FILE FILES "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/launcher/qtlogging.ini")
 endif()
 

@@ -12,12 +12,14 @@
 #include <QtCore/QVariant>
 #include <QtGui/QAction>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QFrame>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolBar>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 #include "ui/widgets/WideBar.h"
 
@@ -27,7 +29,6 @@ class Ui_MainWindow
 {
 public:
     QAction *actionMoreNews;
-    QAction *actionCAT;
     QAction *actionToggleStatusBar;
     QAction *actionLockToolbars;
     QAction *actionUndoTrashInstance;
@@ -74,9 +75,10 @@ public:
     QAction *actionOpenWiki;
     QAction *actionViewWidgetThemeFolder;
     QAction *actionViewIconThemeFolder;
-    QAction *actionViewCatPackFolder;
     QAction *actionViewJavaFolder;
     QWidget *centralWidget;
+    QVBoxLayout *centralLayout;
+    QFrame *updateBanner;
     QHBoxLayout *horizontalLayout;
     QStatusBar *statusBar;
     QToolBar *mainToolBar;
@@ -99,11 +101,6 @@ public:
         actionMoreNews->setObjectName("actionMoreNews");
         QIcon icon(QIcon::fromTheme(QString::fromUtf8("news")));
         actionMoreNews->setIcon(icon);
-        actionCAT = new QAction(MainWindow);
-        actionCAT->setObjectName("actionCAT");
-        actionCAT->setCheckable(true);
-        QIcon icon1(QIcon::fromTheme(QString::fromUtf8("cat")));
-        actionCAT->setIcon(icon1);
         actionToggleStatusBar = new QAction(MainWindow);
         actionToggleStatusBar->setObjectName("actionToggleStatusBar");
         actionToggleStatusBar->setCheckable(true);
@@ -115,182 +112,194 @@ public:
         actionUndoTrashInstance->setEnabled(false);
         actionAddInstance = new QAction(MainWindow);
         actionAddInstance->setObjectName("actionAddInstance");
-        QIcon icon2(QIcon::fromTheme(QString::fromUtf8("new")));
-        actionAddInstance->setIcon(icon2);
+        QIcon icon1(QIcon::fromTheme(QString::fromUtf8("new")));
+        actionAddInstance->setIcon(icon1);
         actionCheckUpdate = new QAction(MainWindow);
         actionCheckUpdate->setObjectName("actionCheckUpdate");
-        QIcon icon3(QIcon::fromTheme(QString::fromUtf8("checkupdate")));
-        actionCheckUpdate->setIcon(icon3);
+        QIcon icon2(QIcon::fromTheme(QString::fromUtf8("checkupdate")));
+        actionCheckUpdate->setIcon(icon2);
         actionCheckUpdate->setMenuRole(QAction::ApplicationSpecificRole);
         actionSettings = new QAction(MainWindow);
         actionSettings->setObjectName("actionSettings");
-        QIcon icon4(QIcon::fromTheme(QString::fromUtf8("settings")));
-        actionSettings->setIcon(icon4);
+        QIcon icon3(QIcon::fromTheme(QString::fromUtf8("settings")));
+        actionSettings->setIcon(icon3);
         actionSettings->setMenuRole(QAction::PreferencesRole);
         actionManageSkins = new QAction(MainWindow);
         actionManageSkins->setObjectName("actionManageSkins");
-        actionManageSkins->setIcon(icon4);
+        actionManageSkins->setIcon(icon3);
         actionManageAccounts = new QAction(MainWindow);
         actionManageAccounts->setObjectName("actionManageAccounts");
-        QIcon icon5(QIcon::fromTheme(QString::fromUtf8("accounts")));
-        actionManageAccounts->setIcon(icon5);
+        QIcon icon4(QIcon::fromTheme(QString::fromUtf8("accounts")));
+        actionManageAccounts->setIcon(icon4);
         actionLaunchInstance = new QAction(MainWindow);
         actionLaunchInstance->setObjectName("actionLaunchInstance");
-        QIcon icon6(QIcon::fromTheme(QString::fromUtf8("launch")));
-        actionLaunchInstance->setIcon(icon6);
+        QIcon icon5(QIcon::fromTheme(QString::fromUtf8("launch")));
+        actionLaunchInstance->setIcon(icon5);
         actionKillInstance = new QAction(MainWindow);
         actionKillInstance->setObjectName("actionKillInstance");
-        QIcon icon7(QIcon::fromTheme(QString::fromUtf8("status-bad")));
-        actionKillInstance->setIcon(icon7);
+        QIcon icon6(QIcon::fromTheme(QString::fromUtf8("status-bad")));
+        actionKillInstance->setIcon(icon6);
         actionRenameInstance = new QAction(MainWindow);
         actionRenameInstance->setObjectName("actionRenameInstance");
-        QIcon icon8(QIcon::fromTheme(QString::fromUtf8("rename")));
-        actionRenameInstance->setIcon(icon8);
+        QIcon icon7(QIcon::fromTheme(QString::fromUtf8("rename")));
+        actionRenameInstance->setIcon(icon7);
         actionChangeInstGroup = new QAction(MainWindow);
         actionChangeInstGroup->setObjectName("actionChangeInstGroup");
-        QIcon icon9(QIcon::fromTheme(QString::fromUtf8("tag")));
-        actionChangeInstGroup->setIcon(icon9);
+        QIcon icon8(QIcon::fromTheme(QString::fromUtf8("tag")));
+        actionChangeInstGroup->setIcon(icon8);
         actionChangeInstIcon = new QAction(MainWindow);
         actionChangeInstIcon->setObjectName("actionChangeInstIcon");
         actionEditInstance = new QAction(MainWindow);
         actionEditInstance->setObjectName("actionEditInstance");
-        actionEditInstance->setIcon(icon4);
+        actionEditInstance->setIcon(icon3);
         actionViewSelectedInstFolder = new QAction(MainWindow);
         actionViewSelectedInstFolder->setObjectName("actionViewSelectedInstFolder");
-        QIcon icon10(QIcon::fromTheme(QString::fromUtf8("viewfolder")));
-        actionViewSelectedInstFolder->setIcon(icon10);
+        QIcon icon9(QIcon::fromTheme(QString::fromUtf8("viewfolder")));
+        actionViewSelectedInstFolder->setIcon(icon9);
         actionDeleteInstance = new QAction(MainWindow);
         actionDeleteInstance->setObjectName("actionDeleteInstance");
-        QIcon icon11(QIcon::fromTheme(QString::fromUtf8("delete")));
-        actionDeleteInstance->setIcon(icon11);
+        QIcon icon10(QIcon::fromTheme(QString::fromUtf8("delete")));
+        actionDeleteInstance->setIcon(icon10);
         actionDeleteInstance->setAutoRepeat(false);
         actionCopyInstance = new QAction(MainWindow);
         actionCopyInstance->setObjectName("actionCopyInstance");
-        QIcon icon12(QIcon::fromTheme(QString::fromUtf8("copy")));
-        actionCopyInstance->setIcon(icon12);
+        QIcon icon11(QIcon::fromTheme(QString::fromUtf8("copy")));
+        actionCopyInstance->setIcon(icon11);
         actionExportInstance = new QAction(MainWindow);
         actionExportInstance->setObjectName("actionExportInstance");
-        QIcon icon13(QIcon::fromTheme(QString::fromUtf8("export")));
-        actionExportInstance->setIcon(icon13);
+        QIcon icon12(QIcon::fromTheme(QString::fromUtf8("export")));
+        actionExportInstance->setIcon(icon12);
         actionExportInstanceZip = new QAction(MainWindow);
         actionExportInstanceZip->setObjectName("actionExportInstanceZip");
-        QIcon icon14(QIcon::fromTheme(QString::fromUtf8("launcher")));
-        actionExportInstanceZip->setIcon(icon14);
+        QIcon icon13(QIcon::fromTheme(QString::fromUtf8("launcher")));
+        actionExportInstanceZip->setIcon(icon13);
         actionExportInstanceMrPack = new QAction(MainWindow);
         actionExportInstanceMrPack->setObjectName("actionExportInstanceMrPack");
-        QIcon icon15(QIcon::fromTheme(QString::fromUtf8("modrinth")));
-        actionExportInstanceMrPack->setIcon(icon15);
+        QIcon icon14(QIcon::fromTheme(QString::fromUtf8("modrinth")));
+        actionExportInstanceMrPack->setIcon(icon14);
         actionExportInstanceFlamePack = new QAction(MainWindow);
         actionExportInstanceFlamePack->setObjectName("actionExportInstanceFlamePack");
-        QIcon icon16(QIcon::fromTheme(QString::fromUtf8("flame")));
-        actionExportInstanceFlamePack->setIcon(icon16);
+        QIcon icon15(QIcon::fromTheme(QString::fromUtf8("flame")));
+        actionExportInstanceFlamePack->setIcon(icon15);
         actionCreateInstanceShortcut = new QAction(MainWindow);
         actionCreateInstanceShortcut->setObjectName("actionCreateInstanceShortcut");
-        QIcon icon17(QIcon::fromTheme(QString::fromUtf8("shortcut")));
-        actionCreateInstanceShortcut->setIcon(icon17);
+        QIcon icon16(QIcon::fromTheme(QString::fromUtf8("shortcut")));
+        actionCreateInstanceShortcut->setIcon(icon16);
         actionNoAccountsAdded = new QAction(MainWindow);
         actionNoAccountsAdded->setObjectName("actionNoAccountsAdded");
-        QIcon icon18(QIcon::fromTheme(QString::fromUtf8("noaccount")));
-        actionNoAccountsAdded->setIcon(icon18);
+        QIcon icon17(QIcon::fromTheme(QString::fromUtf8("noaccount")));
+        actionNoAccountsAdded->setIcon(icon17);
         actionNoDefaultAccount = new QAction(MainWindow);
         actionNoDefaultAccount->setObjectName("actionNoDefaultAccount");
         actionNoDefaultAccount->setCheckable(true);
-        actionNoDefaultAccount->setIcon(icon18);
+        actionNoDefaultAccount->setIcon(icon17);
         actionCloseWindow = new QAction(MainWindow);
         actionCloseWindow->setObjectName("actionCloseWindow");
-        actionCloseWindow->setIcon(icon7);
+        actionCloseWindow->setIcon(icon6);
         actionCloseWindow->setMenuRole(QAction::MenuRole::NoRole);
         actionViewInstanceFolder = new QAction(MainWindow);
         actionViewInstanceFolder->setObjectName("actionViewInstanceFolder");
-        actionViewInstanceFolder->setIcon(icon10);
+        actionViewInstanceFolder->setIcon(icon9);
         actionViewLauncherRootFolder = new QAction(MainWindow);
         actionViewLauncherRootFolder->setObjectName("actionViewLauncherRootFolder");
-        actionViewLauncherRootFolder->setIcon(icon10);
+        actionViewLauncherRootFolder->setIcon(icon9);
         actionViewCentralModsFolder = new QAction(MainWindow);
         actionViewCentralModsFolder->setObjectName("actionViewCentralModsFolder");
-        QIcon icon19(QIcon::fromTheme(QString::fromUtf8("centralmods")));
-        actionViewCentralModsFolder->setIcon(icon19);
+        QIcon icon18(QIcon::fromTheme(QString::fromUtf8("centralmods")));
+        actionViewCentralModsFolder->setIcon(icon18);
         actionViewSkinsFolder = new QAction(MainWindow);
         actionViewSkinsFolder->setObjectName("actionViewSkinsFolder");
-        actionViewSkinsFolder->setIcon(icon10);
+        actionViewSkinsFolder->setIcon(icon9);
         actionViewIconsFolder = new QAction(MainWindow);
         actionViewIconsFolder->setObjectName("actionViewIconsFolder");
-        actionViewIconsFolder->setIcon(icon10);
+        actionViewIconsFolder->setIcon(icon9);
         actionViewLogsFolder = new QAction(MainWindow);
         actionViewLogsFolder->setObjectName("actionViewLogsFolder");
-        actionViewLogsFolder->setIcon(icon10);
+        actionViewLogsFolder->setIcon(icon9);
         actionChangeTheme = new QAction(MainWindow);
         actionChangeTheme->setObjectName("actionChangeTheme");
         actionReportBug = new QAction(MainWindow);
         actionReportBug->setObjectName("actionReportBug");
-        QIcon icon20(QIcon::fromTheme(QString::fromUtf8("bug")));
-        actionReportBug->setIcon(icon20);
+        QIcon icon19(QIcon::fromTheme(QString::fromUtf8("bug")));
+        actionReportBug->setIcon(icon19);
         actionDISCORD = new QAction(MainWindow);
         actionDISCORD->setObjectName("actionDISCORD");
-        QIcon icon21(QIcon::fromTheme(QString::fromUtf8("discord")));
-        actionDISCORD->setIcon(icon21);
+        QIcon icon20(QIcon::fromTheme(QString::fromUtf8("discord")));
+        actionDISCORD->setIcon(icon20);
         actionMATRIX = new QAction(MainWindow);
         actionMATRIX->setObjectName("actionMATRIX");
-        QIcon icon22(QIcon::fromTheme(QString::fromUtf8("matrix")));
-        actionMATRIX->setIcon(icon22);
+        QIcon icon21(QIcon::fromTheme(QString::fromUtf8("matrix")));
+        actionMATRIX->setIcon(icon21);
         actionREDDIT = new QAction(MainWindow);
         actionREDDIT->setObjectName("actionREDDIT");
-        QIcon icon23(QIcon::fromTheme(QString::fromUtf8("reddit-alien")));
-        actionREDDIT->setIcon(icon23);
+        QIcon icon22(QIcon::fromTheme(QString::fromUtf8("reddit-alien")));
+        actionREDDIT->setIcon(icon22);
         actionAbout = new QAction(MainWindow);
         actionAbout->setObjectName("actionAbout");
-        QIcon icon24(QIcon::fromTheme(QString::fromUtf8("about")));
-        actionAbout->setIcon(icon24);
+        QIcon icon23(QIcon::fromTheme(QString::fromUtf8("about")));
+        actionAbout->setIcon(icon23);
         actionAbout->setMenuRole(QAction::AboutRole);
         actionClearMetadata = new QAction(MainWindow);
         actionClearMetadata->setObjectName("actionClearMetadata");
-        QIcon icon25(QIcon::fromTheme(QString::fromUtf8("refresh")));
-        actionClearMetadata->setIcon(icon25);
+        QIcon icon24(QIcon::fromTheme(QString::fromUtf8("refresh")));
+        actionClearMetadata->setIcon(icon24);
         actionViewLog = new QAction(MainWindow);
         actionViewLog->setObjectName("actionViewLog");
-        QIcon icon26;
+        QIcon icon25;
         QString iconThemeName = QString::fromUtf8("log");
         if (QIcon::hasThemeIcon(iconThemeName)) {
-            icon26 = QIcon::fromTheme(iconThemeName);
+            icon25 = QIcon::fromTheme(iconThemeName);
         } else {
-            icon26.addFile(QString::fromUtf8("."), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+            icon25.addFile(QString::fromUtf8("."), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
         }
-        actionViewLog->setIcon(icon26);
+        actionViewLog->setIcon(icon25);
         actionAddToPATH = new QAction(MainWindow);
         actionAddToPATH->setObjectName("actionAddToPATH");
-        QIcon icon27(QIcon::fromTheme(QString::fromUtf8("custom-commands")));
-        actionAddToPATH->setIcon(icon27);
+        QIcon icon26(QIcon::fromTheme(QString::fromUtf8("custom-commands")));
+        actionAddToPATH->setIcon(icon26);
         actionFoldersButton = new QAction(MainWindow);
         actionFoldersButton->setObjectName("actionFoldersButton");
-        actionFoldersButton->setIcon(icon10);
+        actionFoldersButton->setIcon(icon9);
         actionHelpButton = new QAction(MainWindow);
         actionHelpButton->setObjectName("actionHelpButton");
-        QIcon icon28(QIcon::fromTheme(QString::fromUtf8("help")));
-        actionHelpButton->setIcon(icon28);
+        QIcon icon27(QIcon::fromTheme(QString::fromUtf8("help")));
+        actionHelpButton->setIcon(icon27);
         actionAccountsButton = new QAction(MainWindow);
         actionAccountsButton->setObjectName("actionAccountsButton");
-        actionAccountsButton->setIcon(icon18);
+        actionAccountsButton->setIcon(icon17);
         actionOpenWiki = new QAction(MainWindow);
         actionOpenWiki->setObjectName("actionOpenWiki");
-        actionOpenWiki->setIcon(icon28);
+        actionOpenWiki->setIcon(icon27);
         actionViewWidgetThemeFolder = new QAction(MainWindow);
         actionViewWidgetThemeFolder->setObjectName("actionViewWidgetThemeFolder");
-        actionViewWidgetThemeFolder->setIcon(icon10);
+        actionViewWidgetThemeFolder->setIcon(icon9);
         actionViewIconThemeFolder = new QAction(MainWindow);
         actionViewIconThemeFolder->setObjectName("actionViewIconThemeFolder");
-        actionViewIconThemeFolder->setIcon(icon10);
-        actionViewCatPackFolder = new QAction(MainWindow);
-        actionViewCatPackFolder->setObjectName("actionViewCatPackFolder");
-        actionViewCatPackFolder->setIcon(icon10);
+        actionViewIconThemeFolder->setIcon(icon9);
         actionViewJavaFolder = new QAction(MainWindow);
         actionViewJavaFolder->setObjectName("actionViewJavaFolder");
-        actionViewJavaFolder->setIcon(icon10);
+        actionViewJavaFolder->setIcon(icon9);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName("centralWidget");
-        horizontalLayout = new QHBoxLayout(centralWidget);
+        centralLayout = new QVBoxLayout(centralWidget);
+        centralLayout->setSpacing(0);
+        centralLayout->setObjectName("centralLayout");
+        centralLayout->setContentsMargins(0, 0, 0, 0);
+        updateBanner = new QFrame(centralWidget);
+        updateBanner->setObjectName("updateBanner");
+        updateBanner->setVisible(false);
+        updateBanner->setFrameShape(QFrame::StyledPanel);
+        updateBanner->setFrameShadow(QFrame::Raised);
+
+        centralLayout->addWidget(updateBanner);
+
+        horizontalLayout = new QHBoxLayout();
         horizontalLayout->setSpacing(0);
         horizontalLayout->setObjectName("horizontalLayout");
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
+
+        centralLayout->addLayout(horizontalLayout);
+
         MainWindow->setCentralWidget(centralWidget);
         statusBar = new QStatusBar(MainWindow);
         statusBar->setObjectName("statusBar");
@@ -345,7 +354,6 @@ public:
         mainToolBar->addAction(actionHelpButton);
         mainToolBar->addAction(actionCheckUpdate);
         mainToolBar->addSeparator();
-        mainToolBar->addAction(actionCAT);
         mainToolBar->addAction(actionAccountsButton);
         newsToolBar->addAction(actionMoreNews);
         instanceToolBar->addAction(actionLaunchInstance);
@@ -382,7 +390,6 @@ public:
         editMenu->addAction(actionUndoTrashInstance);
         viewMenu->addAction(actionChangeTheme);
         viewMenu->addSeparator();
-        viewMenu->addAction(actionCAT);
         viewMenu->addAction(actionToggleStatusBar);
         viewMenu->addAction(actionLockToolbars);
         viewMenu->addSeparator();
@@ -395,7 +402,6 @@ public:
         foldersMenu->addSeparator();
         foldersMenu->addAction(actionViewIconThemeFolder);
         foldersMenu->addAction(actionViewWidgetThemeFolder);
-        foldersMenu->addAction(actionViewCatPackFolder);
         foldersMenu->addAction(actionViewIconsFolder);
         foldersMenu->addSeparator();
         foldersMenu->addAction(actionViewLogsFolder);
@@ -423,10 +429,6 @@ public:
         actionMoreNews->setText(QCoreApplication::translate("MainWindow", "More News...", nullptr));
 #if QT_CONFIG(tooltip)
         actionMoreNews->setToolTip(QCoreApplication::translate("MainWindow", "Open the development blog to read more news about %1.", nullptr));
-#endif // QT_CONFIG(tooltip)
-        actionCAT->setText(QCoreApplication::translate("MainWindow", "&Meow", nullptr));
-#if QT_CONFIG(tooltip)
-        actionCAT->setToolTip(QCoreApplication::translate("MainWindow", "It's a fluffy kitty :3", nullptr));
 #endif // QT_CONFIG(tooltip)
         actionToggleStatusBar->setText(QCoreApplication::translate("MainWindow", "Status Bar", nullptr));
         actionLockToolbars->setText(QCoreApplication::translate("MainWindow", "Lock Toolbars", nullptr));
@@ -590,10 +592,6 @@ public:
         actionViewIconThemeFolder->setText(QCoreApplication::translate("MainWindow", "I&con Theme", nullptr));
 #if QT_CONFIG(tooltip)
         actionViewIconThemeFolder->setToolTip(QCoreApplication::translate("MainWindow", "Open the icon theme folder in a file browser.", nullptr));
-#endif // QT_CONFIG(tooltip)
-        actionViewCatPackFolder->setText(QCoreApplication::translate("MainWindow", "Cat Packs", nullptr));
-#if QT_CONFIG(tooltip)
-        actionViewCatPackFolder->setToolTip(QCoreApplication::translate("MainWindow", "Open the cat packs folder in a file browser.", nullptr));
 #endif // QT_CONFIG(tooltip)
         actionViewJavaFolder->setText(QCoreApplication::translate("MainWindow", "Java", nullptr));
 #if QT_CONFIG(tooltip)

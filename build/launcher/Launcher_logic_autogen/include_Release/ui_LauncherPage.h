@@ -57,6 +57,10 @@ public:
     QCheckBox *autoUpdateCheckBox;
     QGroupBox *foldersBox;
     QGridLayout *gridLayout;
+    QLabel *labelDataDir;
+    QLineEdit *dataDirTextBox;
+    QPushButton *dataDirBrowseBtn;
+    QLabel *dataDirRestartLabel;
     QLineEdit *skinsDirTextBox;
     QPushButton *skinsDirBrowseBtn;
     QLabel *labelJavaDir;
@@ -236,95 +240,117 @@ public:
         foldersBox->setObjectName("foldersBox");
         gridLayout = new QGridLayout(foldersBox);
         gridLayout->setObjectName("gridLayout");
+        labelDataDir = new QLabel(foldersBox);
+        labelDataDir->setObjectName("labelDataDir");
+
+        gridLayout->addWidget(labelDataDir, 0, 0, 1, 1);
+
+        dataDirTextBox = new QLineEdit(foldersBox);
+        dataDirTextBox->setObjectName("dataDirTextBox");
+
+        gridLayout->addWidget(dataDirTextBox, 0, 1, 1, 1);
+
+        dataDirBrowseBtn = new QPushButton(foldersBox);
+        dataDirBrowseBtn->setObjectName("dataDirBrowseBtn");
+
+        gridLayout->addWidget(dataDirBrowseBtn, 0, 2, 1, 1);
+
+        dataDirRestartLabel = new QLabel(foldersBox);
+        dataDirRestartLabel->setObjectName("dataDirRestartLabel");
+        dataDirRestartLabel->setWordWrap(true);
+        dataDirRestartLabel->setVisible(false);
+
+        gridLayout->addWidget(dataDirRestartLabel, 1, 0, 1, 3);
+
         skinsDirTextBox = new QLineEdit(foldersBox);
         skinsDirTextBox->setObjectName("skinsDirTextBox");
 
-        gridLayout->addWidget(skinsDirTextBox, 4, 1, 1, 1);
+        gridLayout->addWidget(skinsDirTextBox, 2, 1, 1, 1);
 
         skinsDirBrowseBtn = new QPushButton(foldersBox);
         skinsDirBrowseBtn->setObjectName("skinsDirBrowseBtn");
 
-        gridLayout->addWidget(skinsDirBrowseBtn, 4, 2, 1, 1);
+        gridLayout->addWidget(skinsDirBrowseBtn, 2, 2, 1, 1);
 
         labelJavaDir = new QLabel(foldersBox);
         labelJavaDir->setObjectName("labelJavaDir");
 
-        gridLayout->addWidget(labelJavaDir, 3, 0, 1, 1);
+        gridLayout->addWidget(labelJavaDir, 5, 0, 1, 1);
 
         iconsDirBrowseBtn = new QPushButton(foldersBox);
         iconsDirBrowseBtn->setObjectName("iconsDirBrowseBtn");
 
-        gridLayout->addWidget(iconsDirBrowseBtn, 2, 2, 1, 1);
+        gridLayout->addWidget(iconsDirBrowseBtn, 4, 2, 1, 1);
 
         labelSkinsDir = new QLabel(foldersBox);
         labelSkinsDir->setObjectName("labelSkinsDir");
 
-        gridLayout->addWidget(labelSkinsDir, 4, 0, 1, 1);
+        gridLayout->addWidget(labelSkinsDir, 2, 0, 1, 1);
 
         labelModsDir = new QLabel(foldersBox);
         labelModsDir->setObjectName("labelModsDir");
 
-        gridLayout->addWidget(labelModsDir, 1, 0, 1, 1);
+        gridLayout->addWidget(labelModsDir, 3, 0, 1, 1);
 
         javaDirBrowseBtn = new QPushButton(foldersBox);
         javaDirBrowseBtn->setObjectName("javaDirBrowseBtn");
 
-        gridLayout->addWidget(javaDirBrowseBtn, 3, 2, 1, 1);
+        gridLayout->addWidget(javaDirBrowseBtn, 5, 2, 1, 1);
 
         labelDownloadsDir = new QLabel(foldersBox);
         labelDownloadsDir->setObjectName("labelDownloadsDir");
 
-        gridLayout->addWidget(labelDownloadsDir, 5, 0, 1, 1);
+        gridLayout->addWidget(labelDownloadsDir, 7, 0, 1, 1);
 
         downloadsDirTextBox = new QLineEdit(foldersBox);
         downloadsDirTextBox->setObjectName("downloadsDirTextBox");
 
-        gridLayout->addWidget(downloadsDirTextBox, 5, 1, 1, 1);
+        gridLayout->addWidget(downloadsDirTextBox, 7, 1, 1, 1);
 
         modsDirTextBox = new QLineEdit(foldersBox);
         modsDirTextBox->setObjectName("modsDirTextBox");
 
-        gridLayout->addWidget(modsDirTextBox, 1, 1, 1, 1);
+        gridLayout->addWidget(modsDirTextBox, 3, 1, 1, 1);
 
         labelInstDir = new QLabel(foldersBox);
         labelInstDir->setObjectName("labelInstDir");
 
-        gridLayout->addWidget(labelInstDir, 0, 0, 1, 1);
+        gridLayout->addWidget(labelInstDir, 6, 0, 1, 1);
 
         instDirBrowseBtn = new QPushButton(foldersBox);
         instDirBrowseBtn->setObjectName("instDirBrowseBtn");
 
-        gridLayout->addWidget(instDirBrowseBtn, 0, 2, 1, 1);
+        gridLayout->addWidget(instDirBrowseBtn, 6, 2, 1, 1);
 
         downloadsDirBrowseBtn = new QPushButton(foldersBox);
         downloadsDirBrowseBtn->setObjectName("downloadsDirBrowseBtn");
 
-        gridLayout->addWidget(downloadsDirBrowseBtn, 5, 2, 1, 1);
+        gridLayout->addWidget(downloadsDirBrowseBtn, 7, 2, 1, 1);
 
         instDirTextBox = new QLineEdit(foldersBox);
         instDirTextBox->setObjectName("instDirTextBox");
 
-        gridLayout->addWidget(instDirTextBox, 0, 1, 1, 1);
+        gridLayout->addWidget(instDirTextBox, 6, 1, 1, 1);
 
         modsDirBrowseBtn = new QPushButton(foldersBox);
         modsDirBrowseBtn->setObjectName("modsDirBrowseBtn");
 
-        gridLayout->addWidget(modsDirBrowseBtn, 1, 2, 1, 1);
+        gridLayout->addWidget(modsDirBrowseBtn, 3, 2, 1, 1);
 
         javaDirTextBox = new QLineEdit(foldersBox);
         javaDirTextBox->setObjectName("javaDirTextBox");
 
-        gridLayout->addWidget(javaDirTextBox, 3, 1, 1, 1);
+        gridLayout->addWidget(javaDirTextBox, 5, 1, 1, 1);
 
         iconsDirTextBox = new QLineEdit(foldersBox);
         iconsDirTextBox->setObjectName("iconsDirTextBox");
 
-        gridLayout->addWidget(iconsDirTextBox, 2, 1, 1, 1);
+        gridLayout->addWidget(iconsDirTextBox, 4, 1, 1, 1);
 
         labelIconsDir = new QLabel(foldersBox);
         labelIconsDir->setObjectName("labelIconsDir");
 
-        gridLayout->addWidget(labelIconsDir, 2, 0, 1, 1);
+        gridLayout->addWidget(labelIconsDir, 4, 0, 1, 1);
 
 
         verticalLayout_8->addWidget(foldersBox);
@@ -493,6 +519,7 @@ public:
         verticalLayout->addWidget(scrollArea);
 
 #if QT_CONFIG(shortcut)
+        labelDataDir->setBuddy(dataDirTextBox);
         labelJavaDir->setBuddy(javaDirTextBox);
         labelSkinsDir->setBuddy(skinsDirTextBox);
         labelModsDir->setBuddy(modsDirTextBox);
@@ -504,7 +531,9 @@ public:
         QWidget::setTabOrder(scrollArea, preferMenuBarCheckBox);
         QWidget::setTabOrder(preferMenuBarCheckBox, autoUpdateCheckBox);
         QWidget::setTabOrder(autoUpdateCheckBox, updateIntervalSpinBox);
-        QWidget::setTabOrder(updateIntervalSpinBox, instDirTextBox);
+        QWidget::setTabOrder(updateIntervalSpinBox, dataDirTextBox);
+        QWidget::setTabOrder(dataDirTextBox, dataDirBrowseBtn);
+        QWidget::setTabOrder(dataDirBrowseBtn, instDirTextBox);
         QWidget::setTabOrder(instDirTextBox, instDirBrowseBtn);
         QWidget::setTabOrder(instDirBrowseBtn, modsDirTextBox);
         QWidget::setTabOrder(modsDirTextBox, modsDirBrowseBtn);
@@ -557,6 +586,12 @@ public:
         updateIntervalSpinBox->setPrefix(QCoreApplication::translate("LauncherPage", "Every ", nullptr));
         autoUpdateCheckBox->setText(QCoreApplication::translate("LauncherPage", "Check for updates automatically", nullptr));
         foldersBox->setTitle(QCoreApplication::translate("LauncherPage", "Folders", nullptr));
+#if QT_CONFIG(tooltip)
+        labelDataDir->setToolTip(QCoreApplication::translate("LauncherPage", "Root folder where the launcher stores all its data (instances, mods, icons, etc.). Requires a restart to take effect.", nullptr));
+#endif // QT_CONFIG(tooltip)
+        labelDataDir->setText(QCoreApplication::translate("LauncherPage", "&Data Folder:", nullptr));
+        dataDirBrowseBtn->setText(QCoreApplication::translate("LauncherPage", "Browse", nullptr));
+        dataDirRestartLabel->setText(QCoreApplication::translate("LauncherPage", "<html><head/><body><p><span style=\" color:#f5c211;\">\342\232\240 Changing the data folder requires a restart. Existing data will NOT be moved automatically.</span></p></body></html>", nullptr));
         skinsDirBrowseBtn->setText(QCoreApplication::translate("LauncherPage", "Browse", nullptr));
 #if QT_CONFIG(tooltip)
         labelJavaDir->setToolTip(QCoreApplication::translate("LauncherPage", "Folder where Prism Launcher stores automatically downloaded Java versions. Do NOT set this to your system Java installation.", nullptr));

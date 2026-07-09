@@ -138,6 +138,12 @@ LaunchDecision LaunchController::decideLaunchMode()
         return LaunchDecision::Continue;
     }
 
+    // Per-instance opt-in: skip Mojang auth for online-mode=false servers
+    if (m_instance && m_instance->settings()->get("SkipAuthForInstance").toBool()) {
+        m_actualLaunchMode = LaunchMode::Offline;
+        return LaunchDecision::Continue;
+    }
+
     MinecraftAccountPtr accountToCheck = m_accountToUse->ownsMinecraft() ? m_accountToUse : nullptr;
 
     if (!accountToCheck) {

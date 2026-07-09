@@ -294,6 +294,11 @@ QString NewInstanceDialog::iconKey() const
     return InstIconKey;
 }
 
+bool NewInstanceDialog::skipAuth() const
+{
+    return ui->skipAuthCheckBox->isChecked();
+}
+
 void NewInstanceDialog::on_iconButton_clicked()
 {
     importIconNow();  // so the user can switch back

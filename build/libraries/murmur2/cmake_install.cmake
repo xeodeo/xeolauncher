@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/murmur2
+# Install script for directory: D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Codigo fuente/PrismLauncher-develop/libraries/murmur2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/Compiled/xeolauncher")
+  set(CMAKE_INSTALL_PREFIX "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/Compiled/xeolauncher")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,6 +34,6 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/Qt/Tools/mingw1310_64/bin/objdump.exe")
 endif()
 

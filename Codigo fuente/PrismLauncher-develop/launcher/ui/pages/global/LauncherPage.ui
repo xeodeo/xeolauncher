@@ -239,17 +239,53 @@
           <string>Folders</string>
          </property>
          <layout class="QGridLayout" name="gridLayout">
-          <item row="4" column="1">
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelDataDir">
+            <property name="toolTip">
+             <string>Root folder where the launcher stores all its data (instances, mods, icons, etc.). Requires a restart to take effect.</string>
+            </property>
+            <property name="text">
+             <string>&amp;Data Folder:</string>
+            </property>
+            <property name="buddy">
+             <cstring>dataDirTextBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="dataDirTextBox"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="dataDirBrowseBtn">
+            <property name="text">
+             <string>Browse</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="3">
+           <widget class="QLabel" name="dataDirRestartLabel">
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f5c211;&quot;&gt;&#9888; Changing the data folder requires a restart. Existing data will NOT be moved automatically.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="visible">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
            <widget class="QLineEdit" name="skinsDirTextBox"/>
           </item>
-          <item row="4" column="2">
+          <item row="2" column="2">
            <widget class="QPushButton" name="skinsDirBrowseBtn">
             <property name="text">
              <string>Browse</string>
             </property>
            </widget>
           </item>
-          <item row="3" column="0">
+          <item row="5" column="0">
            <widget class="QLabel" name="labelJavaDir">
             <property name="toolTip">
              <string>Folder where Prism Launcher stores automatically downloaded Java versions. Do NOT set this to your system Java installation.</string>
@@ -262,14 +298,14 @@
             </property>
            </widget>
           </item>
-          <item row="2" column="2">
+          <item row="4" column="2">
            <widget class="QPushButton" name="iconsDirBrowseBtn">
             <property name="text">
              <string>Browse</string>
             </property>
            </widget>
           </item>
-          <item row="4" column="0">
+          <item row="2" column="0">
            <widget class="QLabel" name="labelSkinsDir">
             <property name="text">
              <string>&amp;Skins:</string>
@@ -279,7 +315,7 @@
             </property>
            </widget>
           </item>
-          <item row="1" column="0">
+          <item row="3" column="0">
            <widget class="QLabel" name="labelModsDir">
             <property name="text">
              <string>&amp;Mods:</string>
@@ -289,14 +325,14 @@
             </property>
            </widget>
           </item>
-          <item row="3" column="2">
+          <item row="5" column="2">
            <widget class="QPushButton" name="javaDirBrowseBtn">
             <property name="text">
              <string>Browse</string>
             </property>
            </widget>
           </item>
-          <item row="5" column="0">
+          <item row="7" column="0">
            <widget class="QLabel" name="labelDownloadsDir">
             <property name="text">
              <string>&amp;Downloads:</string>
@@ -306,13 +342,13 @@
             </property>
            </widget>
           </item>
-          <item row="5" column="1">
+          <item row="7" column="1">
            <widget class="QLineEdit" name="downloadsDirTextBox"/>
           </item>
-          <item row="1" column="1">
+          <item row="3" column="1">
            <widget class="QLineEdit" name="modsDirTextBox"/>
           </item>
-          <item row="0" column="0">
+          <item row="6" column="0">
            <widget class="QLabel" name="labelInstDir">
             <property name="text">
              <string>I&amp;nstances:</string>
@@ -322,37 +358,37 @@
             </property>
            </widget>
           </item>
-          <item row="0" column="2">
+          <item row="6" column="2">
            <widget class="QPushButton" name="instDirBrowseBtn">
             <property name="text">
              <string>Browse</string>
             </property>
            </widget>
           </item>
-          <item row="5" column="2">
+          <item row="7" column="2">
            <widget class="QPushButton" name="downloadsDirBrowseBtn">
             <property name="text">
              <string>Browse</string>
             </property>
            </widget>
           </item>
-          <item row="0" column="1">
+          <item row="6" column="1">
            <widget class="QLineEdit" name="instDirTextBox"/>
           </item>
-          <item row="1" column="2">
+          <item row="3" column="2">
            <widget class="QPushButton" name="modsDirBrowseBtn">
             <property name="text">
              <string>Browse</string>
             </property>
            </widget>
           </item>
-          <item row="3" column="1">
+          <item row="5" column="1">
            <widget class="QLineEdit" name="javaDirTextBox"/>
           </item>
-          <item row="2" column="1">
+          <item row="4" column="1">
            <widget class="QLineEdit" name="iconsDirTextBox"/>
           </item>
-          <item row="2" column="0">
+          <item row="4" column="0">
            <widget class="QLabel" name="labelIconsDir">
             <property name="text">
              <string>&amp;Icons:</string>
@@ -676,6 +712,8 @@
   <tabstop>preferMenuBarCheckBox</tabstop>
   <tabstop>autoUpdateCheckBox</tabstop>
   <tabstop>updateIntervalSpinBox</tabstop>
+  <tabstop>dataDirTextBox</tabstop>
+  <tabstop>dataDirBrowseBtn</tabstop>
   <tabstop>instDirTextBox</tabstop>
   <tabstop>instDirBrowseBtn</tabstop>
   <tabstop>modsDirTextBox</tabstop>

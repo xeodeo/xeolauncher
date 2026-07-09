@@ -1,8 +1,10 @@
 #include "AuthSession.h"
+#include <QCryptographicHash>
 #include <QJsonArray>
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QStringList>
+#include <QUuid>
 
 QString AuthSession::serializeUserProperties()
 {
@@ -20,9 +22,20 @@ QString AuthSession::serializeUserProperties()
 
 bool AuthSession::MakeOffline(QString offline_playername)
 {
-    session = "-";
-    access_token = "0";
+    // Generate offline UUID from username (same algorithm as vanilla Minecraft offline)
+    auto input = QString("OfflinePlayer:%1").arg(offline_playername).toUtf8();
+    QByteArray hash = QCryptographicHash::hash(input, QCryptographicHash::Md5);
+    hash[6] = (hash[6] & 0x0f) | 0x30;  // version 3
+    hash[8] = (hash[8] & 0x3f) | 0x80;  // RFC 4122 variant
+    QString offlineUuid = QUuid::fromRfc4122(hash).toString(QUuid::WithoutBraces);
+
+    // Use a valid session format so Minecraft can join online-mode=false servers
+    QString fakeToken = QUuid::createUuid().toString(QUuid::WithoutBraces).remove('-');
+    uuid = offlineUuid;
+    access_token = fakeToken;
+    session = QString("token:%1:%2").arg(fakeToken, offlineUuid);
     player_name = offline_playername;
+    user_type = "mojang";
     return true;
 }
 

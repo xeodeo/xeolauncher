@@ -178,8 +178,8 @@ endif()
 ##################################### Set Application options #####################################
 
 ######## Set URLs ########
-set(Launcher_NEWS_RSS_URL "https://prismlauncher.org/feed/feed.xml" CACHE STRING "URL to fetch Prism Launcher's news RSS feed from.")
-set(Launcher_NEWS_OPEN_URL "https://prismlauncher.org/news" CACHE STRING "URL that gets opened when the user clicks 'More News'")
+set(Launcher_NEWS_RSS_URL "https://github.com/xeodeo/xeolauncher/releases.atom" CACHE STRING "URL to fetch XeoLauncher release news from.")
+set(Launcher_NEWS_OPEN_URL "https://github.com/xeodeo/xeolauncher/releases" CACHE STRING "URL to open when user clicks More News")
 set(Launcher_WIKI_URL "https://prismlauncher.org/wiki/" CACHE STRING "URL that gets opened when the user clicks 'Launcher Help'")
 set(Launcher_HELP_URL "https://prismlauncher.org/wiki/help-pages/%1" CACHE STRING "URL (with arg %1 to be substituted with page-id) that gets opened when the user requests help in a dialog window")
 set(Launcher_LOGIN_CALLBACK_URL "https://prismlauncher.org/successful-login" CACHE STRING "URL that gets opened when the user successfully logins.")
@@ -199,6 +199,9 @@ set(Launcher_BUILD_PLATFORM "unknown" CACHE STRING "A short string identifying t
 
 # Github repo URL with releases for updater
 set(Launcher_UPDATER_GITHUB_REPO "https://github.com/PrismLauncher/PrismLauncher" CACHE STRING "Base github URL for the updater.")
+
+# GitHub repo slug (owner/repo) for the simple update checker
+set(Launcher_GITHUB_REPO "xeodeo/xeolauncher" CACHE STRING "GitHub repository slug used to check for new releases (owner/repo).")
 
 # Name to help updater identify valid artifacts
 set(Launcher_BUILD_ARTIFACT "" CACHE STRING "Artifact name to help the updater identify valid artifacts.")

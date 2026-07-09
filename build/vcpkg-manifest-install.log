@@ -1,23 +1,451 @@
 Detecting compiler hash for triplet x64-mingw-dynamic...
-Compiler found: C:/gcc/bin/g++.exe
-The following packages are already installed:
-  * bzip2[core,tool]:x64-mingw-dynamic@1.0.8#6
-    cmark:x64-mingw-dynamic@0.31.1
-    ecm:x64-mingw-dynamic@6.7.0#1
-    libarchive[core,zstd,lzo,lzma,lz4,bzip2]:x64-mingw-dynamic@3.8.2
-  * liblzma:x64-mingw-dynamic@5.8.1
-    libqrencode:x64-mingw-dynamic@4.1.1#3
-  * lz4:x64-mingw-dynamic@1.10.0
-  * lzo:x64-mingw-dynamic@2.10#9
-    pkgconf:x64-mingw-dynamic@2.5.1#4
-    tomlplusplus:x64-mingw-dynamic@3.4.0#1
-  * vcpkg-cmake:x64-mingw-dynamic@2024-04-23
-  * vcpkg-cmake-config:x64-mingw-dynamic@2024-05-23
-  * vcpkg-cmake-get-vars:x64-mingw-dynamic@2025-05-29
-  * vcpkg-tool-meson:x64-mingw-dynamic@1.8.2
-    vulkan-headers:x64-mingw-dynamic@1.4.309.0
-    zlib:x64-mingw-dynamic@1.3.1
-  * zstd:x64-mingw-dynamic@1.5.7
+Compiler found: D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/gcc/bin/g++.exe
+The following packages will be rebuilt:
+  * bzip2[core,tool]:x64-mingw-dynamic@1.0.8#6 -- git+https://github.com/microsoft/vcpkg@2d029da682847c5ebdc54e4dbea001331a02207e
+    cmark:x64-mingw-dynamic@0.31.1 -- git+https://github.com/microsoft/vcpkg@159e4cc034614fb2158e373eb2d992a4fa29a343
+    ecm:x64-mingw-dynamic@6.7.0#1 -- git+https://github.com/microsoft/vcpkg@7e876677d7266faf1a354f2e90d6d79b9f1b70e5
+    libarchive[bzip2,core,lz4,lzma,lzo,zstd]:x64-mingw-dynamic@3.8.2 -- git+https://github.com/microsoft/vcpkg@aa11cf7a588bfab1d9c3b555902c09056176183c
+  * liblzma:x64-mingw-dynamic@5.8.1 -- git+https://github.com/microsoft/vcpkg@55eb3803f1d0388aebca8fd293963721bbf0092c
+    libqrencode:x64-mingw-dynamic@4.1.1#3 -- git+https://github.com/microsoft/vcpkg@597b668f55e912cd6687526ace66d83065321cd1
+  * lz4:x64-mingw-dynamic@1.10.0 -- git+https://github.com/microsoft/vcpkg@4f01eec10f515a428e914107c5188366380f8dd9
+  * lzo:x64-mingw-dynamic@2.10#9 -- git+https://github.com/microsoft/vcpkg@fcd8844a4e80d418bf894cf93a0453f067e404de
+    pkgconf:x64-mingw-dynamic@2.5.1#4 -- git+https://github.com/microsoft/vcpkg@0e3bcce12697924fae59f8567477d1a4cc2de04f
+    tomlplusplus:x64-mingw-dynamic@3.4.0#1 -- git+https://github.com/microsoft/vcpkg@c89c408f778aebf69ac0bbbb3d19db57c97d664c
+  * vcpkg-cmake:x64-mingw-dynamic@2024-04-23 -- git+https://github.com/microsoft/vcpkg@e74aa1e8f93278a8e71372f1fa08c3df420eb840
+  * vcpkg-cmake-config:x64-mingw-dynamic@2024-05-23 -- git+https://github.com/microsoft/vcpkg@97a63e4bc1a17422ffe4eff71da53b4b561a7841
+  * vcpkg-cmake-get-vars:x64-mingw-dynamic@2025-05-29 -- git+https://github.com/microsoft/vcpkg@d6510f888dd526c7828f6b973349e7f30be51254
+  * vcpkg-tool-meson:x64-mingw-dynamic@1.8.2 -- D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\Codigo fuente\PrismLauncher-develop\./cmake/vcpkg-ports\vcpkg-tool-meson
+    vulkan-headers:x64-mingw-dynamic@1.4.309.0 -- git+https://github.com/microsoft/vcpkg@b7d36ff535cf43f24afaec43d86ca5b9145456bb
+    zlib:x64-mingw-dynamic@1.3.1 -- git+https://github.com/microsoft/vcpkg@3f05e04b9aededb96786a911a16193cdb711f0c9
+  * zstd:x64-mingw-dynamic@1.5.7 -- git+https://github.com/microsoft/vcpkg@31b7320fab13790c6861cb3c2d50dc8f60ca3602
+Additional packages (*) will be modified to complete this operation.
+Restored 0 package(s) from C:\Users\xeodeo\AppData\Local\vcpkg\archives in 3.53 ms. Use --debug to see more details.
+Removing 1/34 vulkan-headers:x64-mingw-dynamic
+Elapsed time to handle vulkan-headers:x64-mingw-dynamic: 40.1 ms
+Removing 2/34 tomlplusplus:x64-mingw-dynamic
+Elapsed time to handle tomlplusplus:x64-mingw-dynamic: 36.6 ms
+Removing 3/34 pkgconf:x64-mingw-dynamic
+Elapsed time to handle pkgconf:x64-mingw-dynamic: 17.8 ms
+Removing 4/34 vcpkg-tool-meson:x64-mingw-dynamic
+Elapsed time to handle vcpkg-tool-meson:x64-mingw-dynamic: 10 ms
+Removing 5/34 vcpkg-cmake-get-vars:x64-mingw-dynamic
+Elapsed time to handle vcpkg-cmake-get-vars:x64-mingw-dynamic: 8.3 ms
+Removing 6/34 libqrencode:x64-mingw-dynamic
+Elapsed time to handle libqrencode:x64-mingw-dynamic: 11.8 ms
+Removing 7/34 libarchive:x64-mingw-dynamic
+Elapsed time to handle libarchive:x64-mingw-dynamic: 25 ms
+Removing 8/34 bzip2:x64-mingw-dynamic
+Elapsed time to handle bzip2:x64-mingw-dynamic: 17.4 ms
+Removing 9/34 zlib:x64-mingw-dynamic
+Elapsed time to handle zlib:x64-mingw-dynamic: 12.1 ms
+Removing 10/34 lz4:x64-mingw-dynamic
+Elapsed time to handle lz4:x64-mingw-dynamic: 15.7 ms
+Removing 11/34 liblzma:x64-mingw-dynamic
+Elapsed time to handle liblzma:x64-mingw-dynamic: 30.5 ms
+Removing 12/34 lzo:x64-mingw-dynamic
+Elapsed time to handle lzo:x64-mingw-dynamic: 15.9 ms
+Removing 13/34 zstd:x64-mingw-dynamic
+Elapsed time to handle zstd:x64-mingw-dynamic: 14.6 ms
+Removing 14/34 ecm:x64-mingw-dynamic
+Elapsed time to handle ecm:x64-mingw-dynamic: 61.3 ms
+Removing 15/34 cmark:x64-mingw-dynamic
+Elapsed time to handle cmark:x64-mingw-dynamic: 17.1 ms
+Removing 16/34 vcpkg-cmake:x64-mingw-dynamic
+Elapsed time to handle vcpkg-cmake:x64-mingw-dynamic: 8.1 ms
+Removing 17/34 vcpkg-cmake-config:x64-mingw-dynamic
+Elapsed time to handle vcpkg-cmake-config:x64-mingw-dynamic: 7.17 ms
+Installing 18/34 vcpkg-cmake-config:x64-mingw-dynamic@2024-05-23...
+vcpkg-cmake-config:x64-mingw-dynamic@2024-05-23 package ABI: 1b7896811de868d98fc2d5a7da447ba07f8b4e6550e1c65619ddcbf44c23b137
+Building vcpkg-cmake-config:x64-mingw-dynamic@2024-05-23...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\97a63e4bc1a17422ffe4eff71da53b4b561a7841: info: installing from git registry git+https://github.com/microsoft/vcpkg@97a63e4bc1a17422ffe4eff71da53b4b561a7841
+-- Installing: C:/vp/vcpkg-cmake-config_x64-mingw-dynamic/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+-- Installing: C:/vp/vcpkg-cmake-config_x64-mingw-dynamic/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+-- Installing: C:/vp/vcpkg-cmake-config_x64-mingw-dynamic/share/vcpkg-cmake-config/copyright
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Starting submission of vcpkg-cmake-config:x64-mingw-dynamic@2024-05-23 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake-config:x64-mingw-dynamic: 143 ms
+Installing 19/34 vcpkg-cmake:x64-mingw-dynamic@2024-04-23...
+vcpkg-cmake:x64-mingw-dynamic@2024-04-23 package ABI: 5e26229eb8e9214e36ee5077b4117c2afeb1f34da8aa6c953c78f428fe21b0a0
+Building vcpkg-cmake:x64-mingw-dynamic@2024-04-23...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\e74aa1e8f93278a8e71372f1fa08c3df420eb840: info: installing from git registry git+https://github.com/microsoft/vcpkg@e74aa1e8f93278a8e71372f1fa08c3df420eb840
+-- Installing: C:/vp/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/vcpkg_cmake_configure.cmake
+-- Installing: C:/vp/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/vcpkg_cmake_build.cmake
+-- Installing: C:/vp/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/vcpkg_cmake_install.cmake
+-- Installing: C:/vp/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/vcpkg-port-config.cmake
+-- Installing: C:/vp/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/copyright
+-- Performing post-build validation
+Starting submission of vcpkg-cmake:x64-mingw-dynamic@2024-04-23 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake:x64-mingw-dynamic: 131 ms
+Completed submission of vcpkg-cmake-config:x64-mingw-dynamic@2024-05-23 to 1 binary cache(s) in 74.3 ms
+Installing 20/34 cmark:x64-mingw-dynamic@0.31.1...
+cmark:x64-mingw-dynamic@0.31.1 package ABI: c3483b642266dd4f57c5b0f58d6cd5d2156bbed7f0b93af474201fb0b7290df2
+Building cmark:x64-mingw-dynamic@0.31.1...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\159e4cc034614fb2158e373eb2d992a4fa29a343: info: installing from git registry git+https://github.com/microsoft/vcpkg@159e4cc034614fb2158e373eb2d992a4fa29a343
+-- Using cached commonmark-cmark-0.31.1.tar.gz
+-- Cleaning sources at C:/vb/cmark/src/0.31.1-4274fd392b.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/commonmark-cmark-0.31.1.tar.gz
+-- Applying patch add-feature-tools.patch
+-- Using source at C:/vb/cmark/src/0.31.1-4274fd392b.clean
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Fixing pkgconfig file: C:/vp/cmark_x64-mingw-dynamic/lib/pkgconfig/libcmark.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Fixing pkgconfig file: C:/vp/cmark_x64-mingw-dynamic/debug/lib/pkgconfig/libcmark.pc
+-- Installing: C:/vp/cmark_x64-mingw-dynamic/share/cmark/copyright
+-- Performing post-build validation
+Starting submission of cmark:x64-mingw-dynamic@0.31.1 to 1 binary cache(s) in the background
+Elapsed time to handle cmark:x64-mingw-dynamic: 13 s
+Completed submission of vcpkg-cmake:x64-mingw-dynamic@2024-04-23 to 1 binary cache(s) in 74.7 ms
+Installing 21/34 ecm:x64-mingw-dynamic@6.7.0#1...
+ecm:x64-mingw-dynamic@6.7.0#1 package ABI: d4536a4f344dd0d1b349185c2511c0eedd9d93a8fffe516675fd9769ef923974
+Building ecm:x64-mingw-dynamic@6.7.0#1...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\7e876677d7266faf1a354f2e90d6d79b9f1b70e5: info: installing from git registry git+https://github.com/microsoft/vcpkg@7e876677d7266faf1a354f2e90d6d79b9f1b70e5
+-- Using cached KDE-extra-cmake-modules-v6.7.0.tar.gz
+-- Cleaning sources at C:/vb/ecm/src/v6.7.0-e97945a1dd.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/KDE-extra-cmake-modules-v6.7.0.tar.gz
+-- Applying patch fix_generateqmltypes.patch
+-- Applying patch fix-wrong-version.patch
+-- Using source at C:/vb/ecm/src/v6.7.0-e97945a1dd.clean
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Installing: C:/vp/ecm_x64-mingw-dynamic/share/ecm/copyright
+-- Performing post-build validation
+Starting submission of ecm:x64-mingw-dynamic@6.7.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle ecm:x64-mingw-dynamic: 10 s
+Completed submission of cmark:x64-mingw-dynamic@0.31.1 to 1 binary cache(s) in 119 ms
+Installing 22/34 zstd:x64-mingw-dynamic@1.5.7...
+zstd:x64-mingw-dynamic@1.5.7 package ABI: 4ea8e5fbb2ec1d70aaafc02a40978f60e4bdf95b227aef7441ba915c75e1142f
+Building zstd:x64-mingw-dynamic@1.5.7...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\31b7320fab13790c6861cb3c2d50dc8f60ca3602: info: installing from git registry git+https://github.com/microsoft/vcpkg@31b7320fab13790c6861cb3c2d50dc8f60ca3602
+-- Using cached facebook-zstd-v1.5.7.tar.gz
+-- Cleaning sources at C:/vb/zstd/src/v1.5.7-bb6cae2b2e.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/facebook-zstd-v1.5.7.tar.gz
+-- Applying patch no-static-suffix.patch
+-- Applying patch fix-emscripten-and-clang-cl.patch
+-- Applying patch fix-windows-rc-compile.patch
+-- Using source at C:/vb/zstd/src/v1.5.7-bb6cae2b2e.clean
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Fixing pkgconfig file: C:/vp/zstd_x64-mingw-dynamic/lib/pkgconfig/libzstd.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Fixing pkgconfig file: C:/vp/zstd_x64-mingw-dynamic/debug/lib/pkgconfig/libzstd.pc
+-- Installing: C:/vp/zstd_x64-mingw-dynamic/share/zstd/usage
+-- Performing post-build validation
+Starting submission of zstd:x64-mingw-dynamic@1.5.7 to 1 binary cache(s) in the background
+Elapsed time to handle zstd:x64-mingw-dynamic: 44 s
+Completed submission of ecm:x64-mingw-dynamic@6.7.0#1 to 1 binary cache(s) in 117 ms
+Installing 23/34 lzo:x64-mingw-dynamic@2.10#9...
+lzo:x64-mingw-dynamic@2.10#9 package ABI: c821816b870f842285a1ccf0e4d98dd441a862bf8d4339aad14e281df20eb070
+Building lzo:x64-mingw-dynamic@2.10#9...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\fcd8844a4e80d418bf894cf93a0453f067e404de: info: installing from git registry git+https://github.com/microsoft/vcpkg@fcd8844a4e80d418bf894cf93a0453f067e404de
+-- Using cached lzo-2.10.tar.gz
+-- Cleaning sources at C:/vb/lzo/src/lzo-2-36820c2ee4.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/lzo-2.10.tar.gz
+-- Applying patch always_install_pc.patch
+-- Using source at C:/vb/lzo/src/lzo-2-36820c2ee4.clean
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Fixing pkgconfig file: C:/vp/lzo_x64-mingw-dynamic/lib/pkgconfig/lzo2.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Fixing pkgconfig file: C:/vp/lzo_x64-mingw-dynamic/debug/lib/pkgconfig/lzo2.pc
+-- Installing: C:/vp/lzo_x64-mingw-dynamic/share/lzo/copyright
+-- Performing post-build validation
+Starting submission of lzo:x64-mingw-dynamic@2.10#9 to 1 binary cache(s) in the background
+Elapsed time to handle lzo:x64-mingw-dynamic: 2.7 min
+Completed submission of zstd:x64-mingw-dynamic@1.5.7 to 1 binary cache(s) in 400 ms
+Installing 24/34 liblzma:x64-mingw-dynamic@5.8.1...
+liblzma:x64-mingw-dynamic@5.8.1 package ABI: 3a97cc1b5cef73fc2ef97fe404eeb19ffa80a693e4882f208108455643fc7067
+Building liblzma:x64-mingw-dynamic@5.8.1...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\55eb3803f1d0388aebca8fd293963721bbf0092c: info: installing from git registry git+https://github.com/microsoft/vcpkg@55eb3803f1d0388aebca8fd293963721bbf0092c
+-- Using cached tukaani-project-xz-v5.8.1.tar.gz
+-- Cleaning sources at C:/vb/liblzma/src/v5.8.1-7ed4ee158b.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/tukaani-project-xz-v5.8.1.tar.gz
+-- Applying patch build-tools.patch
+-- Using source at C:/vb/liblzma/src/v5.8.1-7ed4ee158b.clean
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Fixing pkgconfig file: C:/vp/liblzma_x64-mingw-dynamic/lib/pkgconfig/liblzma.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Fixing pkgconfig file: C:/vp/liblzma_x64-mingw-dynamic/debug/lib/pkgconfig/liblzma.pc
+-- Installing: C:/vp/liblzma_x64-mingw-dynamic/share/liblzma/copyright
+-- Performing post-build validation
+Starting submission of liblzma:x64-mingw-dynamic@5.8.1 to 1 binary cache(s) in the background
+Elapsed time to handle liblzma:x64-mingw-dynamic: 1.5 min
+Completed submission of lzo:x64-mingw-dynamic@2.10#9 to 1 binary cache(s) in 126 ms
+Installing 25/34 lz4:x64-mingw-dynamic@1.10.0...
+lz4:x64-mingw-dynamic@1.10.0 package ABI: 6262e8df1563ef791da48769d895a7ec1f21b7ee0e78b944fc12c5b2fc592b61
+Building lz4:x64-mingw-dynamic@1.10.0...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\4f01eec10f515a428e914107c5188366380f8dd9: info: installing from git registry git+https://github.com/microsoft/vcpkg@4f01eec10f515a428e914107c5188366380f8dd9
+-- Using cached lz4-lz4-v1.10.0.tar.gz
+-- Cleaning sources at C:/vb/lz4/src/v1.10.0-61bd08d80e.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/lz4-lz4-v1.10.0.tar.gz
+-- Applying patch target-lz4-lz4.diff
+-- Using source at C:/vb/lz4/src/v1.10.0-61bd08d80e.clean
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Fixing pkgconfig file: C:/vp/lz4_x64-mingw-dynamic/lib/pkgconfig/liblz4.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Fixing pkgconfig file: C:/vp/lz4_x64-mingw-dynamic/debug/lib/pkgconfig/liblz4.pc
+-- Installing: C:/vp/lz4_x64-mingw-dynamic/share/lz4/usage
+-- Installing: C:/vp/lz4_x64-mingw-dynamic/share/lz4/copyright
+-- Performing post-build validation
+Starting submission of lz4:x64-mingw-dynamic@1.10.0 to 1 binary cache(s) in the background
+Elapsed time to handle lz4:x64-mingw-dynamic: 22 s
+Completed submission of liblzma:x64-mingw-dynamic@5.8.1 to 1 binary cache(s) in 159 ms
+Installing 26/34 zlib:x64-mingw-dynamic@1.3.1...
+zlib:x64-mingw-dynamic@1.3.1 package ABI: 23c5264863716d297572f42e53f5d692dc0bbc2dd1294bb066bc0d1a9fde6fdc
+Building zlib:x64-mingw-dynamic@1.3.1...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\3f05e04b9aededb96786a911a16193cdb711f0c9: info: installing from git registry git+https://github.com/microsoft/vcpkg@3f05e04b9aededb96786a911a16193cdb711f0c9
+-- Using cached madler-zlib-v1.3.1.tar.gz
+-- Cleaning sources at C:/vb/zlib/src/v1.3.1-2e5db616bf.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/madler-zlib-v1.3.1.tar.gz
+-- Applying patch 0001-Prevent-invalid-inclusions-when-HAVE_-is-set-to-0.patch
+-- Applying patch 0002-build-static-or-shared-not-both.patch
+-- Applying patch 0003-android-and-mingw-fixes.patch
+-- Using source at C:/vb/zlib/src/v1.3.1-2e5db616bf.clean
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Installing: C:/vp/zlib_x64-mingw-dynamic/share/zlib/vcpkg-cmake-wrapper.cmake
+-- Fixing pkgconfig file: C:/vp/zlib_x64-mingw-dynamic/lib/pkgconfig/zlib.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Fixing pkgconfig file: C:/vp/zlib_x64-mingw-dynamic/debug/lib/pkgconfig/zlib.pc
+-- Installing: C:/vp/zlib_x64-mingw-dynamic/share/zlib/copyright
+-- Performing post-build validation
+Starting submission of zlib:x64-mingw-dynamic@1.3.1 to 1 binary cache(s) in the background
+Elapsed time to handle zlib:x64-mingw-dynamic: 16 s
+Completed submission of lz4:x64-mingw-dynamic@1.10.0 to 1 binary cache(s) in 168 ms
+Installing 27/34 bzip2[core,tool]:x64-mingw-dynamic@1.0.8#6...
+bzip2[core,tool]:x64-mingw-dynamic@1.0.8#6 package ABI: ab46e921e23ad6b817196f19423dc82f8d62f1865342a79106ee3a22860ce8aa
+Building bzip2[core,tool]:x64-mingw-dynamic@1.0.8#6...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\2d029da682847c5ebdc54e4dbea001331a02207e: info: installing from git registry git+https://github.com/microsoft/vcpkg@2d029da682847c5ebdc54e4dbea001331a02207e
+-- Using cached bzip2-1.0.8.tar.gz
+-- Cleaning sources at C:/vb/bzip2/src/bzip2-1-336d4794a3.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/bzip2-1.0.8.tar.gz
+-- Applying patch fix-import-export-macros.patch
+-- Using source at C:/vb/bzip2/src/bzip2-1-336d4794a3.clean
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Fixing pkgconfig file: C:/vp/bzip2_x64-mingw-dynamic/lib/pkgconfig/bzip2.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Fixing pkgconfig file: C:/vp/bzip2_x64-mingw-dynamic/debug/lib/pkgconfig/bzip2.pc
+-- Installing: C:/vp/bzip2_x64-mingw-dynamic/share/bzip2/copyright
+-- Performing post-build validation
+Starting submission of bzip2[core,tool]:x64-mingw-dynamic@1.0.8#6 to 1 binary cache(s) in the background
+Elapsed time to handle bzip2:x64-mingw-dynamic: 9.7 s
+Completed submission of zlib:x64-mingw-dynamic@1.3.1 to 1 binary cache(s) in 108 ms
+Installing 28/34 libarchive[bzip2,core,lz4,lzma,lzo,zstd]:x64-mingw-dynamic@3.8.2...
+libarchive[bzip2,core,lz4,lzma,lzo,zstd]:x64-mingw-dynamic@3.8.2 package ABI: 3e6085ec25895d88692866229cd32fda1f0b8cd1270b8a284a3136bd9bc0890c
+Building libarchive[bzip2,core,lz4,lzma,lzo,zstd]:x64-mingw-dynamic@3.8.2...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\aa11cf7a588bfab1d9c3b555902c09056176183c: info: installing from git registry git+https://github.com/microsoft/vcpkg@aa11cf7a588bfab1d9c3b555902c09056176183c
+-- Using cached libarchive-libarchive-v3.8.2.tar.gz
+-- Cleaning sources at C:/vb/libarchive/src/v3.8.2-4ab340fc06.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/libarchive-libarchive-v3.8.2.tar.gz
+-- Applying patch fix-buildsystem.patch
+-- Applying patch fix-deps.patch
+-- Using source at C:/vb/libarchive/src/v3.8.2-4ab340fc06.clean
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Fixing pkgconfig file: C:/vp/libarchive_x64-mingw-dynamic/lib/pkgconfig/libarchive.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Fixing pkgconfig file: C:/vp/libarchive_x64-mingw-dynamic/debug/lib/pkgconfig/libarchive.pc
+-- Installing: C:/vp/libarchive_x64-mingw-dynamic/share/libarchive/usage
+-- Installing: C:/vp/libarchive_x64-mingw-dynamic/share/libarchive/copyright
+-- Performing post-build validation
+Starting submission of libarchive[bzip2,core,lz4,lzma,lzo,zstd]:x64-mingw-dynamic@3.8.2 to 1 binary cache(s) in the background
+Elapsed time to handle libarchive:x64-mingw-dynamic: 10 min
+Completed submission of bzip2[core,tool]:x64-mingw-dynamic@1.0.8#6 to 1 binary cache(s) in 106 ms
+Installing 29/34 libqrencode:x64-mingw-dynamic@4.1.1#3...
+libqrencode:x64-mingw-dynamic@4.1.1#3 package ABI: cc8d4e8822da2662cc3b31147e68264e04c218ee02feefb2a0f652d9d58f3f47
+Building libqrencode:x64-mingw-dynamic@4.1.1#3...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\597b668f55e912cd6687526ace66d83065321cd1: info: installing from git registry git+https://github.com/microsoft/vcpkg@597b668f55e912cd6687526ace66d83065321cd1
+-- Using cached fukuchi-libqrencode-715e29fd4cd71b6e452ae0f4e36d917b43122ce8.tar.gz
+-- Cleaning sources at C:/vb/libqrencode/src/7b43122ce8-98adfdaeb6.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/fukuchi-libqrencode-715e29fd4cd71b6e452ae0f4e36d917b43122ce8.tar.gz
+-- Using source at C:/vb/libqrencode/src/7b43122ce8-98adfdaeb6.clean
+-- Configuring x64-mingw-dynamic
+CMake Warning at C:/vp/x64-mingw-dynamic/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:344 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      SKIP_INSTALL_EXECUTABLES
+      SKIP_INSTALL_FILES
+      SKIP_INSTALL_HEADERS
+      SKIP_INSTALL_PROGRAMS
+      WITH_TEST
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  C:/Users/xeodeo/AppData/Local/vcpkg/registries/git-trees/597b668f55e912cd6687526ace66d83065321cd1/portfile.cmake:14 (vcpkg_cmake_configure)
+  scripts/ports.cmake:206 (include)
+
+
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Installing: C:/vp/libqrencode_x64-mingw-dynamic/share/libqrencode/copyright
+-- Fixing pkgconfig file: C:/vp/libqrencode_x64-mingw-dynamic/lib/pkgconfig/libqrencode.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Fixing pkgconfig file: C:/vp/libqrencode_x64-mingw-dynamic/debug/lib/pkgconfig/libqrencode.pc
+-- Performing post-build validation
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\597b668f55e912cd6687526ace66d83065321cd1\portfile.cmake: warning: The following dlls were found in ${CURRENT_PACKAGES_DIR}/lib or ${CURRENT_PACKAGES_DIR}/debug/lib. Please move them to ${CURRENT_PACKAGES_DIR}/bin or ${CURRENT_PACKAGES_DIR}/debug/bin, respectively.
+C:\vp\libqrencode_x64-mingw-dynamic: note: the DLLs are relative to ${CURRENT_PACKAGES_DIR} here
+note: debug/lib/libqrencode.dll
+note: lib/libqrencode.dll
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\597b668f55e912cd6687526ace66d83065321cd1\portfile.cmake: warning: Found 1 post-build check problem(s). These are usually caused by bugs in portfile.cmake or the upstream build system. Please correct these before submitting this port to the curated registry.
+Starting submission of libqrencode:x64-mingw-dynamic@4.1.1#3 to 1 binary cache(s) in the background
+Elapsed time to handle libqrencode:x64-mingw-dynamic: 29 s
+Completed submission of libarchive[bzip2,core,lz4,lzma,lzo,zstd]:x64-mingw-dynamic@3.8.2 to 1 binary cache(s) in 378 ms
+Installing 30/34 vcpkg-cmake-get-vars:x64-mingw-dynamic@2025-05-29...
+vcpkg-cmake-get-vars:x64-mingw-dynamic@2025-05-29 package ABI: cc7f4264990ec9be15b336f5f3417376616e3c4197c82aff23990fa1e182bc89
+Building vcpkg-cmake-get-vars:x64-mingw-dynamic@2025-05-29...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\d6510f888dd526c7828f6b973349e7f30be51254: info: installing from git registry git+https://github.com/microsoft/vcpkg@d6510f888dd526c7828f6b973349e7f30be51254
+-- Installing: C:/vp/vcpkg-cmake-get-vars_x64-mingw-dynamic/share/vcpkg-cmake-get-vars/vcpkg_cmake_get_vars.cmake
+-- Installing: C:/vp/vcpkg-cmake-get-vars_x64-mingw-dynamic/share/vcpkg-cmake-get-vars/cmake_get_vars
+-- Installing: C:/vp/vcpkg-cmake-get-vars_x64-mingw-dynamic/share/vcpkg-cmake-get-vars/cmake_get_vars/CMakeLists.txt
+-- Installing: C:/vp/vcpkg-cmake-get-vars_x64-mingw-dynamic/share/vcpkg-cmake-get-vars/cmake-get-vars.cmake.in
+-- Installing: C:/vp/vcpkg-cmake-get-vars_x64-mingw-dynamic/share/vcpkg-cmake-get-vars/vcpkg-port-config.cmake
+-- Installing: C:/vp/vcpkg-cmake-get-vars_x64-mingw-dynamic/share/vcpkg-cmake-get-vars/copyright
+-- Performing post-build validation
+Starting submission of vcpkg-cmake-get-vars:x64-mingw-dynamic@2025-05-29 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake-get-vars:x64-mingw-dynamic: 187 ms
+Completed submission of libqrencode:x64-mingw-dynamic@4.1.1#3 to 1 binary cache(s) in 103 ms
+Installing 31/34 vcpkg-tool-meson:x64-mingw-dynamic@1.8.2...
+vcpkg-tool-meson:x64-mingw-dynamic@1.8.2 package ABI: 80a5596e942e068c901cbd99be4eabb68e21413b8b227d9784a498ecd4469c50
+Building vcpkg-tool-meson:x64-mingw-dynamic@1.8.2...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\Codigo fuente\PrismLauncher-develop\./cmake/vcpkg-ports\vcpkg-tool-meson: info: installing overlay port from here
+-- Installing: C:/vp/vcpkg-tool-meson_x64-mingw-dynamic/share/vcpkg-tool-meson/copyright
+-- Found Python version '3.14.6 at D:/Programas/Python/Python314/python.exe'
+-- Using meson: D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/tools/meson-1.8.2-e6c241/meson.py
+-- Performing post-build validation
+Starting submission of vcpkg-tool-meson:x64-mingw-dynamic@1.8.2 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-tool-meson:x64-mingw-dynamic: 457 ms
+Completed submission of vcpkg-cmake-get-vars:x64-mingw-dynamic@2025-05-29 to 1 binary cache(s) in 73.8 ms
+Installing 32/34 pkgconf:x64-mingw-dynamic@2.5.1#4...
+pkgconf:x64-mingw-dynamic@2.5.1#4 package ABI: 5d3d49860f1065e76019140b088eb2cf2782441184e1db427946227d9bdecf82
+Building pkgconf:x64-mingw-dynamic@2.5.1#4...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\0e3bcce12697924fae59f8567477d1a4cc2de04f: info: installing from git registry git+https://github.com/microsoft/vcpkg@0e3bcce12697924fae59f8567477d1a4cc2de04f
+-- Found Python version '3.14.6 at D:/Programas/Python/Python314/python.exe'
+-- Using meson: D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/tools/meson-1.8.2-e6c241/meson.py
+-- Using cached pkgconf-pkgconf-pkgconf-2.5.1.tar.gz
+-- Cleaning sources at C:/vb/pkgconf/src/conf-2.5.1-5bc6f0da3f.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/pkgconf-pkgconf-pkgconf-2.5.1.tar.gz
+-- Applying patch 001-unveil-fixes.patch
+-- Using source at C:/vb/pkgconf/src/conf-2.5.1-5bc6f0da3f.clean
+-- Configuring x64-mingw-dynamic-dbg
+-- Getting CMake variables for x64-mingw-dynamic
+-- Loading CMake variables from C:/vb/pkgconf/cmake-get-vars_C_CXX-x64-mingw-dynamic.cmake.log
+-- Configuring x64-mingw-dynamic-dbg done
+-- Configuring x64-mingw-dynamic-rel
+-- Configuring x64-mingw-dynamic-rel done
+-- Package x64-mingw-dynamic-dbg
+-- Package x64-mingw-dynamic-rel
+-- Fixing pkgconfig file: C:/vp/pkgconf_x64-mingw-dynamic/lib/pkgconfig/libpkgconf.pc
+-- Fixing pkgconfig file: C:/vp/pkgconf_x64-mingw-dynamic/debug/lib/pkgconfig/libpkgconf.pc
+-- Installing: C:/vp/pkgconf_x64-mingw-dynamic/share/pkgconf/copyright
+-- Performing post-build validation
+Starting submission of pkgconf:x64-mingw-dynamic@2.5.1#4 to 1 binary cache(s) in the background
+Elapsed time to handle pkgconf:x64-mingw-dynamic: 37 s
+Completed submission of vcpkg-tool-meson:x64-mingw-dynamic@1.8.2 to 1 binary cache(s) in 83.2 ms
+Installing 33/34 tomlplusplus:x64-mingw-dynamic@3.4.0#1...
+tomlplusplus:x64-mingw-dynamic@3.4.0#1 package ABI: 6942bfb41944f6c8c74b5111180e7064d98cb16360ed8521445b99cc659077a7
+Building tomlplusplus:x64-mingw-dynamic@3.4.0#1...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\c89c408f778aebf69ac0bbbb3d19db57c97d664c: info: installing from git registry git+https://github.com/microsoft/vcpkg@c89c408f778aebf69ac0bbbb3d19db57c97d664c
+-- Found Python version '3.14.6 at D:/Programas/Python/Python314/python.exe'
+-- Using meson: D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/tools/meson-1.8.2-e6c241/meson.py
+-- Using cached marzer-tomlplusplus-v3.4.0.tar.gz
+-- Cleaning sources at C:/vb/tomlplusplus/src/v3.4.0-52dc53a92a.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/marzer-tomlplusplus-v3.4.0.tar.gz
+-- Applying patch fix-android-fileapi.patch
+-- Using source at C:/vb/tomlplusplus/src/v3.4.0-52dc53a92a.clean
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.5.1-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.5-1-x86_64.pkg.tar.zst
+-- Using msys root at D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/tools/msys2/3e71d1f8e22ab23f
+-- Configuring x64-mingw-dynamic-dbg
+-- Getting CMake variables for x64-mingw-dynamic
+-- Loading CMake variables from C:/vb/tomlplusplus/cmake-get-vars_C_CXX-x64-mingw-dynamic.cmake.log
+-- Configuring x64-mingw-dynamic-dbg done
+-- Configuring x64-mingw-dynamic-rel
+-- Configuring x64-mingw-dynamic-rel done
+-- Package x64-mingw-dynamic-dbg
+-- Package x64-mingw-dynamic-rel
+-- Fixing pkgconfig file: C:/vp/tomlplusplus_x64-mingw-dynamic/lib/pkgconfig/tomlplusplus.pc
+-- Fixing pkgconfig file: C:/vp/tomlplusplus_x64-mingw-dynamic/debug/lib/pkgconfig/tomlplusplus.pc
+-- Installing: C:/vp/tomlplusplus_x64-mingw-dynamic/share/tomlplusplus/copyright
+-- Performing post-build validation
+Starting submission of tomlplusplus:x64-mingw-dynamic@3.4.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle tomlplusplus:x64-mingw-dynamic: 50 s
+Completed submission of pkgconf:x64-mingw-dynamic@2.5.1#4 to 1 binary cache(s) in 117 ms
+Installing 34/34 vulkan-headers:x64-mingw-dynamic@1.4.309.0...
+vulkan-headers:x64-mingw-dynamic@1.4.309.0 package ABI: 4be3416c55efb8a94a9af02edec64910f5b7daec6a848c38563d84fc690da63a
+Building vulkan-headers:x64-mingw-dynamic@1.4.309.0...
+D:\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\vcpkg-triplets\x64-mingw-dynamic.cmake: info: loaded overlay triplet from here
+C:\Users\xeodeo\AppData\Local\vcpkg\registries\git-trees\b7d36ff535cf43f24afaec43d86ca5b9145456bb: info: installing from git registry git+https://github.com/microsoft/vcpkg@b7d36ff535cf43f24afaec43d86ca5b9145456bb
+-- Using cached KhronosGroup-Vulkan-Headers-vulkan-sdk-1.4.309.0.tar.gz
+-- Cleaning sources at C:/vb/vulkan-headers/src/-1.4.309.0-05ae3813fc.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/buildenv/vcpkg/downloads/KhronosGroup-Vulkan-Headers-vulkan-sdk-1.4.309.0.tar.gz
+-- Using source at C:/vb/vulkan-headers/src/-1.4.309.0-05ae3813fc.clean
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-rel
+-- Installing: C:/vp/vulkan-headers_x64-mingw-dynamic/share/vulkan-headers/copyright
+-- Installing: C:/vp/vulkan-headers_x64-mingw-dynamic/share/vulkan-headers/usage
+-- Performing post-build validation
+Starting submission of vulkan-headers:x64-mingw-dynamic@1.4.309.0 to 1 binary cache(s) in the background
+Elapsed time to handle vulkan-headers:x64-mingw-dynamic: 6.9 s
+Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Some packages did not declare an SPDX license. Check the `copyright` file for each package for more information about their licensing.
+Packages installed in this vcpkg installation declare the following licenses:
+(Apache-2.0 OR MIT)
+(BSD-3-Clause OR GPL-2.0-only)
+Apache-2.0
+BSD-2-Clause
+MIT
+Zlib
+bzip2-1.0.6
 cmark provides CMake targets:
 
   # this is heuristically generated, and may not be correct
@@ -86,4 +514,7 @@ Vulkan-Headers provides official find_package support:
     find_package(VulkanHeaders CONFIG)
     target_link_libraries(main PRIVATE Vulkan::Headers)
 
-All requested installations completed successfully in: 612 us
+Completed submission of tomlplusplus:x64-mingw-dynamic@3.4.0#1 to 1 binary cache(s) in 263 ms
+Waiting for 1 remaining binary cache submissions...
+Completed submission of vulkan-headers:x64-mingw-dynamic@1.4.309.0 to 1 binary cache(s) in 626 ms (1/1)
+All requested installations completed successfully in: 18 min

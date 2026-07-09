@@ -29,7 +29,7 @@ if(NOT _VCPKG_GCC_TOOLCHAIN)
     set(CMAKE_SYSTEM_NAME Windows CACHE STRING "" FORCE)
     set(CMAKE_SYSTEM_PROCESSOR x86_64 CACHE STRING "")
 
-    set(_GCC_BIN "C:/gcc/bin")
+    set(_GCC_BIN "${CMAKE_CURRENT_LIST_DIR}/buildenv/gcc/bin")
 
     set(CMAKE_C_COMPILER   "${_GCC_BIN}/gcc.exe"     CACHE STRING "")
     set(CMAKE_CXX_COMPILER "${_GCC_BIN}/g++.exe"     CACHE STRING "")

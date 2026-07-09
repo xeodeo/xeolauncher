@@ -241,6 +241,9 @@ void MinecraftInstance::loadSpecificSettings()
         m_settings->set("InstanceType", "OneSix");
     }
 
+    // Offline / preservation mode — skips Mojang auth, works with online-mode=false servers
+    m_settings->registerSetting("SkipAuthForInstance", false);
+
     // Join server on launch, this does not have a global override
     m_settings->registerSetting("JoinServerOnLaunch", false);
     m_settings->registerSetting("JoinServerOnLaunchAddress", "");
@@ -562,6 +565,14 @@ QStringList MinecraftInstance::extraArguments()
             list.append("-Dorg.lwjgl.openal.libname=" + openALInfo.absoluteFilePath());
         if (!glfwPath.isEmpty() && glfwInfo.exists())
             list.append("-Dorg.lwjgl.glfw.libname=" + glfwInfo.absoluteFilePath());
+    }
+
+    // Offline/preservation mode: redirect all Mojang API hosts to a no-op address
+    if (settings()->get("SkipAuthForInstance").toBool()) {
+        list.append("-Dminecraft.api.auth.host=http://0.0.0.0");
+        list.append("-Dminecraft.api.account.host=http://0.0.0.0");
+        list.append("-Dminecraft.api.session.host=http://0.0.0.0");
+        list.append("-Dminecraft.api.services.host=http://0.0.0.0");
     }
 
     return list;

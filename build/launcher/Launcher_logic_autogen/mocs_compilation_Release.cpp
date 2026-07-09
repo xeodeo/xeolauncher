@@ -250,7 +250,6 @@
 #include <PSIDPEIZBL/moc_PasteWizardPage.cpp>
 #include <PSIDPEIZBL/moc_SetupWizard.cpp>
 #include <PSIDPEIZBL/moc_ThemeWizardPage.cpp>
-#include <JGXY4PTBXM/moc_CatPainter.cpp>
 #include <JGXY4PTBXM/moc_HintOverrideProxyStyle.cpp>
 #include <NJHUVPU35C/moc_AppearanceWidget.cpp>
 #include <NJHUVPU35C/moc_CheckComboBox.cpp>
@@ -275,4 +274,5 @@
 #include <NJHUVPU35C/moc_VersionSelectWidget.cpp>
 #include <NJHUVPU35C/moc_WideBar.cpp>
 #include <KVXHJ3PMW4/moc_ExternalUpdater.cpp>
+#include <KVXHJ3PMW4/moc_GitHubUpdateChecker.cpp>
 #include <KVXHJ3PMW4/moc_PrismExternalUpdater.cpp>

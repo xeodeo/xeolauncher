@@ -19,7 +19,6 @@
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QSlider>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QSpinBox>
 #include <QtWidgets/QTextEdit>
@@ -35,11 +34,8 @@ public:
     QGroupBox *themingBox;
     QVBoxLayout *verticalLayout_2;
     QGridLayout *gridLayout;
-    QPushButton *catPackFolder;
     QPushButton *widgetStyleFolder;
     QPushButton *iconsFolder;
-    QLabel *catPackLabel;
-    QComboBox *catPackComboBox;
     QComboBox *iconsComboBox;
     QComboBox *widgetStyleComboBox;
     QPushButton *reloadThemesButton;
@@ -52,23 +48,9 @@ public:
     QFontComboBox *consoleFont;
     QSpinBox *fontSizeBox;
     QSpacerItem *horizontalSpacer_2;
-    QSpacerItem *verticalSpacer_2;
-    QLabel *catOpacityLabel;
-    QWidget *widget_2;
-    QHBoxLayout *horizontalLayout_2;
-    QWidget *widget;
-    QGridLayout *gridLayout_4;
-    QLabel *label_5;
-    QSpacerItem *horizontalSpacer_4;
-    QLabel *label_4;
-    QSlider *catOpacitySlider;
-    QSpacerItem *verticalSpacer;
-    QLabel *catFitLabel;
-    QComboBox *catFitComboBox;
     QGroupBox *previewBox;
     QVBoxLayout *verticalLayout_3;
     QHBoxLayout *horizontalLayout_3;
-    QPushButton *catPreview;
     QVBoxLayout *verticalLayout_4;
     QHBoxLayout *horizontalLayout;
     QPushButton *icon1;
@@ -99,11 +81,6 @@ public:
         verticalLayout_2->setObjectName("verticalLayout_2");
         gridLayout = new QGridLayout();
         gridLayout->setObjectName("gridLayout");
-        catPackFolder = new QPushButton(themingBox);
-        catPackFolder->setObjectName("catPackFolder");
-
-        gridLayout->addWidget(catPackFolder, 2, 3, 1, 1);
-
         widgetStyleFolder = new QPushButton(themingBox);
         widgetStyleFolder->setObjectName("widgetStyleFolder");
 
@@ -113,16 +90,6 @@ public:
         iconsFolder->setObjectName("iconsFolder");
 
         gridLayout->addWidget(iconsFolder, 1, 3, 1, 1);
-
-        catPackLabel = new QLabel(themingBox);
-        catPackLabel->setObjectName("catPackLabel");
-
-        gridLayout->addWidget(catPackLabel, 2, 0, 1, 1);
-
-        catPackComboBox = new QComboBox(themingBox);
-        catPackComboBox->setObjectName("catPackComboBox");
-
-        gridLayout->addWidget(catPackComboBox, 2, 2, 1, 1);
 
         iconsComboBox = new QComboBox(themingBox);
         iconsComboBox->setObjectName("iconsComboBox");
@@ -202,79 +169,6 @@ public:
 
         verticalLayout_5->addLayout(horizontalLayout_5);
 
-        verticalSpacer_2 = new QSpacerItem(0, 6, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Fixed);
-
-        verticalLayout_5->addItem(verticalSpacer_2);
-
-        catOpacityLabel = new QLabel(settingsBox);
-        catOpacityLabel->setObjectName("catOpacityLabel");
-
-        verticalLayout_5->addWidget(catOpacityLabel);
-
-        widget_2 = new QWidget(settingsBox);
-        widget_2->setObjectName("widget_2");
-        widget_2->setMaximumSize(QSize(300, 16777215));
-        horizontalLayout_2 = new QHBoxLayout(widget_2);
-        horizontalLayout_2->setObjectName("horizontalLayout_2");
-        horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
-
-        verticalLayout_5->addWidget(widget_2);
-
-        widget = new QWidget(settingsBox);
-        widget->setObjectName("widget");
-        widget->setMaximumSize(QSize(300, 16777215));
-        gridLayout_4 = new QGridLayout(widget);
-        gridLayout_4->setObjectName("gridLayout_4");
-        gridLayout_4->setContentsMargins(0, 0, 0, 0);
-        label_5 = new QLabel(widget);
-        label_5->setObjectName("label_5");
-        label_5->setEnabled(false);
-
-        gridLayout_4->addWidget(label_5, 3, 3, 1, 1);
-
-        horizontalSpacer_4 = new QSpacerItem(0, 0, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
-
-        gridLayout_4->addItem(horizontalSpacer_4, 3, 2, 1, 1);
-
-        label_4 = new QLabel(widget);
-        label_4->setObjectName("label_4");
-        label_4->setEnabled(false);
-
-        gridLayout_4->addWidget(label_4, 3, 1, 1, 1);
-
-        catOpacitySlider = new QSlider(widget);
-        catOpacitySlider->setObjectName("catOpacitySlider");
-        catOpacitySlider->setMinimumSize(QSize(0, 0));
-        catOpacitySlider->setMaximum(100);
-        catOpacitySlider->setOrientation(Qt::Orientation::Horizontal);
-
-        gridLayout_4->addWidget(catOpacitySlider, 2, 0, 1, 4);
-
-
-        verticalLayout_5->addWidget(widget);
-
-        verticalSpacer = new QSpacerItem(0, 6, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Fixed);
-
-        verticalLayout_5->addItem(verticalSpacer);
-
-        catFitLabel = new QLabel(settingsBox);
-        catFitLabel->setObjectName("catFitLabel");
-        sizePolicy1.setHeightForWidth(catFitLabel->sizePolicy().hasHeightForWidth());
-        catFitLabel->setSizePolicy(sizePolicy1);
-
-        verticalLayout_5->addWidget(catFitLabel);
-
-        catFitComboBox = new QComboBox(settingsBox);
-        catFitComboBox->addItem(QString());
-        catFitComboBox->addItem(QString());
-        catFitComboBox->addItem(QString());
-        catFitComboBox->setObjectName("catFitComboBox");
-        sizePolicy1.setHeightForWidth(catFitComboBox->sizePolicy().hasHeightForWidth());
-        catFitComboBox->setSizePolicy(sizePolicy1);
-        catFitComboBox->setProperty("sizeHint", QVariant(QSize(81, 32)));
-
-        verticalLayout_5->addWidget(catFitComboBox);
-
 
         verticalLayout->addWidget(settingsBox);
 
@@ -284,19 +178,6 @@ public:
         verticalLayout_3->setObjectName("verticalLayout_3");
         horizontalLayout_3 = new QHBoxLayout();
         horizontalLayout_3->setObjectName("horizontalLayout_3");
-        catPreview = new QPushButton(previewBox);
-        catPreview->setObjectName("catPreview");
-        QSizePolicy sizePolicy2(QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Minimum);
-        sizePolicy2.setHorizontalStretch(0);
-        sizePolicy2.setVerticalStretch(0);
-        sizePolicy2.setHeightForWidth(catPreview->sizePolicy().hasHeightForWidth());
-        catPreview->setSizePolicy(sizePolicy2);
-        catPreview->setFocusPolicy(Qt::FocusPolicy::NoFocus);
-        catPreview->setIconSize(QSize(64, 128));
-        catPreview->setFlat(true);
-
-        horizontalLayout_3->addWidget(catPreview);
-
         verticalLayout_4 = new QVBoxLayout();
         verticalLayout_4->setObjectName("verticalLayout_4");
         horizontalLayout = new QHBoxLayout();
@@ -400,11 +281,11 @@ public:
 
         consolePreview = new QTextEdit(previewBox);
         consolePreview->setObjectName("consolePreview");
-        QSizePolicy sizePolicy3(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Expanding);
-        sizePolicy3.setHorizontalStretch(0);
-        sizePolicy3.setVerticalStretch(0);
-        sizePolicy3.setHeightForWidth(consolePreview->sizePolicy().hasHeightForWidth());
-        consolePreview->setSizePolicy(sizePolicy3);
+        QSizePolicy sizePolicy2(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Expanding);
+        sizePolicy2.setHorizontalStretch(0);
+        sizePolicy2.setVerticalStretch(0);
+        sizePolicy2.setHeightForWidth(consolePreview->sizePolicy().hasHeightForWidth());
+        consolePreview->setSizePolicy(sizePolicy2);
         consolePreview->setHorizontalScrollBarPolicy(Qt::ScrollBarPolicy::ScrollBarAsNeeded);
         consolePreview->setUndoRedoEnabled(false);
         consolePreview->setTextInteractionFlags(Qt::TextInteractionFlag::TextSelectableByKeyboard|Qt::TextInteractionFlag::TextSelectableByMouse);
@@ -421,26 +302,18 @@ public:
         verticalLayout->addWidget(previewBox);
 
 #if QT_CONFIG(shortcut)
-        catPackLabel->setBuddy(catPackComboBox);
         widgetStyleLabel->setBuddy(widgetStyleComboBox);
         iconsLabel->setBuddy(iconsComboBox);
 #endif // QT_CONFIG(shortcut)
         QWidget::setTabOrder(widgetStyleComboBox, widgetStyleFolder);
         QWidget::setTabOrder(widgetStyleFolder, iconsComboBox);
         QWidget::setTabOrder(iconsComboBox, iconsFolder);
-        QWidget::setTabOrder(iconsFolder, catPackComboBox);
-        QWidget::setTabOrder(catPackComboBox, catPackFolder);
-        QWidget::setTabOrder(catPackFolder, reloadThemesButton);
+        QWidget::setTabOrder(iconsFolder, reloadThemesButton);
         QWidget::setTabOrder(reloadThemesButton, consoleFont);
         QWidget::setTabOrder(consoleFont, fontSizeBox);
-        QWidget::setTabOrder(fontSizeBox, catFitComboBox);
-        QWidget::setTabOrder(catFitComboBox, catOpacitySlider);
-        QWidget::setTabOrder(catOpacitySlider, consolePreview);
+        QWidget::setTabOrder(fontSizeBox, consolePreview);
 
         retranslateUi(AppearanceWidget);
-
-        catFitComboBox->setCurrentIndex(0);
-
 
         QMetaObject::connectSlotsByName(AppearanceWidget);
     } // setupUi
@@ -449,10 +322,6 @@ public:
     {
         themingBox->setTitle(QString());
 #if QT_CONFIG(tooltip)
-        catPackFolder->setToolTip(QCoreApplication::translate("AppearanceWidget", "View cat packs folder.", nullptr));
-#endif // QT_CONFIG(tooltip)
-        catPackFolder->setText(QCoreApplication::translate("AppearanceWidget", "Open Folder", nullptr));
-#if QT_CONFIG(tooltip)
         widgetStyleFolder->setToolTip(QCoreApplication::translate("AppearanceWidget", "View widget themes folder.", nullptr));
 #endif // QT_CONFIG(tooltip)
         widgetStyleFolder->setText(QCoreApplication::translate("AppearanceWidget", "Open Folder", nullptr));
@@ -460,22 +329,12 @@ public:
         iconsFolder->setToolTip(QCoreApplication::translate("AppearanceWidget", "View icon themes folder.", nullptr));
 #endif // QT_CONFIG(tooltip)
         iconsFolder->setText(QCoreApplication::translate("AppearanceWidget", "Open Folder", nullptr));
-        catPackLabel->setText(QCoreApplication::translate("AppearanceWidget", "&Cat Pack:", nullptr));
         reloadThemesButton->setText(QCoreApplication::translate("AppearanceWidget", "Reload All", nullptr));
         widgetStyleLabel->setText(QCoreApplication::translate("AppearanceWidget", "Theme:", nullptr));
         iconsLabel->setText(QCoreApplication::translate("AppearanceWidget", "&Icons:", nullptr));
         settingsBox->setTitle(QString());
         label->setText(QCoreApplication::translate("AppearanceWidget", "Console Font:", nullptr));
-        catOpacityLabel->setText(QCoreApplication::translate("AppearanceWidget", "Cat Opacity", nullptr));
-        label_5->setText(QCoreApplication::translate("AppearanceWidget", "Opaque", nullptr));
-        label_4->setText(QCoreApplication::translate("AppearanceWidget", "Transparent", nullptr));
-        catFitLabel->setText(QCoreApplication::translate("AppearanceWidget", "Cat Scaling", nullptr));
-        catFitComboBox->setItemText(0, QCoreApplication::translate("AppearanceWidget", "Fit", nullptr));
-        catFitComboBox->setItemText(1, QCoreApplication::translate("AppearanceWidget", "Fill", nullptr));
-        catFitComboBox->setItemText(2, QCoreApplication::translate("AppearanceWidget", "Stretch", nullptr));
-
         previewBox->setTitle(QCoreApplication::translate("AppearanceWidget", "Preview", nullptr));
-        catPreview->setText(QString());
         icon1->setText(QString());
         icon2->setText(QString());
         icon3->setText(QString());

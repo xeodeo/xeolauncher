@@ -1,4 +1,4 @@
-include(C:/Users/xeodeo/Desktop/MultiMC/Nuevo proyecto/build/.qt/QtDeploySupport-RelWithDebInfo.cmake)
+include(D:/Descargas/Desktop/de kevin/MultiMC/Nuevo proyecto/build/.qt/QtDeploySupport-RelWithDebInfo.cmake)
 include("${CMAKE_CURRENT_LIST_DIR}/XeoLauncher-plugins-RelWithDebInfo.cmake" OPTIONAL)
 set(__QT_DEPLOY_ALL_MODULES_FOUND_VIA_FIND_PACKAGE "ZlibPrivate;EntryPointPrivate;Core;Gui;Widgets;Concurrent;Network;Test;Xml;NetworkAuth;OpenGL;DBus")
 

@@ -251,6 +251,8 @@ void MinecraftSettingsWidget::loadSettings()
         m_ui->instanceAccountGroupBox->setChecked(settings->get("UseAccountForInstance").toBool());
         updateAccountsMenu(*settings);
 
+        m_ui->skipAuthForInstanceCheckBox->setChecked(settings->get("SkipAuthForInstance").toBool());
+
         auto blockSignalsCheckBoxes = { m_ui->neoForge, m_ui->forge,     m_ui->fabric,       m_ui->quilt,   m_ui->liteLoader,
                                         m_ui->babric,   m_ui->btaBabric, m_ui->legacyFabric, m_ui->ornithe, m_ui->rift };
         m_ui->loaderGroup->blockSignals(true);
@@ -454,6 +456,9 @@ void MinecraftSettingsWidget::saveSettings()
                 settings->reset("JoinServerOnLaunchAddress");
                 settings->reset("JoinWorldOnLaunch");
             }
+
+            // Offline / preservation mode
+            settings->set("SkipAuthForInstance", m_ui->skipAuthForInstanceCheckBox->isChecked());
 
             // Use an account for this instance
             bool useAccountForInstance = m_ui->instanceAccountGroupBox->isChecked();

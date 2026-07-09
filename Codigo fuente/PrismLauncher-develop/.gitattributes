@@ -1,2 +1,32 @@
 *.pem -crlf
 **/testdata/** -text -diff
+
+# XeoLauncher custom files — always keep ours when merging upstream
+launcher/Application.cpp merge=ours
+launcher/Application.h merge=ours
+launcher/ui/pages/global/LauncherPage.cpp merge=ours
+launcher/ui/pages/global/LauncherPage.h merge=ours
+launcher/ui/pages/global/LauncherPage.ui merge=ours
+launcher/ui/MainWindow.cpp merge=ours
+launcher/ui/MainWindow.h merge=ours
+launcher/ui/MainWindow.ui merge=ours
+launcher/ui/widgets/AppearanceWidget.cpp merge=ours
+launcher/ui/widgets/AppearanceWidget.h merge=ours
+launcher/ui/widgets/AppearanceWidget.ui merge=ours
+launcher/ui/themes/ThemeManager.cpp merge=ours
+launcher/ui/themes/ThemeManager.h merge=ours
+launcher/ui/themes/CustomTheme.cpp merge=ours
+buildconfig/BuildConfig.cpp.in merge=ours
+buildconfig/BuildConfig.h merge=ours
+CMakeLists.txt merge=ours
+launcher/updater/GitHubUpdateChecker.h merge=ours
+launcher/updater/GitHubUpdateChecker.cpp merge=ours
+launcher/minecraft/MinecraftInstance.cpp merge=ours
+launcher/minecraft/launch/CreateGameFolders.cpp merge=ours
+launcher/minecraft/auth/AuthSession.cpp merge=ours
+launcher/LaunchController.cpp merge=ours
+launcher/ui/dialogs/NewInstanceDialog.cpp merge=ours
+launcher/ui/dialogs/NewInstanceDialog.h merge=ours
+launcher/ui/dialogs/NewInstanceDialog.ui merge=ours
+launcher/ui/widgets/MinecraftSettingsWidget.cpp merge=ours
+launcher/ui/widgets/MinecraftSettingsWidget.ui merge=ours

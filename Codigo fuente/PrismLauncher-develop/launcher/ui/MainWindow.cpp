@@ -42,6 +42,8 @@
 #include "BuildConfig.h"
 #include "FileSystem.h"
 
+#include <memory>
+
 #include "MainWindow.h"
 #include "ui_MainWindow.h"
 
@@ -55,6 +57,8 @@
 #include <QActionGroup>
 #include <QApplication>
 #include <QButtonGroup>
+#include <QCheckBox>
+#include <QDesktopServices>
 #include <QFileDialog>
 #include <QHBoxLayout>
 #include <QHeaderView>
@@ -65,9 +69,11 @@
 #include <QMenu>
 #include <QMenuBar>
 #include <QMessageBox>
+#include <QPushButton>
 #include <QProgressDialog>
 #include <QShortcut>
 #include <QStatusBar>
+#include <QTimer>
 #include <QToolBar>
 #include <QToolButton>
 #include <QWidget>
@@ -90,6 +96,7 @@
 #include <news/NewsChecker.h>
 #include <tools/BaseProfiler.h>
 #include <updater/ExternalUpdater.h>
+#include <updater/GitHubUpdateChecker.h>
 #include "InstanceWindow.h"
 
 #include "ui/GuiUtil.h"
@@ -162,6 +169,7 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainWi
         // See https://github.com/PolyMC/PolyMC/issues/493
         connect(ui->instanceToolBar, &QToolBar::orientationChanged,
                 [this](Qt::Orientation) { ui->instanceToolBar->setOrientation(Qt::Vertical); });
+        ui->instanceToolBar->setContentsMargins(4, 0, 0, 0);
 
         // if you try to add a widget to a toolbar in a .ui file
         // qt designer will delete it when you save the file >:(
@@ -334,15 +342,49 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainWi
         connect(view, &InstanceView::groupStateChanged, APPLICATION->instances(), &InstanceList::on_GroupStateChanged);
         ui->horizontalLayout->addWidget(view);
     }
-    // The cat background
+
+    // Update banner (hidden until an update is detected)
     {
-        // set the cat action priority here so you can still see the action in qt designer
-        ui->actionCAT->setPriority(QAction::LowPriority);
-        bool cat_enable = APPLICATION->settings()->get("TheCat").toBool();
-        ui->actionCAT->setChecked(cat_enable);
-        connect(ui->actionCAT, &QAction::toggled, this, &MainWindow::onCatToggled);
-        connect(APPLICATION, &Application::currentCatChanged, this, &MainWindow::onCatChanged);
-        setCatBackground(cat_enable);
+        auto* bannerLayout = new QHBoxLayout(ui->updateBanner);
+        bannerLayout->setContentsMargins(12, 6, 8, 6);
+        bannerLayout->setSpacing(10);
+
+        m_updateBannerLabel = new QLabel(ui->updateBanner);
+        m_updateBannerLabel->setObjectName("updateBannerLabel");
+        bannerLayout->addWidget(m_updateBannerLabel, 1);
+
+        auto* ghButton = new QPushButton(tr("Ver en GitHub"), ui->updateBanner);
+        ghButton->setObjectName("updateBannerButton");
+        bannerLayout->addWidget(ghButton);
+
+        m_updateDontShowCheck = new QCheckBox(tr("No mostrar esta version"), ui->updateBanner);
+        bannerLayout->addWidget(m_updateDontShowCheck);
+
+        auto* closeBtn = new QPushButton("x", ui->updateBanner);
+        closeBtn->setObjectName("updateBannerClose");
+        closeBtn->setFixedSize(22, 22);
+        closeBtn->setFlat(true);
+        bannerLayout->addWidget(closeBtn);
+
+        connect(ghButton, &QPushButton::clicked, this, [this]() {
+            if (!m_pendingUpdateVersion.isEmpty()) {
+                QDesktopServices::openUrl(
+                    QUrl(QString("https://github.com/%1/releases/tag/v%2").arg(BuildConfig.GITHUB_REPO, m_pendingUpdateVersion)));
+            }
+        });
+
+        connect(closeBtn, &QPushButton::clicked, this, [this]() {
+            if (m_updateDontShowCheck->isChecked())
+                APPLICATION->settings()->set("IgnoredUpdateVersion", m_pendingUpdateVersion);
+            ui->updateBanner->setVisible(false);
+        });
+    }
+
+    // GitHub update checker — runs once after the window is shown
+    {
+        m_updateChecker = new GitHubUpdateChecker(APPLICATION->network(), this);
+        connect(m_updateChecker, &GitHubUpdateChecker::updateAvailable, this, &MainWindow::onUpdateAvailable);
+        QTimer::singleShot(3000, m_updateChecker, &GitHubUpdateChecker::check);
     }
 
     // Togglable status bar
@@ -842,18 +884,6 @@ QString intListToString(const QList<int>& list)
     return slist.join(',');
 }
 
-void MainWindow::onCatToggled(bool state)
-{
-    setCatBackground(state);
-    APPLICATION->settings()->set("TheCat", state);
-}
-
-void MainWindow::setCatBackground(bool enabled)
-{
-    view->setPaintCat(enabled);
-    view->viewport()->repaint();
-}
-
 void MainWindow::runModalTask(Task* task)
 {
     connect(task, &Task::failed,
@@ -921,6 +951,19 @@ void MainWindow::addInstance(const QString& url, const QMap<QString, QString>& e
         return;
 
     APPLICATION->settings()->set("LastUsedGroupForNewInstance", newInstDlg.instGroup());
+
+    const bool wantSkipAuth = newInstDlg.skipAuth();
+    if (wantSkipAuth) {
+        // After the instance is committed, apply the SkipAuthForInstance setting (one-shot)
+        auto conn = std::make_shared<QMetaObject::Connection>();
+        *conn = connect(APPLICATION->instances(), &InstanceList::instanceSelectRequest, this,
+                        [conn](const QString& instId) {
+                            QObject::disconnect(*conn);
+                            auto* inst = APPLICATION->instances()->getInstanceById(instId);
+                            if (inst)
+                                inst->settings()->set("SkipAuthForInstance", true);
+                        });
+    }
 
     InstanceTask* creationTask = newInstDlg.extractTask();
     if (creationTask) {
@@ -1325,11 +1368,6 @@ void MainWindow::on_actionViewWidgetThemeFolder_triggered()
     DesktopServices::openPath(APPLICATION->themeManager()->getApplicationThemesFolder().path(), true);
 }
 
-void MainWindow::on_actionViewCatPackFolder_triggered()
-{
-    DesktopServices::openPath(APPLICATION->themeManager()->getCatPacksFolder().path(), true);
-}
-
 void MainWindow::on_actionViewIconsFolder_triggered()
 {
     DesktopServices::openPath(APPLICATION->icons()->getDirectory(), true);
@@ -1362,6 +1400,20 @@ void MainWindow::checkForUpdates()
 void MainWindow::on_actionSettings_triggered()
 {
     APPLICATION->ShowGlobalSettings(this, "global-settings");
+}
+
+void MainWindow::onUpdateAvailable(QString version, QString releaseUrl)
+{
+    Q_UNUSED(releaseUrl)
+    QString ignored = APPLICATION->settings()->get("IgnoredUpdateVersion").toString();
+    if (!ignored.isEmpty() && ignored == version)
+        return;
+
+    m_pendingUpdateVersion = version;
+    m_updateBannerLabel->setText(
+        tr("Nueva version disponible: <b>%1</b> &nbsp; (actual: %2)").arg(version, BuildConfig.versionString()));
+    m_updateDontShowCheck->setChecked(false);
+    ui->updateBanner->setVisible(true);
 }
 
 void MainWindow::globalSettingsClosed()
@@ -1470,11 +1522,6 @@ void MainWindow::newsButtonClicked()
     NewsDialog news_dialog(entries, this);
     news_dialog.toggleArticleList();
     news_dialog.exec();
-}
-
-void MainWindow::onCatChanged(int)
-{
-    setCatBackground(APPLICATION->settings()->get("TheCat").toBool());
 }
 
 void MainWindow::on_actionAbout_triggered()

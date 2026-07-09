@@ -68,6 +68,7 @@ class LauncherPage : public QWidget, public BasePage {
     void loadSettings();
 
    private slots:
+    void on_dataDirBrowseBtn_clicked();
     void on_instDirBrowseBtn_clicked();
     void on_modsDirBrowseBtn_clicked();
     void on_iconsDirBrowseBtn_clicked();

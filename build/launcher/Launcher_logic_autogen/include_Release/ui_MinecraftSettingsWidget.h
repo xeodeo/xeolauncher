@@ -81,6 +81,7 @@ public:
     QLabel *instanceAccountNameLabel;
     QComboBox *instanceAccountSelector;
     QSpacerItem *horizontalSpacer_2;
+    QCheckBox *skipAuthForInstanceCheckBox;
     QGroupBox *serverJoinGroupBox;
     QGridLayout *gridLayout_2;
     QComboBox *worldsCb;
@@ -362,6 +363,11 @@ public:
 
 
         verticalLayout_5->addWidget(instanceAccountGroupBox);
+
+        skipAuthForInstanceCheckBox = new QCheckBox(scrollAreaWidgetContents);
+        skipAuthForInstanceCheckBox->setObjectName("skipAuthForInstanceCheckBox");
+
+        verticalLayout_5->addWidget(skipAuthForInstanceCheckBox);
 
         serverJoinGroupBox = new QGroupBox(scrollAreaWidgetContents);
         serverJoinGroupBox->setObjectName("serverJoinGroupBox");
@@ -698,6 +704,12 @@ public:
         showGameTimeWithoutDays->setText(QCoreApplication::translate("MinecraftSettingsWidget", "Always show durations in &hours", nullptr));
         instanceAccountGroupBox->setTitle(QCoreApplication::translate("MinecraftSettingsWidget", "Override &Default Account", nullptr));
         instanceAccountNameLabel->setText(QCoreApplication::translate("MinecraftSettingsWidget", "Account:", nullptr));
+        skipAuthForInstanceCheckBox->setText(QCoreApplication::translate("MinecraftSettingsWidget", "Offline / Preservation Mode (skip Mojang auth \342\200\224 for online-mode=false servers)", nullptr));
+#if QT_CONFIG(tooltip)
+        skipAuthForInstanceCheckBox->setToolTip(QCoreApplication::translate("MinecraftSettingsWidget", "When enabled, this instance launches without contacting Mojang servers.\n"
+"Works with online-mode=false servers and LAN play.\n"
+"Does NOT work on servers that require authentication (online-mode=true).", nullptr));
+#endif // QT_CONFIG(tooltip)
         serverJoinGroupBox->setTitle(QCoreApplication::translate("MinecraftSettingsWidget", "Enable Auto-&join", nullptr));
         worldJoinButton->setText(QCoreApplication::translate("MinecraftSettingsWidget", "Singleplayer world:", nullptr));
         serverJoinAddressButton->setText(QCoreApplication::translate("MinecraftSettingsWidget", "Server address:", nullptr));

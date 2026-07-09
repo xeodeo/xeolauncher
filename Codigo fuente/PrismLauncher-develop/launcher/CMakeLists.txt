@@ -179,6 +179,8 @@ set(LAUNCH_SOURCES
 # Old update system
 set(UPDATE_SOURCES
     updater/ExternalUpdater.h
+    updater/GitHubUpdateChecker.h
+    updater/GitHubUpdateChecker.cpp
 )
 
 set(MAC_UPDATE_SOURCES
@@ -880,10 +882,6 @@ SET(LAUNCHER_SOURCES
     ui/themes/IconTheme.h
     ui/themes/ThemeManager.cpp
     ui/themes/ThemeManager.h
-    ui/themes/CatPack.cpp
-    ui/themes/CatPack.h
-    ui/themes/CatPainter.cpp
-    ui/themes/CatPainter.h
 
     # Processes
     LaunchMode.h
