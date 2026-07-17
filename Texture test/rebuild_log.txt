@@ -1,0 +1,27 @@
+numpy: SI
+==================================================
+  Patrix Xeodeo Builder  128x -> 64x
+==================================================
+Fuente : D:\Sandbox\xeodeo\IA\drive\D\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\Texture test\Patrix_1.21.11_128x_basic.zip
+Salida : D:\Sandbox\xeodeo\IA\drive\D\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\Texture test\Patrix_xeodeo.zip
+Log    : D:\Sandbox\xeodeo\IA\drive\D\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\Texture test\rebuild_log.txt
+
+Entradas en ZIP: 31609
+Procesando...
+  16% (5000/31609)  L:1222 N:2432 E:0
+  32% (10000/31609)  L:2765 N:5513 E:0
+  47% (15000/31609)  L:4258 N:8492 E:0
+  63% (20000/31609)  L:5798 N:11570 E:0
+  79% (25000/31609)  L:7298 N:14571 E:0
+  95% (30000/31609)  L:8992 N:17613 E:0
+
+==================================================
+  ZIP CREADO EXITOSAMENTE
+==================================================
+  Visual LANCZOS : 9588
+  Datos NEAREST  : 18581
+  Sin tocar      : 3
+  Otros          : 3437
+  Errores        : 0
+  464.8 MB -> 235.7 MB (49% menor)
+  ZIP: D:\Sandbox\xeodeo\IA\drive\D\Descargas\Desktop\de kevin\MultiMC\Nuevo proyecto\Texture test\Patrix_xeodeo.zip

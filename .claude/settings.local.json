@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git filter-repo *)",
+      "Bash(python -m pip show git-filter-repo)",
+      "Bash(git filter-branch *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Skill(claude-api)",
+      "Bash(git *)",
+      "Bash(xargs grep -l \"install.*icons\\\\|install.*themes\\\\|install.*iconthemes\\\\|install.*translations\")",
+      "Bash(xargs grep -l \"icons\\\\|themes\\\\|iconthemes\\\\|translations\")",
+      "Bash(python3 *)",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import numpy; print\\('numpy ok', numpy.__version__\\)\")",
+      "WebSearch",
+      "Bash(python *)",
+      "Bash(dir *)",
+      "Skill(update-config)"
+    ]
+  }
+}
